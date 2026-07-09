@@ -11,7 +11,7 @@
 name: 自动解压多种常见格式压缩包
 on:
   push:
-    branches:[ main, master, GM82 ]
+    branches: [ main, master GM82 ]
     # 扩展路径触发器，使其监听多种常见的压缩包格式
     paths:
       - '**.zip'
