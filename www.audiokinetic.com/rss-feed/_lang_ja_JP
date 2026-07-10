@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+    <title>Audiokinetic Blog</title>
+    <link>https://www.audiokinetic.com</link>
+    <description>Where 40,000+ audio professionals share interactive audio ideas, news and beyond.</description>
+    <language>ja-jp</language>
+
+        <item>
+        <title>ReaperToWwise：リニアとインタラクティブの融合</title>
+        <link>https://www.audiokinetic.com/ja/community/blog/reapertowwise-when-the-linear-meets-the-interactive</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/ja/community/blog/reapertowwise-when-the-linear-meets-the-interactive</guid>
+        <description><![CDATA[<p>本ブログ記事は、当初<a href="https://www.romainraynal.fr/en/blog/blog-4/reapertowwise-12" rel="noopener" target="_blank">ロマンのウェブサイト</a>に掲載されたものです。</p>
+]]></description>
+        <pubDate>Tue, 07 Jul 2026 23:29:15 -0400</pubDate>
+    </item>
+        <item>
+        <title>『インフィニティニキ』のOverturned Box Theaterにおけるインタラクティブミュージックの空間化</title>
+        <link>https://www.audiokinetic.com/ja/community/blog/infinity-nikki</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/ja/community/blog/infinity-nikki</guid>
+        <description><![CDATA[<div data-page-id="UE1zdip8PoVmA7xSBzScVLKjndc" data-lark-html-role="root" data-docx-has-block-data="true">
+<h2>はじめに</h2>
+『インフィニティニキ』のバージョン1.9で、プレイヤーのみなさまに「Overturned Box Theater」という幻想的なステージをお届けしました。</div>
+]]></description>
+        <pubDate>Tue, 30 Jun 2026 23:52:30 -0400</pubDate>
+    </item>
+        <item>
+        <title>2Dラン&amp;ガン『Neon Inferno』におけるダイナミックオーディオ</title>
+        <link>https://www.audiokinetic.com/ja/community/blog/dynamic-audio-in-2d-run-and-gun-neon-inferno</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/ja/community/blog/dynamic-audio-in-2d-run-and-gun-neon-inferno</guid>
+        <description><![CDATA[<h2>はじめに</h2>
+<p><span>ダイナミックな適応型のオーディオシステムと聞くと、巨額の予算と大規模なチームを投入した、スケールの大きい3Dオープンワールドゲームをイメージしがちです。このような作品は多くの場合、広大でダイナミックな環境と複雑なゲームプレイシステムを特徴とし、オーディオが反応する変数も無数に生成されるため、そう考えるのももっともです。しかし、こうした認識は盲点を招きかねません。インディーや2Dプロジェクトに取り組むデベロッパや作曲家、サウンドデザイナーの多くは、ダイナミックオーディオツールがゲームにもたらすメリットを十分に検討せず、単純なオーディオ再生やループに頼りがちです。<br></span></p>]]></description>
+        <pubDate>Wed, 24 Jun 2026 01:00:01 -0400</pubDate>
+    </item>
+        <item>
+        <title>私のチャンネルについて：ゲームオーディオ向けWwiseの学習と情報発信</title>
+        <link>https://www.audiokinetic.com/ja/community/blog/learning-and-teaching-wwise-for-game-audio</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/ja/community/blog/learning-and-teaching-wwise-for-game-audio</guid>
+        <description><![CDATA[<h2>はじめに</h2>
+<p>みなさん、こんにちは。<br><br>このブログ記事では、私自身と私のチャンネル、そしてWwiseを使用した私の活動について紹介したいと思います。<br><br>私はイギリスを拠点にUEのゲームプレイおよびオーディオプログラマーとして活動しており、以前はAwe Interactiveに在籍していました。多くのオーディオプログラマーと異なり、私はもともとコンピュータサイエンスとゲーム開発を専門としていたため、その知識を技術的な統合面に活かすことができました。その一方で、オーディオに関するスキルの多くは、実務を通じて身につける必要がありました。<br><br>学生時代にゲームを作っていた頃は、グループ制作であれ個人制作であれ、唯一のデベロッパである私がサウンドの調達と実装を担当することがよくありました。ゲームオーディオのスペシャリストであるスティーブン・コルタート氏を通じて、Wwiseやオーディオプログラミングという分野に出会い、そこから私のキャリアがはじまりました。<br><br>もし自分の仕事の中で一番好きな部分を挙げるとすれば、おそらくゲームに命を吹き込む小さなディテールの積み重ねです。例えば金属フェンスが風に揺れてぶつかり合うかすかな音、プレイヤーが急停止する時に滑る音、足元の水、草むらのコオロギ、装備品の二次的な動きなどです。<br><br>ここ数年にわたり自分の専門性を広げる中で、オーディオプログラミングの入門者やはじめてコードを学ぶ人など、初心者にも分かるように技術的なトピックを伝えることに力を入れるようになりました。</p>
+]]></description>
+        <pubDate>Tue, 16 Jun 2026 23:28:14 -0400</pubDate>
+    </item>
+        <item>
+        <title>Unreal Engine + Wwise | C++で作るAkSpatialAudioVolumeベースのAudio Zoneシステム</title>
+        <link>https://www.audiokinetic.com/ja/community/blog/building-an-aksav-based-azs-in-cpp</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/ja/community/blog/building-an-aksav-based-azs-in-cpp</guid>
+        <description><![CDATA[<p>ゲーム内のエリアごとに環境音を切り替えたいときなど、最初は Level Blueprint でトリガーを書くことが多いと思います。<br>ただ、エリア数が増えると、</p>
+]]></description>
+        <pubDate>Wed, 10 Jun 2026 01:33:28 -0400</pubDate>
+    </item>
+        <item>
+        <title>Motionの新機能：Meta Quest対応とHaptic Clip Player</title>
+        <link>https://www.audiokinetic.com/ja/community/blog/new-in-motion-meta-quest-support-and-the-haptic-clip-player</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/ja/community/blog/new-in-motion-meta-quest-support-and-the-haptic-clip-player</guid>
+        <description><![CDATA[<p><span>ハプティクスはオーディオやビジュアルと同様、ゲームの没入感に欠かせない要素となりました。VRではコントローラがプレイヤーの手のように機能するため、ハプティクスの重要性はさらに増します。しかしゲームが対応するすべてのプラットフォームやハードウェアで、高品質なハプティックフィードバックを実現するのは簡単ではありません。</span></p>
+]]></description>
+        <pubDate>Wed, 03 Jun 2026 00:05:04 -0400</pubDate>
+    </item>
+        <item>
+        <title>Wwise 2026.1：最新情報 | ベータ版</title>
+        <link>https://www.audiokinetic.com/ja/community/blog/wwise-2026.1-whats-new</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/ja/community/blog/wwise-2026.1-whats-new</guid>
+        <description><![CDATA[<p style="color: #232323; background-color: #ffffff;">Wwise 2026.1ベータ版がリリースされ、Audiokinetic Launcherからインストールできるようになりました。<br><br>LauncherにログインしWwiseタブに移動すると、ビルドにアクセスできます。そこから「Install New Version」まで下にスクロールし、ドロップダウンメニューで「Special」を選択します。</p>
+]]></description>
+        <pubDate>Tue, 26 May 2026 22:51:31 -0400</pubDate>
+    </item>
+        <item>
+        <title>Titan Isles：サウンドとミュージックによるアートと没入感</title>
+        <link>https://www.audiokinetic.com/ja/community/blog/titan-isles-art-immersion-through-sound-music</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/ja/community/blog/titan-isles-art-immersion-through-sound-music</guid>
+        <description><![CDATA[<p>サウンドはあらゆるビデオゲーム体験において不可欠であり、デベロッパがプレイヤーをその世界に完全に没入させることを目指すVR（バーチャルリアリティ）ではなおさらです。『Titan Isles』 はPsytec Games（『Windlands』、『Windlands 2』）が開発し、従来のスタイルにひとひねり加えたファーストパーソンのシューティングゲームです。プレイヤーは4つのエグゾスーツ（Exo Suit）のいずれかを装着して戦いに挑みます。スーツはそれぞれ独自の武器セットと特殊な移動手段を備え、異なるゲームプレイ体験をもたらします。</p>
+]]></description>
+        <pubDate>Tue, 19 May 2026 23:56:37 -0400</pubDate>
+    </item>
+        <item>
+        <title>『NINJA GAIDEN: Ragebound』のサウンドの舞台裏</title>
+        <link>https://www.audiokinetic.com/ja/community/blog/ninja-gaiden-ragebound</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/ja/community/blog/ninja-gaiden-ragebound</guid>
+        <description><![CDATA[<h2>はじめに</h2>
+<p style="text-align: justify;">2023年8月に『Blasphemous 2』をリリースした後、The Game Kitchenは『NINJA GAIDEN』シリーズの新作2Dタイトルを開発するために専任チームを結成しました。当スタジオはアクション系ピクセルアートに対する豊富な経験と専門知識をもっており、パブリッシャーである<strong>Dotemu</strong>、そして知的財産（IP）を所有する<strong>株式会社コーエーテクモゲームス</strong>からまたとない機会を得ることができました。<br><br><strong>『NINJA GAIDEN: Ragebound』</strong>の制作ペースが、自社IPの第2作の時とはかなり異なることはすぐに明らかになりました。私はサウンドトラックの作曲とプロデュースおよびサウンドデザインと実装を任されており、開発の終盤が近づくにつれ、 ダニエル・パレホとサラ・マルティネスから協力を得ることができました。</p>
+]]></description>
+        <pubDate>Wed, 13 May 2026 00:36:26 -0400</pubDate>
+    </item>
+        <item>
+        <title>制約からクリエイティブへ：ヘル・イズ・アスのミュージックデザイン</title>
+        <link>https://www.audiokinetic.com/blog/ja/from-constraint-to-creativity-the-music-design-of-hell-is-us/</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/blog/ja/from-constraint-to-creativity-the-music-design-of-hell-is-us/</guid>
+        <description><![CDATA[<p>『ヘル・イズ・アス』のオーディオ開発を引き継いだ時、何よりも優先したのはミュージックデザインでした。ミュージックデザインは作曲と同じくらい重要であるというのが私たちの哲学です。楽曲の選択、トランジション、静寂、そしてミュージックの展開は、アーティスティックな方向性に合致するだけでなく、ゲームデザインとも密接に連携させる必要があります。雰囲気に合ったすばらしい曲でもデザイン上の役割は果たさず、それどころかゲームデザインと衝突してしまうようでは、あまりプレイヤーの感情に訴えることはできず、最終的なエクスペリエンスにある種の違和感を生じさせる恐れがあります。優れたゲームは単なる要素の寄せ集めではなく、すべての部門が相乗効果を発揮してこそ生まれるものであり、その鍵となるのがミュージックデザインです。<br><br>ヘル・イズ・アスには、ほかにはない独特の制約がありました。それは非ダイアジェティックな要素によって、プレイヤーが正しい道をすすんでいるか、あるいは正しく行動しているかを示す明確なヒントを与えてはならないというものでした。これはヘル・イズ・アスの中核となるデザイン哲学の一部で、プレイヤー自身が答えを見つける必要があります。ハデアの世界、すなわちその住人や廃墟、戦禍に荒れた地をさまよう兵士たちのみがプレイヤーのすすむべき道を導きます。<br><br>私たちが作りたかった音楽体験は刻々と変化し、変形しながらあらゆる場面でプレイヤーに寄り添うものでした。そのため一部の状況は特に扱いづらくなりましたが、一筋縄とはいかないものの、もちろん不可能ではありませんでした。ミュージックとゲームデザインを共に向上させるために、クリエイティブなマルチレイヤーのソリューションを導入したチームは私たちがはじめてではありませんが、ゲームは1つ1つ異なるため、それぞれに合った独自の解決策が必要となります。最終的にこの課題を見直した時、喜ばしいことに、そうしたデザイン上の制約が実はクリエイティブなチャンスを生み出していたことに気づきました。プレイヤー自身が新しい要素を理解して取り込むまでは、ミュージックによって鍵となるヒントを与えられない以上、私たちが導入しようとしていた意味のあるメロディやリズムの変化は、プレイヤーが重要な情報を把握した後にのみ、極めてさりげない形で起こる必要がありました。つまり、場所に基づくスティンガー、行動への報酬として鳴るパブロフ的なジングル、パズル解決と連動した転調など、ゲームでよく耳にする定番のミュージックデザイン手法のいくつかは、できる限り避けなければなりませんでした。約30時間におよぶゲームプレイ全体を通して、一切使用しないというわけではありませんが、ヘル・イズ・アスの独自のゲームデザイン哲学は、重要な場面で新しいソリューションを試すきっかけになりました。<br><br>この記事では、そうした重要な場面の1つを詳しく取り上げます。ヘル・イズ・アスの第1幕終盤に差しかかると、プレイヤーはLake Cynon（シノン湖）にたどり着き、神秘的な地下遺跡The Lymbic Forge（リンビック・フォージ）の奥深くへとすすみます。このシーケンスの作曲では、多数の水平型および垂直型のトランジションやセグメント、そしていくつかの巧妙な手法を取り入れ、目指していた効果を実現しました。<br><br>まずはじめに、このセクションにおけるミュージックデザインを示したシンプルなフローチャートを見てみます：</p>
+]]></description>
+        <pubDate>Mon, 27 Apr 2026 22:53:34 -0400</pubDate>
+    </item>
+        <item>
+        <title>実車データを活用したインタラクティブサウンドデザインの仮想開発</title>
+        <link>https://www.audiokinetic.com/ja/community/blog/virtual-development-of-interactive-sound-design-with-real-vehicle-data</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/ja/community/blog/virtual-development-of-interactive-sound-design-with-real-vehicle-data</guid>
+        <description><![CDATA[<p>この記事は、Audiokineticのオートモーティブエンジニアリング部門責任者であるフランソワ・ティボーへのインタビューに基づき、RemotiveLabsとAudiokineticが共同執筆したものです。</p>]]></description>
+        <pubDate>Wed, 22 Apr 2026 00:20:49 -0400</pubDate>
+    </item>
+        <item>
+        <title>透過損失：Unrealでの適用例</title>
+        <link>https://www.audiokinetic.com/blog/ja/transmission-loss-practical-application-in-unreal/</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/blog/ja/transmission-loss-practical-application-in-unreal/</guid>
+        <description><![CDATA[<h2 style="margin-top: 16pt; margin-right: 0cm; margin-bottom: 6pt; padding-left: 0cm;"><strong>目次</strong></h2>
+<ul>
+<li style="font-weight: normal; line-height: 1;"><a href="#TransmissionLoss" rel="noopener">透過損失の概要</a></li>
+<li style="font-weight: normal; line-height: 1;"><a href="#GeometricTransmissionLoss" rel="noopener">Geometric Transmission Loss（GTL）</a></li>
+<li style="font-weight: normal; line-height: 1;"><a href="#RoomTransmissionLoss" rel="noopener">Room Transmission Loss（RTL）</a></li>
+<li style="font-weight: normal; line-height: 1;"><a href="#RTL-GTL" rel="noopener">RTLおよびGTLの使用シナリオ</a>
+<ul>
+<li style="font-weight: normal; line-height: 1;"><a href="#GTL-peizhi" rel="noopener">GTLの柔軟な設定</a></li>
+<li style="font-weight: normal; line-height: 1;"><a href="#Emitter-room" rel="noopener">ネストされたルーム内のエミッターの例</a></li>
+<li style="font-weight: normal; line-height: 1;"><a href="#RTLroom" rel="noopener">ネストされたルーム内のエミッターにおけるRTLの挙動</a></li>
+<li style="font-weight: normal; line-height: 1;"><a href="#GTL-RTL-road" rel="noopener">ダイレクトサウンドパスにおけるGTLとRTL</a></li>
+<li style="font-weight: normal; line-height: 1;"><a href="#RoomToneTransmissionLoss" rel="noopener">Room Tone（ルームトーン）の透過損失</a></li>
+</ul>
+</li>
+<li style="font-weight: normal; line-height: 1;"><a href="#conclusion" rel="noopener">まとめ</a></li>
+</ul>
+<a id="TransmissionLoss" data-hs-anchor="true"></a>
+<h2 style="line-height: 1;"> </h2>
+<h2 style="line-height: 1;">透過損失の概要</h2>
+<p><span style="font-weight: bold;">Transmission Loss（透過損失）</span>とは、音が障害物を通過する際に失われる音エネルギーの割合のことです。音が伝播中に障壁に遭遇した際に、吸収または減衰される音の割合を示します。音の伝わり方は、マテリアルや構造によって変わります。回折や反射とは異なり、透過損失は特に物体を通過する時のエネルギー減衰を指します。<br><br>ゲームにおいてTransmission Lossは、音が壁や仕切りを通過する際の音の減衰をシミュレーションするために頻繁に使用され、これによってプレイヤーは空間的な分離や距離をよりリアルに感じられます。<br><br>Wwise Spatial Audioでは、音がジオメトリやルーム間を移動する際のエネルギー損失を、シミュレーションするために透過損失を使用します。透過損失の値を調整することで、音が異なるオブジェクト間を伝播する際に適用されるボリューム減衰と、フィルタ処理の量を制御できます。透過損失値の範囲は0（損失なし）から1（完全に遮断）です。<br>透過損失値はAttenuation ShareSetで定義されたTransmissionカーブを使用し、オーディオエフェクトに変換されます。これらのカーブはカスタム定義できるほか、Project Settingsで設定したプロジェクト全体のカーブを参照することもできます。<br><br>Unrealでは透過損失は<span style="font-weight: bold;">AkRoom</span>、<span style="font-weight: bold;">AkSurfaceReflectorSet</span>、<span style="font-weight: bold;">AkGeometry</span>で設定します。ただし、それぞれの実際の実装と効果には、若干の違いがあります。透過損失は一般的に<span style="font-weight: bold;">Room Transmission Loss</span>と<span style="font-weight: bold;">Geometric Transmission Loss</span>の2種類に分類されます。</p>
+]]></description>
+        <pubDate>Wed, 15 Apr 2026 00:03:23 -0400</pubDate>
+    </item>
+        <item>
+        <title>ReaWwise 1.07：Wwise 2025.1への対応とネットワーク転送</title>
+        <link>https://www.audiokinetic.com/blog/ja/reawwise-1.07-update/</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/blog/ja/reawwise-1.07-update/</guid>
+        <description><![CDATA[<h2>ReaWwiseの概要</h2>
+<p><a href="https://www.audiokinetic.com/ja/library/reawwise_1.0.7/?source=ReaWwise&id=reawwise_overview" rel="noopener" target="_blank">ReaWwise</a>は、ワークフローを大幅に高速化し、簡素化するために設計されたREAPERの拡張機能です。ReaWwise 1.07を使用することで、数回のクリックでファイルのレンダリング、UCS名またはプロジェクトの命名規則に基づく自動命名、さらにネットワーク経由で任意のWwiseインスタンスへの転送が可能です。また重複する作業や入力の手間、入力ミスを減らして時間を節約できるだけでなく、高度なWwiseオブジェクト階層を作成できます。<br><br>ReaWwiseではWwise階層設定のプリセットを作成および保存できるほか、増分更新の管理やアセットの置き換えも可能です。またREAPERの$wildcardシステムを使用し、階層内の任意のオブジェクトに自動的に名前を付けることもできます。ReaWwiseの転送設定は、ほかのREAPERプロジェクトで呼び出して使用したり、チームメンバーと共有したりすることが可能です。使えば使うほど、生産性が向上します。  </p>
+]]></description>
+        <pubDate>Tue, 31 Mar 2026 23:41:40 -0400</pubDate>
+    </item>
+        <item>
+        <title>続編の構築：リベンジ・オブ・ザ・サベージプラネット</title>
+        <link>https://www.audiokinetic.com/blog/ja/building-a-sequel-revenge-of-the-savage-planet/</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/blog/ja/building-a-sequel-revenge-of-the-savage-planet/</guid>
+        <description><![CDATA[<p>前作を土台に新しいプロジェクトをはじめることは、単によい習慣であるだけでなく、多くの創作活動において一般的な手法です。プロジェクト全体を通じた数々の試行錯誤や苦労から得られた教訓だけでなく、チームメンバー全員の経験を活かすことができます。<br><br>しかし、私が2025年発売の『リベンジ・オブ・ザ・サベージプラネット』に着手した際は、状況が異なりました。<br><br>リベンジ・オブ・ザ・サベージプラネットの物語は、さまざまな意味でその開発過程と重なる部分がありました。2021年にタイフーン・スタジオ（Typhoon Studios）がGoogleによって閉鎖された後、創設者たちは再集結し、ラクーン・ロジック（Raccoon Logic）という新スタジオを設立しました。そしてサベージプラネットの知的財産権を取り戻し、続編の制作に着手したのです。彼らはすべてのソースコードやアート素材、そして何よりも重要なことにWwiseプロジェクト全体を保持していました。残念ながらタイフーン・スタジオの全員が新しいスタジオへの移籍を選んだわけではなく、その1人が前任のオーディオディレクターだったため、私がその後を引き継ぐことになりました。<br><br>最初の数週間は長年ヤリスを運転してきた後に、突然F1マシンの鍵を渡されたような気分でした。Wwiseは何年も扱ってきたため、しくみは根本的にすべて理解していましたが、プリプロダクションに乗り出すには、これまでのあらゆる決定を紐解き、プロジェクトを完全に自分のものにする必要がありました。特にこの時はファーストパーソンのメトロイドヴァニアからサードパーソンのアクションプラットフォーマーへと移行したため、なおさらでした。  </p>
+]]></description>
+        <pubDate>Tue, 24 Mar 2026 22:33:13 -0400</pubDate>
+    </item>
+        <item>
+        <title>シームレスなゲームオーディオテストワークフローの構築：Unity-Reaper-Wwiseによるオーディオ再生チェーン</title>
+        <link>https://www.audiokinetic.com/blog/ja/unity-reaper-wwise/</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/blog/ja/unity-reaper-wwise/</guid>
+        <description><![CDATA[<h2 style="text-align: left;">はじめに</h2>
+<p style="text-align: left;">ゲームオーディオの開発では、よく次のような課題に直面します。Wwiseプロジェクトを新規にセットアップし、リアルタイムでボス戦をテストできる状態にしても、既存のゲーム管理（GM）コマンドが期待通りに動作しない場合があります。<br><br>アカウントレベルが低いため、この段階ではボス戦にアクセスできないのかもしれません。しかし、これはまだ対処可能です。最初からやり直すという方法があります。<br><br>ボスを短時間で倒してしまい、ボスのスキルがすべて確認できない場合はどうでしょう。この場合も問題ありません。ゲームデザイナーにパラメータ値を調整してもらえば解決できます。<br><br>では最後に、特定の必殺技が複雑すぎて再現できないことが分かった場合はどうでしょう。ゲームプログラマーがGMコマンドを更新するには時間がかかり、待っている余裕はありません。<br><br>結局ボス戦の曖昧な印象に基づいて、問題を修正せざるを得なくなります。<br><br>頭痛の種はほかにもあります。サーバで大規模テストを実施できるチャンスは1回しかなく、マルチプレイヤーの戦闘シーンをテストできるのも1～2回だけです。十分な人員が確保できないことが主な理由です。<br><br><strong>ゲームプレイを映画のように記録し、必要な時に再生できるように、Wwiseのサウンドトラックとして保存できないものでしょうか？<br><br></strong>もちろんできます。Audiokineticは、URW（Unity-Reaper-Wwise）再生ツールチェーンを開発しました。これにより、ゲームプレイをまるごと簡単に記録してReaperプロジェクトを生成できます。そして後からReaperからWwiseのイベントをトリガーし、必要に応じてデバッグや問題の修正を行えるようになります。<br><br>生成されたReaperプロジェクトは、あなた専用のWwiseサウンドトラックとなり、必要に応じてReaperで内容を確認できます。WwiseがReaperのミキシングコンソールとして機能するため、サウンドデザイナーはオーディオパフォーマンスを何度でも微調整できます。<br><br>さらにゲームプレイをReaperプロジェクト用のサウンドトラックとして記録しておくことで、デザイナーはプロジェクト内の再生位置を自由に調整できます。また特定の時点に移動して、ゲームプレイの特定のフレームや細部を微調整することも可能です。</p>
+]]></description>
+        <pubDate>Wed, 18 Mar 2026 00:08:59 -0400</pubDate>
+    </item>
+        <item>
+        <title>Wwise：一見難しそうでも、使いはじめれば心配いらず</title>
+        <link>https://www.audiokinetic.com/blog/ja/wwise-intimidating-at-first-glance-until-you-actually-start-using-it/</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/blog/ja/wwise-intimidating-at-first-glance-until-you-actually-start-using-it/</guid>
+        <description><![CDATA[<p>Wwiseユーザーのみなさん、こんにちは。<br><br>Wwiseを使いはじめた頃は、戸惑ったり途方に暮れたりすることがあるかもしれませんが、心配する必要はありません。このブログ記事では、シンプルなステップバイステップのアプローチを通して、Wwiseを使用してUnreal Engineにオーディオを実装する方法を紹介します。サウンドのインポートからWwiseでの設定、ゲームエンジンでの呼び出しまで、順番に説明していきます。<br><br>私はスウェーデン出身のフリーランスサウンドデザイナー、アレクサンダー・ハンパルソーミアンです。Audiokineticが提供するWwiseの基本的なアプローチコースを数年前に受講しました。重要な機能やワークフローについて学ぶことは非常に有益でしたが、実際にゲームコールがエンジンでどのように設定されているのかについては、疑問が残ったままでした。<br><br>このブログでは、こうした疑問を解消していきたいと思います。そして実践的に説明するため、Implementournamentという名前のUnreal Engineプロジェクトを使用します。説明の中で、プレイヤー視点でサウンドデザインに向き合った時の私の思考プロセスも紹介していきます。オーディオがゲームプレイや没入感、そしてゲーム体験全体をどのように支えるのかに焦点を当てました。 </p>
+]]></description>
+        <pubDate>Tue, 10 Mar 2026 23:53:33 -0400</pubDate>
+    </item>
+        <item>
+        <title>WwiseとDolbyがDolby Atmosによる没入型車内ゲームを実現</title>
+        <link>https://www.audiokinetic.com/ja/community/blog/wwise-and-dolby-enable-immersive-in-car-gaming-in-dolby-atmos</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/ja/community/blog/wwise-and-dolby-enable-immersive-in-car-gaming-in-dolby-atmos</guid>
+        <description><![CDATA[<h2>没入型車内オーディオエクスペリエンス</h2>
+<p>AudiokineticとDolbyのパートナーシップを通じて、ゲームデベロッパはDolby Atmos対応車のグローバルなエコシステムにゲームを提供し、究極の没入型車内オーディオエクスペリエンスを実現できます。30を超えるメーカーが車両を展開し、Dolby Atmos対応車が世界的に普及し続ける中、これらの車両が提供する没入型オーディオエクスペリエンスを活用できるよう、Wwiseも更新されています。2026年に予定されているDolbyの車載技術のさらなる進化により、デベロッパはチャンネル出力構成を変更するだけで、Android Automotive搭載のDolby Atmos対応車において完全な5.1.4または7.1.4のオーディオレンダリングを有効にできます。<br><br>『Smashworld: Beat Explorers』などの車内エンターテイメント向け音楽ゲームを開発するSmashLabsは、車両でDolby Atmosゲームエクスペリエンスを実現する機会をすでに活用しており、AudiokineticおよびDolbyとのパートナーシップのもと、2026年1月のCESで車内Dolby Atmosゲームエクスペリエンスを初公開しています。<br><br>SmashLabsのCEOであるニッコロ・カッポン氏は次のように述べています。「車内Dolby Atmosにより、プレイヤーは移動中に全く違った形で当社のサウンドデザインを体験します。単なる音楽ではなく、あらゆるアクション、状況を知らせる環境音、サウンドトラック要素が生き生きと感じられ、完璧に配置された没入型のオーディオ世界です。これは私たちデベロッパにとって、没入感あふれる車内ゲームエクスペリエンスを創り出し、どこへでも自分たちのビジョンをプレイヤーに届けられることを意味します。」</p>
+]]></description>
+        <pubDate>Tue, 03 Mar 2026 23:15:07 -0500</pubDate>
+    </item>
+        <item>
+        <title>AK Custom Pannerのご紹介</title>
+        <link>https://www.audiokinetic.com/ja/community/blog/introducing-the-ak-custom-panner</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/ja/community/blog/introducing-the-ak-custom-panner</guid>
+        <description><![CDATA[<p><span>5.1、7.1、7.1.4などの標準的なスピーカーコンフィギュレーションは、コンシューマー向けオーディオでは一般的です。しかしインタラクティブオーディオの世界は、しばしばリビングルームの枠を大きく超えます。アートインスタレーションやテーマパークのアトラクションといったロケーションベースエンターテイメント（LBE）では、スピーカーコンフィギュレーションが標準的であることはほとんどありません。空間の物理的な構造に左右されるため、一般的なパンニング設定では効果的に対応できない、不規則なレイアウトになることがよくあります。<br><br></span><span>これを解決するために導入したのが<a href="https://www.audiokinetic.com/ja/wwise/plugins/custom-panner/" rel="noopener" target="_blank">AK Custom Panner</a>です。この新しいプラグインでは、Vector Base Amplitude Panning（VBAP）アルゴリズムを用いて、オーディオバス上で完全にカスタムのスピーカーポジションコンフィギュレーションのオーサリングが可能になります。サウンドデザイナーは固定されたチャンネルレイアウトから解放され、インスタレーションの物理的な実態に合わせてオーディオを正確にマッピングできます。</span></p>
+]]></description>
+        <pubDate>Wed, 25 Feb 2026 00:50:22 -0500</pubDate>
+    </item>
+        <item>
+        <title>Wwise 2025.1 | デュアルシェルフフィルタのしくみを紐解く</title>
+        <link>https://www.audiokinetic.com/blog/ja/wwise-2025.1-demystifying-the-dual-shelf-filter</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/blog/ja/wwise-2025.1-demystifying-the-dual-shelf-filter</guid>
+        <description><![CDATA[<p>Wwise 2025.1では、高周波数域のアテニュエーション（減衰）フィルタに対するニーズに応えることを目指しましたが、標準的なローパスフィルタ（LPF）のような強力なフィルタを追加することは想定していませんでした。こうしたニーズが生じるのは、特に環境音響をシミュレートする場合です。以前のWwiseバージョンでは、LPFおよびハイパスフィルタ（HPF）のみが提供されていましたが、音響が不自然に聞こえてしまうことがよくありました。代わりにパラメトリックイコライザーのハイシェルフフィルタ（HSF）を使用することも可能でしたが、特にサウンドのアテニュエーション設定とパラメトリックイコライザー設定を連携させる場合、扱いが複雑になっていました。新しいデュアルシェルフフィルタ（DSF）は環境音響のシミュレートに非常に適した特性を持ち、さらにWwiseのアテニュエーション設定に「組み込まれている」ため、簡単に使用できます。</p>
+]]></description>
+        <pubDate>Wed, 18 Feb 2026 01:08:49 -0500</pubDate>
+    </item>
+        <item>
+        <title>ミュージックシステムが誘う情緒豊かな物語の世界：Spirit of the North 2のインタラクティブミュージック</title>
+        <link>https://www.audiokinetic.com/blog/ja/driving-narrative-and-emotion-through-music-systems-the-interactive-score-of-spirit-of-the-north-2</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/blog/ja/driving-narrative-and-emotion-through-music-systems-the-interactive-score-of-spirit-of-the-north-2</guid>
+        <description><![CDATA[<p>Spirit of the North 2は家族で楽しめる魅力的なアドベンチャーゲームです。プレイヤーはキツネとなり、大ガラスの仲間と共に過去の傷を癒す旅へと出かけ、北欧神話に着想を得た世界を蘇らせます。物語は一貫してセリフなしで語られ、環境として使われるストーリーテリング、音楽、そして古代部族の歴史の再発見を通じて展開します。多くのプレイヤーはShadow of the ColossusやJourneyの体験と比較し、メディテーション的なジャンルだと捉えています。プレイヤーは困難な時間を乗り越える上で、このゲームがいかに役立ったかについて、極めて個人的な物語として繰り返し共有しています。このゲームの世界観と音楽のおかげで、人生の暗黒期に希望を見いだし、立ち止まって自分を振り返ることができたと話すプレイヤーもいます。</p>
+]]></description>
+        <pubDate>Thu, 12 Feb 2026 02:29:10 -0500</pubDate>
+    </item>
+        <item>
+        <title>オーディオチームの管理：ゲーム開発における品質と効率の適切なバランス</title>
+        <link>https://www.audiokinetic.com/ja/community/blog/audio-team-management</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/ja/community/blog/audio-team-management</guid>
+        <description><![CDATA[<p><span><a href="#intro" rel="noopener">はじめに</a><br></span><a href="#Audio-Middleware" rel="noopener"><span>オーディオミドルウェア<br></span></a><a href="#Game-Audio-Team-Collaboration" rel="noopener"><span>ゲームオーディオとチームのコラボレーション<br></span></a>    <a href="#lack-of-information" rel="noopener"><span>情報不足への対処<br></span></a>    <a href="#audio-awareness" rel="noopener"><span>オーディオを意識するスタジオ文化へ<br></span></a>    <a href="#audio-tail-end" rel="noopener"><span>制作サイクルの終盤にあるオーディオ<br></span></a><span><a href="#striking-the-right-balance" rel="noopener">品質と効率の適切なバランス</a><br></span><span style="background-color: transparent;">    <a href="#priorities" rel="noopener">優先順位を把握する</a><br></span><span style="background-color: transparent;">    <a href="#good-enough" rel="noopener">「これで十分」</a><br></span><span style="background-color: transparent;">    <a href="#Sound-Constructors" rel="noopener">サウンドコンストラクタ（またはサウンドパレット）を使用する</a><br></span><span style="background-color: transparent;">    <a href="#Reuse" rel="noopener">できる限り再利用する</a><br></span><span><a href="#The-Last-Push" rel="noopener">最後の追い込み</a><br></span><a href="#Conclusions" rel="noopener"><span>結論と要点</span></a></p>
+]]></description>
+        <pubDate>Wed, 04 Feb 2026 03:04:19 -0500</pubDate>
+    </item>
+        <item>
+        <title>Volumator：UnrealとWwise向けのプロシージャルボリュームシステム</title>
+        <link>https://www.audiokinetic.com/ja/community/blog/volumator-procedural-volume-system-for-unreal-and-wwise</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/ja/community/blog/volumator-procedural-volume-system-for-unreal-and-wwise</guid>
+        <description><![CDATA[<h2>WwiseとUnreal、そしてボリューム</h2>
+<p>Wwiseは優れたオーディオシステムで、EpicのUnreal Engineとの相性も極めて良好です。またWwise Acousticsを使用した伝播や、Wwise Reflectを使用したリアルタイムのリフレクション（反射）により、その機能をさらに強化できます。その一方で、UnrealでVolumeアクタを適切に作り込むことで、AcousticsとReflect、そしてWwise全般にさらなるメリットをもたらすことができます。これらはマップに描かれるリージョンで、各ルームのサイズや形状をWwiseに伝えます。Wwiseでこれらのボリュームを使用し、リバーブを指定したりサウンドを再生したりできるほか、ステートの指定やRTPCの操作など、高度なユースケースにも活用できる可能性があります。<br><br>Wwise Acousticsを使用する場合、ボリュームはルームの形状をWwiseに知らせる、簡略化された方法としても使われ、それによりサウンドは空間内を正確に伝播し、隣接するルームのサウンドはドア開口部や窓のポータルを通って適切に伝わります。Wwise Reflectを使用する場合、ボリュームは壁を跳ね返るリフレクションを再現するためにも使われ、没入感を生み出すだけでなく、Acousticsシステムの伝播をさらに向上させます。そのためボリュームはゲームオーディオ開発において不可欠な要素であり、特に高品質かつ没入感あふれるリアルなサウンドスケープを実現する上で欠かせません。<br><br>Unrealで最もよく使用されるWwiseのボリュームはAkSpatialAudioVolumeで、サウンドのトリガー、リバーブ、Acousticsの伝播、そしてReflectのリフレクションに対応します。ほかにも特定のユースケース向けにいくつかのボリュームタイプがあり、例えば新しいAkReverbZoneや、異なるボリューム間の橋渡しや接続として機能するAkAcousticPortalがあります。 </p>
+]]></description>
+        <pubDate>Wed, 28 Jan 2026 06:44:45 -0500</pubDate>
+    </item>
+        <item>
+        <title>バルダーズ・ゲート3：オーディオ錬金術のダイスロール</title>
+        <link>https://www.audiokinetic.com/blog/ja/baldurs-gate-3-rolling-for-audio-alchemy</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/blog/ja/baldurs-gate-3-rolling-for-audio-alchemy</guid>
+        <description><![CDATA[<h2>はじめに</h2>
+<p>以前、<a href="https://youtube.com/live/LlaRuoT15kc" rel="noopener" target="_blank"><span>ライブ配信</span></a>のスペシャルゲストとしてステファン・ランデルスホーファー氏とマテウス・ヴィラーノ氏をお迎えし、『バルダーズ・ゲート3』のミキシングにおける舞台裏をご紹介いただきました。Wwiseでの実践を通して、彼らが実装したシステムの背景にある構想を深く掘り下げていただきました。ツールやテクニックから、サイドチェインを用いた周波数ベースの明瞭化やMastering Suiteの活用まで、あらゆる側面を徹底的に解説してくださいました。<br><br>動画を見逃された場合もご安心ください。まだ<a href="https://youtube.com/live/LlaRuoT15kc" rel="noopener" target="_blank"><span>ライブ配信</span></a>の全編をご視聴いただけます。また2時間半の視聴ができないという方にも、ライブ配信の主要ポイントや洞察に満ちた場面を、分かりやすい動画クリップにまとめて共有いたします。今後オーディオ制作に挑戦される際は、ぜひ彼らの経験をご活用ください。<br><br>動画クリップを丁寧にまとめ上げてくれたキャリー・ジョイ・アンダーソン（動画編集者）に心より感謝いたします。</p>
+<p>※以下動画1～4は、各動画画面下の設定より日本語字幕でご覧いただけます。</p>
+]]></description>
+        <pubDate>Wed, 21 Jan 2026 00:28:09 -0500</pubDate>
+    </item>
+        <item>
+        <title>The Armory Pistols：Strataのマルチトラックフォーマットで登場</title>
+        <link>https://www.audiokinetic.com/blog/ja/the-armory-pistols-strata</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/blog/ja/the-armory-pistols-strata</guid>
+        <description><![CDATA[<h2>The Armory Pistolsシリーズのご紹介</h2>
+<p>Strataとのパートナーシップから誕生した初のコレクション、<a href="https://www.audiokinetic.com/ja/strata-library/sound-effects-collections/collection/the-armory-pistols-1/" rel="noopener" target="_blank"><span>The Armory Pistols 1</span></a>のリリースを発表できることを大変嬉しく思います。 本コレクションは、2部構成シリーズの幕開けを飾る第1弾となります。The Armory Pistols 2は2026年後半のリリースを予定しています。<a href="https://www.audiokinetic.com/ja/strata-library/sound-effects-collections/collection/the-armory-pistols-1/" rel="noopener" target="_blank">今回はそのパート1をお届けします</a>。</p>
+]]></description>
+        <pubDate>Fri, 16 Jan 2026 00:59:24 -0500</pubDate>
+    </item>
+        <item>
+        <title>Wwiseを用いて『ザ・ストーン・オブ・マッドネス』の音響アイデンティティを形づくる</title>
+        <link>https://www.audiokinetic.com/blog/ja/sonic-identity-of-the-stone-of-madness-using-wwise/</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/blog/ja/sonic-identity-of-the-stone-of-madness-using-wwise/</guid>
+        <description><![CDATA[<h2>はじめに<span data-ccp-props="{"335551550":6,"335551620":6}"> </span></h2>
+<p>『<span data-contrast="auto">ザ・ストーン・オブ・マッドネス』は18世紀のスペインの修道院を舞台としたリアルタイムストラテジーステルスゲームで、The Game Kitchenが開発し、Tripwire Presentsがリリースしました。ゲームでは5人の囚人たちがそれぞれの技能と資源を持ち寄り、自身の恐怖症と向き合いながら狂気に陥らないよう耐え、修道院の謎を解き明かして、脱出方法を見つけ出します。</span><span data-ccp-props="{"335551550":6,"335551620":6}"> </span></p>
+]]></description>
+        <pubDate>Wed, 14 Jan 2026 00:05:43 -0500</pubDate>
+    </item>
+        <item>
+        <title>「The Story of Audiokinetic」と「The Story of Wwise」：2本のドキュメンタリーを同時公開</title>
+        <link>https://www.audiokinetic.com/ja/community/blog/the-story-of-audiokinetic-and-wwise-documentary</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/ja/community/blog/the-story-of-audiokinetic-and-wwise-documentary</guid>
+        <description><![CDATA[<p>このたび、Audiokineticの歴史と歩み、Wwiseの開発過程、そしてその実現を支えてきた、すばらしいコミュニティに迫る2本のドキュメンタリーを公開しました。AudiokineticのYouTubeチャンネルで視聴可能な<span style="font-weight: bold;">The Story of Wwise</span>と<span style="font-weight: bold;">The Story of Audiokinetic</span>で、その全容をぜひご覧ください。（いずれも日本語字幕付）</p>
+]]></description>
+        <pubDate>Wed, 07 Jan 2026 00:41:09 -0500</pubDate>
+    </item>
+        <item>
+        <title>学生プロジェクトからデビュー作へ：Passing By - A Tailwind Journey</title>
+        <link>https://www.audiokinetic.com/blog/ja/passing-by-a-tailwind-journey/</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/blog/ja/passing-by-a-tailwind-journey/</guid>
+        <description><![CDATA[<p><span style="font-weight: normal;">みなさん、こんにちは。</span><br><br>私の名前はヤンです。Studio Windsockeでサウンドデザイナーをしています。私たちのはじめてのゲーム、<span style="font-weight: bold;">『Passing By - A Tailwind Journey』</span>についての知見をみなさんと共有できることを大変嬉しく思います。<br></p>]]></description>
+        <pubDate>Wed, 17 Dec 2025 00:24:23 -0500</pubDate>
+    </item>
+        <item>
+        <title>Inventorix：2人体制のチームによる、ミドルウェアを活用したワークフロー</title>
+        <link>https://www.audiokinetic.com/blog/ja/from-two-person-team-to-middleware-workflow</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/blog/ja/from-two-person-team-to-middleware-workflow</guid>
+        <description><![CDATA[<h2>はじめに</h2>
+<p>ゲームのオーディオパイプラインと聞いて思い浮かべるのは、おそらく大規模なスタジオで複数のサウンドデザイナーやコンポーザー、テクニカルオーディオスペシャリストがそれぞれの担当領域に専念している様子でしょう。<span style="font-weight: bold;">Inventorix</span>は全く異なっていました。<br><br>このゲームはたった2人で構築しました。すべてのデザインとプログラミングを1人の開発者が担当し、私がサウンドトラックの作曲やサウンドエフェクトの作成からWwiseでの実装とゲームへの組み込みまで、オーディオ関連のあらゆる作業を手がけました。<br><br><a href="https://store.steampowered.com/app/2500460/Inventorix/" rel="noopener" target="_blank">Inventorix</a>は宇宙をテーマにしたインベントリ管理型・お金稼ぎ系のローグライクデッキビルダーです。プレイヤーはアイテムやエイリアンパーク（能力）を工夫して組み合わせ、相乗効果を生み出しながら莫大な財産を築き上げますが、そのすべての目的は謎めいた宇宙の借金を返済することです。基本的にはアイテムを重ねたり、風変わりで機械的な相互作用を引き起こしたりと試行錯誤を重ね、富を築いていくゲームです（時には壊滅的な損失を被ることも）。期待と報酬が絶えず繰り返されるため、サウンドを単なるフィードバックではなく、ゲームの個性を形づくる重要な要素として捉える機会が数多くありました。「ミドルウェアは必須だ」と強く訴えかけてくるようなゲームではありませんが、だからこそこのプロジェクトは興味深いケーススタディになりました。</p>
+]]></description>
+        <pubDate>Wed, 10 Dec 2025 03:06:27 -0500</pubDate>
+    </item>
+        <item>
+        <title>Wwise 2025.1: フェーダの復活</title>
+        <link>https://www.audiokinetic.com/ja/community/blog/wwise-2025.1-return-of-the-fader</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/ja/community/blog/wwise-2025.1-return-of-the-fader</guid>
+        <description><![CDATA[<p>Wwiseのユーザインターフェースには、この数リリースの中で思い切った変更が加えられてきました。改良を目的とした変更には、<span data-ref="aab03ad5-4229-41c3-92d9-beb429356ed7">Objectタブ</span>によるコンテキストに基づくナビゲーション、<span data-ref="fab7d557-9c7d-4a67-88da-fd6557dc6c73">Property Editor</span>でのプロパティへのアクセス、 <span>主要なエディタのセンター位置への移動</span>があります。これらすべては、インタラクティブオーディオで目的にフォーカスした反復的なリアルタイムワークフローを実現するという、継続的な取り組みの一環として行われました。<br><br><span data-ref="a3255576-4d50-4f46-9d64-060e7192810e">ところが、操作性向上を目指すなかで、置き去りにされていた人気者がいます。<br><br></span></p>
+<p><strong>そうです、あのボリュームフェーダです</strong>！</p>
+]]></description>
+        <pubDate>Wed, 03 Dec 2025 00:33:51 -0500</pubDate>
+    </item>
+        <item>
+        <title>1つのイベントと1つのグラフによる『Avatar: Frontiers of Pandora』のミュージックシステム</title>
+        <link>https://www.audiokinetic.com/blog/ja/music-system-for-avatar-frontiers-of-pandora/</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/blog/ja/music-system-for-avatar-frontiers-of-pandora/</guid>
+        <description><![CDATA[<p>こんにちは。このブログ記事では『Avatar: Frontiers of Pandora』のミュージックシステムについてご紹介いたします。『Avatar: Frontiers of Pandora』は、UbisoftのスタジオであるMassive Entertainmentが、Lightstorm EntertainmentおよびDisneyと共同開発したファーストパーソンのアクションアドベンチャーゲームです。 </p>
+]]></description>
+        <pubDate>Wed, 26 Nov 2025 02:24:06 -0500</pubDate>
+    </item>
+    </channel>
+</rss>

@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+    <title>Audiokinetic Blog</title>
+    <link>https://www.audiokinetic.com</link>
+    <description>Where 40,000+ audio professionals share interactive audio ideas, news and beyond.</description>
+    <language>zh-cn</language>
+
+        <item>
+        <title>ReaWwise 1.07：Wwise 2025.1 支持与网络传输</title>
+        <link>https://www.audiokinetic.com/zh/community/blog/reawwise-1.07-update</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/zh/community/blog/reawwise-1.07-update</guid>
+        <description><![CDATA[<h2>ReaWwise 概述</h2>
+<p><a href="https://www.audiokinetic.com/en/library/reawwise_1.0.7/?source=ReaWwise&id=reawwise_overview" rel="noopener" target="_blank">ReaWwise</a> 是一款专为大幅提升效率并简化工作流而设计的 REAPER 扩展。使用 ReaWwise 1.07，只需点击几下，即可渲染文件、按照 UCS 名称或项目命名规则自动命名，并通过网络将其传输到任意 Wwise 实例。这样不仅能够构建复杂的 Wwise 对象层级结构，还能通过减少重复劳动、手动输入及拼写错误来节省时间。<br><br>借助 ReaWwise，您可以创建并保存 Wwise 层级结构预置、管理增量更新以及替换资源。您还可以利用 REAPER 的 $wildcard 系统，为层级结构中的任意对象自动命名。ReaWwise 的传输设置可以在其他 REAPER 工程中调用和使用，也可以与团队成员共享。使用得越多，效率提升就越显著。  </p>
+]]></description>
+        <pubDate>Wed, 08 Jul 2026 03:01:50 -0400</pubDate>
+    </item>
+        <item>
+        <title>Wwise-MCP：面向游戏音频的智能体 (Agent) 接口</title>
+        <link>https://www.audiokinetic.com/zh/community/blog/wwise-mcp-an-agentic-interface-for-game-audio</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/zh/community/blog/wwise-mcp-an-agentic-interface-for-game-audio</guid>
+        <description><![CDATA[<div class="hs-embed-wrapper" data-service="youtube" data-responsive="true" style="position: relative; overflow: hidden; width: 100%; height: auto; padding: 0px; max-width: 800px; min-width: 256px; display: block; margin: auto;"><div class="hs-embed-content-wrapper"><div style="position: relative; overflow: hidden; max-width: 100%; padding-bottom: 56.25%; margin: 0px;"><iframe width="256" height="144.64" src="https://www.youtube.com/embed/kJujFfmPFF8?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen title="视频 01" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; border: none;"></iframe></div></div></div>
+]]></description>
+        <pubDate>Tue, 30 Jun 2026 05:33:03 -0400</pubDate>
+    </item>
+        <item>
+        <title>Wiggle Room：公共装置中的声音、游戏体验及互动音频</title>
+        <link>https://www.audiokinetic.com/zh/community/blog/wiggle-room</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/zh/community/blog/wiggle-room</guid>
+        <description><![CDATA[<h1>简介</h1>
+<p>Wiggle Room 是个鼓励孩子与随着声音动态变化的环境进行互动的装置。该装置作为 Belfast 2024 文化活动的一部分在贝尔法斯特大都会艺术中心 (MAC) 展出。它结合运用了实时人体追踪、物理驱动的视觉效果和互动声音来构筑开放的游戏体验。<br><br>Wiggle Room 由 Boom Clap Play 与 PlayBoard NI 和 Big Motive 联合开发。该项目是随着年轻参与者的深入探索和共同设计逐步成形的。它注重让孩子在没有既定目标或规则的情况下凭借直觉随性地与之互动。</p>
+]]></description>
+        <pubDate>Mon, 22 Jun 2026 02:10:38 -0400</pubDate>
+    </item>
+        <item>
+        <title>深入解析《Wild Bastards》的声音设计：音乐和嵌套的 Switch Container</title>
+        <link>https://www.audiokinetic.com/zh/community/blog/wild-bastards</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/zh/community/blog/wild-bastards</guid>
+        <description><![CDATA[<p>大家好！我叫瑞恩•罗斯，是 Blue Manchu 的音频总监。我参与制作过不少游戏，其中有些各位可能玩过。比如，《Guacamelee 2》和《The Beginner's Guide》。此前，我跟澳大利亚堪培拉的 Blue Manchu 团队一起开发了《Void Bastards》。最近，我们刚刚完成了《Wild Bastards》的制作。<br><br>《Wild Bastards》是一款第一人称射击游戏，其包含三层策略。在为三个不同的游戏阶段设计音频时，要明确玩家会在各个场景待多长时间，以及如何把这段体验打造得引人入胜。借助 Wwise 的音乐引擎，我们可以确保玩家每次步入这些阶段时听到的内容都有所不同。另外，《Wild Bastards》中还有大量的对白和实时角色切换。对此，我会详述自己怎样通过嵌套的 Switch Container 实现了这一功能。</p>
+]]></description>
+        <pubDate>Mon, 15 Jun 2026 06:09:04 -0400</pubDate>
+    </item>
+        <item>
+        <title>从学生项目到首部作品：《Passing By - A Tailwind Journey》</title>
+        <link>https://www.audiokinetic.com/zh/community/blog/passing-by-a-tailwind-journey</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/zh/community/blog/passing-by-a-tailwind-journey</guid>
+        <description><![CDATA[<p><span style="font-weight: normal;">各位读者，大家好！</span><br><br>我叫扬•米洛什，是 Studio Windsocke 的声音设计师。在此，很高兴能跟大家分享一些关于我们第一款游戏《Passing By - A Tailwind Journey》的开发心得。<br></p>]]></description>
+        <pubDate>Wed, 03 Jun 2026 14:06:24 -0400</pubDate>
+    </item>
+        <item>
+        <title>Motion 新增功能：Meta Quest 支持和 Haptic Clip Player</title>
+        <link>https://www.audiokinetic.com/zh/community/blog/new-in-motion-meta-quest-support-and-the-haptic-clip-player</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/zh/community/blog/new-in-motion-meta-quest-support-and-the-haptic-clip-player</guid>
+        <description><![CDATA[<p><span>触觉反馈跟音频和画面一样已经成为构筑游戏沉浸感不可或缺的一部分。在 VR 中，控制器相当于玩家双手的延伸，触觉反馈的作用显得愈发重要。但是，要在游戏支持的所有平台和硬件上呈现高品质的触觉响应并非易事。</span></p>
+]]></description>
+        <pubDate>Tue, 02 Jun 2026 07:27:30 -0400</pubDate>
+    </item>
+        <item>
+        <title>如何对游戏对白做精细的混音：穿透噪音，无损声景</title>
+        <link>https://www.audiokinetic.com/zh/community/blog/surgical-dialogue-mix</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/zh/community/blog/surgical-dialogue-mix</guid>
+        <description><![CDATA[<p>对白对很多游戏来说都非常关键。它不仅承载着剧情，还可将玩家与角色联系起来。但是，你有没有发现重要的对白时常被嘈杂的游戏声景淹没？今天，我们就来详细说说如何对对白做精细的混音 – 这样既可以让对白干净利落地穿透游戏混音，又不会影响跟语音没有实际冲突的声景部分。<br><br>换句话说，这个系统只会移除特定的频率成分，并且只有其在背景氛围中比较突出时才会如此。</p>
+]]></description>
+        <pubDate>Fri, 29 May 2026 01:31:48 -0400</pubDate>
+    </item>
+        <item>
+        <title>Wwise 2026.1 新增功能 | Beta 版本</title>
+        <link>https://www.audiokinetic.com/zh/community/blog/wwise-2026.1-whats-new</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/zh/community/blog/wwise-2026.1-whats-new</guid>
+        <description><![CDATA[Wwise 2026.1 Beta 现已上线，并可通过 Audiokinetic Launcher 安装。
+<p style="color: #232323; background-color: #ffffff;"><br>您可以在登录 Launcher 并转到 Wwise 标签页后访问该版本。在此，向下滚动到 Install New Version，并从下拉菜单中选择 Special。</p>
+]]></description>
+        <pubDate>Tue, 26 May 2026 11:31:57 -0400</pubDate>
+    </item>
+        <item>
+        <title>PyWwise：基于 Python 构建的 WAAPI 工具</title>
+        <link>https://www.audiokinetic.com/zh/community/blog/pywwise-waapi-made-pythonic</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/zh/community/blog/pywwise-waapi-made-pythonic</guid>
+        <description><![CDATA[<h2>序言</h2>
+<p style="text-align: justify;">亲爱的读者，大家好！我叫马特乌斯•维拉诺。我主要从事游戏音频的开发和教学，专攻素材管线、开发工具和玩法系统 – 基本上都跟音频有关。各位可能对我的名字有印象，想必是因为这期 <a href="https://www.youtube.com/live/LlaRuoT15kc" rel="noopener" target="_blank">Wwise Up On Air 视频</a>。<br><br>我写这篇博文是为了帮助游戏音频专业人士及爱好者更深入地了解 <a href="https://www.audiokinetic.com/en/public-library/edge/?source=SDK&id=waapi.html" rel="noopener" target="_blank">Wwise Authoring API (WAAPI)</a> 和 <a href="https://github.com/matheusvilano/PyWwise" rel="noopener" target="_blank"><span></span>PyWwise</a> Python 数据包。在此，我会先展示常见的 WAAPI 用例，然后再深入探讨 PyWwise。希望各位在看完这篇文章后也能用 Python 构建 WAAPI 工具。<br><br>在开始之前，我要感谢 Audiokinetic 提供这次机会！我很荣幸，同时也希望能继续为游戏音频社区带来新的内容。感谢大家！</p>
+]]></description>
+        <pubDate>Thu, 21 May 2026 06:41:22 -0400</pubDate>
+    </item>
+        <item>
+        <title>《明日方舟：终末地》：大型游戏项目的音频系统架构</title>
+        <link>https://www.audiokinetic.com/zh/community/blog/arknights-endfield</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/zh/community/blog/arknights-endfield</guid>
+        <description><![CDATA[<p style="text-align: justify;">《明日方舟：终末地》（下称终末地）是一款基于 Unity 引擎开发的大型游戏。我们在游戏的开发过程中做了很多工作来保证音频系统高效稳定地运行。在这篇文章中我将向大家分享一些我在项目中学习到的经验。</p>
+]]></description>
+        <pubDate>Thu, 14 May 2026 23:50:21 -0400</pubDate>
+    </item>
+        <item>
+        <title>通过 SoundSeed Grain 实现对声音时长的灵活控制</title>
+        <link>https://www.audiokinetic.com/zh/community/blog/temporal-flexibility-with-soundseed-grain</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/zh/community/blog/temporal-flexibility-with-soundseed-grain</guid>
+        <description><![CDATA[<p><em>The Times They Are a-Changin' - Bob Dylan</em></p>
+]]></description>
+        <pubDate>Thu, 14 May 2026 01:39:28 -0400</pubDate>
+    </item>
+        <item>
+        <title>《阿凡达：潘多拉边境》的音乐系统：1 个 Event，1 个 Graph</title>
+        <link>https://www.audiokinetic.com/blog/zh/the-music-system-for-avatar-frontiers-of-pandora-1-event-1-graph</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/blog/zh/the-music-system-for-avatar-frontiers-of-pandora-1-event-1-graph</guid>
+        <description><![CDATA[<p>大家好，欢迎阅读这篇关于《阿凡达：潘多拉边境》的音乐系统的博文！《阿凡达：潘多拉边境》是一款第一人称动作冒险游戏，其由 Ubisoft 旗下工作室 Massive Entertainment 与 Disney 和 Lightstorm Entertainment 联合开发。 </p>
+]]></description>
+        <pubDate>Fri, 17 Apr 2026 02:06:00 -0400</pubDate>
+    </item>
+        <item>
+        <title>如何借助 External Source 轻松管理 VO 和混音</title>
+        <link>https://www.audiokinetic.com/zh/community/blog/managing-complexity-external-sources-benefit-vo-mix</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/zh/community/blog/managing-complexity-external-sources-benefit-vo-mix</guid>
+        <description><![CDATA[<p>游戏语音的混音在统筹上是个很大的挑战，因为有上千甚至好几十万句台词需要处理，而且通常还要乘以所有本地化语种的数量。<br></p>]]></description>
+        <pubDate>Thu, 09 Apr 2026 19:32:18 -0400</pubDate>
+    </item>
+        <item>
+        <title>探秘《战锤 40K：星际战士 – 大师锻造版》对原版音频的现代化改造</title>
+        <link>https://www.audiokinetic.com/blog/zh/reinvigorating-the-classic-sound-of-warhammer-40000-space-marine-master-crafted-edition</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/blog/zh/reinvigorating-the-classic-sound-of-warhammer-40000-space-marine-master-crafted-edition</guid>
+        <description><![CDATA[<h2>简介</h2>
+<p style="text-align: justify;"><a href="https://sneakybox.biz/" rel="noopener" target="_blank">Sneakybox</a> 是一家立陶宛的电子游戏开发工作室，专注于从游戏开发、移植到重制的一整套服务。该工作室成立于 2012 年，曾参与制作<a href="https://sneakybox.biz/blog/lords-of-the-fallen/" rel="noopener" target="_blank">《Lords of the Fallen》</a>(Hexworks/CI Games, 2023)、<a href="https://youtu.be/N9riy3BhlkE?si=lqhBhTDni9dmuF2o" rel="noopener" target="_blank">《Star Trek: Resurgence》</a>(Dramatic Labs/Bruner House, 2023) 等诸多游戏。2023 年，工作室受 SEGA 委托对经典游戏<em>《战锤 40K：星际战士》</em>(Relic Entertainment/SEGA, 2011) 进行现代化改造和重制。</p>
+]]></description>
+        <pubDate>Thu, 26 Mar 2026 09:35:59 -0400</pubDate>
+    </item>
+        <item>
+        <title>音频团队管理：在游戏开发中兼顾品质和效率</title>
+        <link>https://www.audiokinetic.com/zh/community/blog/audio-team-management</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/zh/community/blog/audio-team-management</guid>
+        <description><![CDATA[<p><span><a href="#intro" rel="noopener">简介</a><br></span><a href="#Audio-Middleware" rel="noopener"><span>音频中间件<br></span></a><a href="#Game-Audio-Team-Collaboration" rel="noopener"><span>游戏音频与团队协作<br></span></a> <a href="#lack-of-information" rel="noopener"><span>应对信息不同步的问题<br></span></a> <a href="#audio-awareness" rel="noopener"><span>将对音频的重视融入到工作室文化中<br></span></a> <a href="#audio-tail-end" rel="noopener"><span>关于到制作后期才添加音频的问题<br></span></a><span><a href="#striking-the-right-balance" rel="noopener">准确把握平衡：品质 vs 效率</a><br></span><span style="background-color: transparent;"> <a href="#priorities" rel="noopener">弄清优先事项</a><br></span><span style="background-color: transparent;"> <a href="#good-enough" rel="noopener">足够好</a><br></span><span style="background-color: transparent;"> <a href="#Sound-Constructors" rel="noopener">使用声音调色板</a><br></span><span style="background-color: transparent;"> <a href="#Reuse" rel="noopener">尽可能重复使用素材</a><br></span><span><a href="#The-Last-Push" rel="noopener">最后冲刺</a><br></span><a href="#Conclusions" rel="noopener"><span>要点总结</span></a></p>
+]]></description>
+        <pubDate>Wed, 18 Mar 2026 02:36:21 -0400</pubDate>
+    </item>
+        <item>
+        <title>AK Custom Panner 简介</title>
+        <link>https://www.audiokinetic.com/zh/community/blog/introducing-the-ak-custom-panner</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/zh/community/blog/introducing-the-ak-custom-panner</guid>
+        <description><![CDATA[<p><span>标准扬声器配置（如 5.1、7.1 或 7.1.4）在消费级音频中可谓无处不在。但是，互动音频的应用远不止客厅这么一种场景。在艺术装置和主题公园景点等线下实体场馆娱乐 (LBE) 设施中，扬声器配置很少是标准的。它们由空间的物理结构决定，所以常常导致不规则的布局。这是常见的声像摆位配置无法有效处理的。<br><br></span><span>为了解决这一问题，我们推出了 <a href="https://www.audiokinetic.com/wwise/plugins/custom-panner/" rel="noopener" target="_blank">AK Custom Panner</a>。这款新插件允许使用 Vector Base Amplitude Panning (VBAP) 算法在音频总线上创建完全自定义的扬声器位置配置。藉此，声音设计师可以摆脱固定声道布局的束缚，将音频精确映射到安装环境的物理空间中。</span></p>
+]]></description>
+        <pubDate>Wed, 04 Mar 2026 07:07:50 -0500</pubDate>
+    </item>
+        <item>
+        <title>Wwise 2025.1 | 深入解读 Dual-Shelf Filter</title>
+        <link>https://www.audiokinetic.com/blog/zh/wwise-2025.1-demystifying-the-dual-shelf-filter</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/blog/zh/wwise-2025.1-demystifying-the-dual-shelf-filter</guid>
+        <description><![CDATA[<p>为满足需求，我们决定在 Wwise 25.1 中构建一种既能衰减高频成分但又不像标准 Low-Pass Filter (LPF) 那么陡峭的滤波器。这种需求在环境声学模拟方面尤其迫切。之前的 Wwise 版本只有 LPF 和 HPF，这样很容易产生不自然的声学效果。虽然可以用 Parametric EQ 的 High Shelf Filter 来代替，但可能会很繁琐，尤其是在协调声音的关联 Attenuation Settings 和 Parametric EQ 设置时。与之相比，新增的 Dual-Shelf Filter (DSF) 非常适合用来做环境声学模拟。并且，我们将其内置在了 Wwise 的 Attenuation Settings 等各个地方，使用起来特别方便。</p>
+]]></description>
+        <pubDate>Thu, 12 Feb 2026 04:16:07 -0500</pubDate>
+    </item>
+        <item>
+        <title>Strata 推出全新多音轨音效合集 The Armory Pistols 1</title>
+        <link>https://www.audiokinetic.com/blog/zh/the-armory-pistols-strata</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/blog/zh/the-armory-pistols-strata</guid>
+        <description><![CDATA[<h2>The Armory Pistols 系列合集简介</h2>
+<p>我们很高兴地宣布推出首个 Strata 合集 <a href="https://www.audiokinetic.com/strata-library/sound-effects-collections/collection/the-armory-pistols-1" rel="noopener" target="_blank"><span>The Armory Pistols 1</span></a>。今年晚些时候还将推出该系列的第二个合集 The Armory Pistols 2。在此之前，欢迎抢先体验 <a href="https://www.audiokinetic.com/strata-library/sound-effects-collections/collection/the-armory-pistols-1" rel="noopener" target="_blank">The Armory Pistols 1</a>！</p>
+]]></description>
+        <pubDate>Tue, 20 Jan 2026 03:18:04 -0500</pubDate>
+    </item>
+        <item>
+        <title>《刺客信条：影》的音乐设计</title>
+        <link>https://www.audiokinetic.com/blog/zh/music-design-assassins-creed-shadows</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/blog/zh/music-design-assassins-creed-shadows</guid>
+        <description><![CDATA[<p style="text-align: justify;">在本文中，我们将深入探讨《刺客信条：影》的互动音乐系统中运用的各种策略。另外，我们会结合 Wwise 中的几个整合案例来阐释动态音乐在概念设计和美学表达上的实现。<br><br>在《刺客信条：影》中，玩家将以致命忍者奈绪江和强大武士弥助的身份展开封建日本的冒险旅程。</p>
+]]></description>
+        <pubDate>Fri, 16 Jan 2026 06:54:09 -0500</pubDate>
+    </item>
+        <item>
+        <title>《无限暖暖》颠倒箱中剧院中的空间化互动音乐</title>
+        <link>https://www.audiokinetic.com/zh/community/blog/infinity-nikki</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/zh/community/blog/infinity-nikki</guid>
+        <description><![CDATA[<div data-page-id="UE1zdip8PoVmA7xSBzScVLKjndc" data-lark-html-role="root" data-docx-has-block-data="true">
+<h2>前言</h2>
+在《无限暖暖》1.9版本中，我们向玩家呈上了一座名为颠倒的箱中剧院的奇想舞台。</div>
+]]></description>
+        <pubDate>Thu, 18 Dec 2025 05:02:06 -0500</pubDate>
+    </item>
+        <item>
+        <title>从音频总监的视角阐释《战锤 40K：行商浪人》背后的音效和音乐设计</title>
+        <link>https://www.audiokinetic.com/blog/zh/wh40k-rogue-trader</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/blog/zh/wh40k-rogue-trader</guid>
+        <description><![CDATA[<h2>简介</h2>
+<p><a href="https://owlcat.games/" rel="noopener" target="_blank"><span>Owlcat Games</span></a> 是一家独立的电子游戏开发工作室，因<a href="https://kingmaker.owlcat.games/" rel="noopener" target="_blank"><em><span>《开拓者：拥王者》</span></em></a>和<a href="https://wrath.owlcat.games/" rel="noopener" target="_blank"><em><span>《开拓者：正义之怒》</span></em></a>等角色扮演游戏而广受赞誉。自 2016 年成立以来，工作室确立了独特的美学风格和音频机制。背后相关理念一直沿用到今天，而且还在随着新项目不断革新。<br><br><span style="background-color: transparent;">在本文中，我将探讨我们在最新游戏</span><a href="https://roguetrader.owlcat.games/" style="background-color: transparent;" rel="noopener" target="_blank"><em>《战锤 40K：行商浪人》</em></a><span style="background-color: transparent;">（以下简称《行商浪人》）中采用的声音设计和音乐创作理念 – 虽未涵盖全部技术细节，但绝对值得品读、参考。</span><span style="background-color: transparent;"><br><br>《行商浪人》是一款什么样的游戏？</span>简单来说，它是首款以<a href="https://warhammer40000.com/" rel="noopener" target="_blank"><em><span>《战锤 40K》</span></em></a>为背景的角色扮演游戏。在游戏中，玩家将扮演权势显赫的行商浪人，驾驶虚空巨舰跟同伴一起穿越危机四伏的科罗努斯扩区追寻财富。这款游戏的主要特色包括：1) 伪等距视角；2) 回合制战斗；3) 玩家操控的英雄小队；4) 多剧情分支与结局。如果各位爱玩《Fallout》、《Dragon Age》或《Baldur's Gate》系列游戏，那很可能也会喜欢上《行商浪人》。</p>
+]]></description>
+        <pubDate>Wed, 10 Dec 2025 09:06:50 -0500</pubDate>
+    </item>
+        <item>
+        <title>深入解读《艾诺提亚：失落之歌（Enotria: The Last Song）》中如何通过 Wwise 对战斗音频实施混音</title>
+        <link>https://www.audiokinetic.com/zh/community/blog/enotria-the-last-song</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/zh/community/blog/enotria-the-last-song</guid>
+        <description><![CDATA[<p><span>《艾诺提亚：失落之歌（Enotria: The Last Song）》</span>是由 Jyamma Games 开发的一款受意大利民间传说和传统戏剧启发的魂系动作角色扮演游戏。它的核心在于将近战格斗和魔法攻击与音乐融为一体。而且，所有音效都是基于乐器进行设计的。不过，这种独特的设计理念也给混音带来了不小的挑战。<br><br>在本文中，音频总监阿拉姆•沙巴齐安斯 (Aram Shahbazians) 和首席声音设计师卡米拉•科西亚 (Camilla Coccia) 将阐释如何借助清晰的总线系统结构并灵活运用 Wwise 中的 RTPC 控制《Enotria: The Last Song》的战斗音频反馈来确保每次攻击、施法和格挡都清晰可辨。</p>
+]]></description>
+        <pubDate>Thu, 04 Dec 2025 07:14:26 -0500</pubDate>
+    </item>
+        <item>
+        <title>从设计到自动化：《呓语小镇》的零技术依赖音频集成工作流构建实践</title>
+        <link>https://www.audiokinetic.com/zh/community/blog/whisper-of-the-house</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/zh/community/blog/whisper-of-the-house</guid>
+        <description><![CDATA[<h2 style="font-weight: bold;">一、前言</h2>
+<p>在独立游戏的制作流程中，音频往往是最晚介入且资源最有限的环节。在《呓语小镇》中，我们的团队于<span> 2024 </span>年<span> 10 </span>月中旬正式接入项目音频开发。当时游戏的主要功能模块已基本完成，制作组正处于批量填充内容的阶段。我们初步评估后发现，正式版的音频需求将包括约<span> 40 </span>分钟的音乐（后增加至<span> 50 </span>分钟）以及<span> 1000 </span>余条音效（最终增加至<span> 2000 </span>余条）。</p>
+]]></description>
+        <pubDate>Wed, 26 Nov 2025 05:58:52 -0500</pubDate>
+    </item>
+        <item>
+        <title>探索全新 Strata 多音轨音效合集，领略美国大陆分水岭的丰富声景</title>
+        <link>https://www.audiokinetic.com/zh/community/blog/walk-the-divide-in-multitrack-strata</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/zh/community/blog/walk-the-divide-in-multitrack-strata</guid>
+        <description><![CDATA[<p><strong><a href="https://www.audiokinetic.com/strata-library/sound-effects-collections/collection/ambience-nature-continental-divide-southwest" rel="noopener" target="_blank">Ambience Nature Continental Divide Southwest</a></strong> 是个全新的多音轨自然环境声合集。它收录了徒步 1,000 公里穿越美国大陆分水岭步道采集制作的各种声音元素，可带您领略新墨西哥州、德克萨斯州、亚利桑那州和犹他州的多元生态系统。<br><br>该音效库将带您深入体验从沙漠到高山的一系列声景。不管是黎明的微风、远处的郊狼，还是峡谷的涓流、云端的鸟鸣，又或是吹过山脊的一阵狂风。</p>
+]]></description>
+        <pubDate>Fri, 21 Nov 2025 07:36:20 -0500</pubDate>
+    </item>
+        <item>
+        <title>Wwise 2025.1 新增功能</title>
+        <link>https://www.audiokinetic.com/zh/community/blog/wwise-2025.1-whats-new</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/zh/community/blog/wwise-2025.1-whats-new</guid>
+        <description><![CDATA[<p>Wwise 2025.1 现已推出并可通过 Audiokinetic Launcher 下载。下面来简要介绍一下该版本中都有哪些新增功能。<br></p>]]></description>
+        <pubDate>Thu, 20 Nov 2025 15:00:00 -0500</pubDate>
+    </item>
+        <item>
+        <title>ReaperToWwise | Marc Hasselbalch 开发的游戏音频整合工具</title>
+        <link>https://www.audiokinetic.com/zh/community/blog/reapertowwise</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/zh/community/blog/reapertowwise</guid>
+        <description><![CDATA[<h1>简介</h1>
+<p>大家好，我叫马克•哈塞尔巴尔赫，是一名来自丹麦的声音设计师。<br><br>我很高兴能在此跟大家介绍自己构建的游戏音频整合工具 <strong>ReaperToWwise</strong> 并分享其背后的设计思路。简单来说，这个工具是个自定义的 Reaper 脚本。藉此，用户可通过熟悉的 Reaper 时间线发送 Event，并将 Game Sync 直接设置为 Wwise 会话 – 无需挂接引擎。</p>
+]]></description>
+        <pubDate>Wed, 12 Nov 2025 09:03:52 -0500</pubDate>
+    </item>
+        <item>
+        <title>《Neva》背后的声音设计</title>
+        <link>https://www.audiokinetic.com/blog/zh/the-sounds-of-neva</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/blog/zh/the-sounds-of-neva</guid>
+        <description><![CDATA[<p>本文最初由鲁本发表在 <a href="https://medium.com/@rubenrincon/the-sounds-of-neva-f1e5cb32d218" rel="noopener" target="_blank">Medium</a> 上。各位可<a href="https://medium.com/@rubenrincon" rel="noopener" target="_blank">点此</a>阅读他的更多作品。</p>
+]]></description>
+        <pubDate>Wed, 12 Nov 2025 09:02:33 -0500</pubDate>
+    </item>
+        <item>
+        <title>Transmission Loss - 在 Unreal 中的实际应用</title>
+        <link>https://www.audiokinetic.com/zh/community/blog/transmission-loss-practical-application-in-unreal</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/zh/community/blog/transmission-loss-practical-application-in-unreal</guid>
+        <description><![CDATA[<h2 style="margin-top: 16pt; margin-right: 0cm; margin-bottom: 6pt; padding-left: 0cm;"><strong>目录</strong></h2>
+<ul>
+<li style="font-weight: normal; line-height: 1;"><a href="#TransmissionLoss" rel="noopener">Transmission Loss 概述</a></li>
+<li style="font-weight: normal; line-height: 1;"><a href="#GeometricTransmissionLoss" rel="noopener">Geometric Transmission Loss（GTL）</a></li>
+<li style="font-weight: normal; line-height: 1;"><a href="#RoomTransmissionLoss" rel="noopener">Room Transmission Loss（RTL）</a></li>
+<li style="font-weight: normal; line-height: 1;"><a href="#RTL-GTL" rel="noopener">RTL 与 GTL 的使用场景</a>
+<ul>
+<li style="font-weight: normal; line-height: 1;"><a href="#GTL-peizhi" rel="noopener">GTL 的灵活配置方式</a></li>
+<li style="font-weight: normal; line-height: 1;"><a href="#Emitter-room" rel="noopener">嵌套房间中 Emitter 的示例</a></li>
+<li style="font-weight: normal; line-height: 1;"><a href="#RTLroom" rel="noopener">RTL 在嵌套房间中的行为</a></li>
+<li style="font-weight: normal; line-height: 1;"><a href="#RTL-GTL" rel="noopener">GTL 与 RTL 在直达声路径中的区别</a></li>
+<li style="font-weight: normal; line-height: 1;"><a href="#RoomToneTransmissionLoss" rel="noopener">Room Tone 的 Transmission Loss</a></li>
+</ul>
+</li>
+<li style="font-weight: normal; line-height: 1;"><a href="#conclusion" rel="noopener">总结</a></li>
+</ul>
+
+<h2 style="line-height: 1;"><span style="font-weight: bold;">Transmission Loss 概述</span></h2>
+<p style="font-weight: normal; line-height: 1;"><strong>Transmission Loss</strong><strong>（传输损失）</strong>指的是声音在穿越障碍物时所损失的能量比例。它描述的是声音传播过程中，在遇到介质或结构阻挡时所产生的吸收或衰减效果。与衍射或反射不同，Transmission Loss 特指穿透物体本身时的能量衰减。<br><br>在 Wwise Acoustics 中，Transmission Loss 被用于模拟声音在穿过几何结构或房间之间传播时的能量损失。通过调整 Transmission Loss 值，可以控制声音在不同物体间传播时所产生的音量衰减和滤波处理。该值的范围从 0（无损失）到 1（完全阻隔）。<br><br>Transmission Loss 数值会通过 Attenuation ShareSet 中定义的 Transmission 曲线被转换为音频效果。这些曲线可以自定义，也可以引用 Project Settings 中的项目级别设置。<br><br>在 Unreal 中，Transmission Loss 可通过 <strong><span>AkRoom</span></strong><strong>、</strong><strong>AkSurfaceReflectorSe</strong>t 和 <strong><span>AkGeometry</span></strong> 进行配置，但三者的具体实现和实际效果略有不同。通常情况下，Transmission Loss 可以分为两种类型：<strong>Room Transmission Loss</strong> 和 <strong><span>Geometric Transmission Loss</span></strong>。</p>
+]]></description>
+        <pubDate>Mon, 03 Nov 2025 08:00:15 -0500</pubDate>
+    </item>
+        <item>
+        <title>Wwise Spatial Audio | 概述</title>
+        <link>https://www.audiokinetic.com/zh/community/blog/wwise-spatial-audio-an-overview</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/zh/community/blog/wwise-spatial-audio-an-overview</guid>
+        <description><![CDATA[<p>如果您还没有查看我们对 <a href="https://www.audiokinetic.com/wwise/wwise-spatial-audio/" rel="noopener" target="_blank">Wwise Spatial Audio 网页</a>的最近更新，现在正好可以简要了解一下 Wwise 的 3D Audio 和 Acoustics 功能。这些组件可通过交互技术提升声音感知的可信度，从而帮助设计师打造让玩家身临其境的音频体验。</p>
+]]></description>
+        <pubDate>Tue, 30 Sep 2025 10:34:13 -0400</pubDate>
+    </item>
+        <item>
+        <title>Project Echo 互动视听体验项目背后的声画设计</title>
+        <link>https://www.audiokinetic.com/zh/community/blog/project-echo</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/zh/community/blog/project-echo</guid>
+        <description><![CDATA[<h2>Project Echo 背后的设计理念</h2>
+<p>Project Echo 是由 POSTRED 创始人兼声音艺术家贝索•卡查拉瓦 (Beso Kacharava) 打造的沉浸视听体验项目。这个项目旨在带领来访者踏上一段穿越潜意识的奇幻之旅。在此过程中，Echo 会引导您完成这段体验。Echo 是个形态不定、不可捉摸的伴侣。它或许会让您联想到《双峰》、《湮灭》或《降临》等作品中的超现实遭遇。<br><br>事实上，Project Echo 的概念由贝索•卡查拉瓦酝酿了很长时间。他的设想是给来访者提供一个独特的机会，让其可以审视内心深处的自我并与之互动。随着 POSTRED 与联合国教科文组织建立合作关系，然后第比利斯被指定为 2021 世界图书之都，这个构想变得逐渐清晰起来。贝索解释道：“这次机会促使我将这个想法转变成了切实的项目。我希望运用各种艺术媒介来为这一概念注入生命力，着力打造一个让人能够与自我深度互动的沉浸空间。”<br><br>Project Echo 采用了一种独特的结构。在其中，来访者将依次体验一系列生成式的轮次。每个轮次都融合了画面和声音元素作为探寻线索。我们精心设计了每个线索，来使其与来访者产生共鸣，以设法激起情绪反应、唤起过往记忆或触动感官体验。<br><span style="font-size: 14px; color: #000000;"><br></span><span style="color: #000000; background-color: transparent;">每个轮次之间都会循环回到 Echo's Chamber – 在此，Echo 会向来访者抛出一个谜题。来访者要在平板电脑上选择答案。这个答案会决定后续旅程的走向。系统也会据此引导来访者进入下一轮次。同时，环境会自我重组为全新的场景。<br><br></span>在第八轮出现意想不到的转折，旅程骤然中断，Echo 再次现身。这次蜕变成了一个更黑暗的存在，具象地反映来自内心深处的恐惧。这个幽暗的 Echo 犹如对荣格阴影原型、洛夫克拉夫特式黑暗或斯蒂芬•金悬疑作品的致敬。在回答 Echo 的讯问后，来访者会被带到第九轮。<br><br>在到达这最后一站时，来访者将经历一场象征性的重生，最终回到起点。完成整个循环后，旅程重新开始，等待下一位来访者体验。这种循环结构设计鼓励来访者多次到场体验，同时确保每次游览都能带来全新的独特体验。</p>
+]]></description>
+        <pubDate>Thu, 25 Sep 2025 09:04:39 -0400</pubDate>
+    </item>
+    </channel>
+</rss>

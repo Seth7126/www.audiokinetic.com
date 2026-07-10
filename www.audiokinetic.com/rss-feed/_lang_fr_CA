@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+    <title>Audiokinetic Blog</title>
+    <link>https://www.audiokinetic.com</link>
+    <description>Where 40,000+ audio professionals share interactive audio ideas, news and beyond.</description>
+    <language>fr-ca</language>
+
+        <item>
+        <title>Développement virtuel d&#039;une conception sonore interactive à partir de données réelles de véhicules</title>
+        <link>https://www.audiokinetic.com/fr/community/blog/virtual-development-of-interactive-sound-design-with-real-vehicle-data</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/fr/community/blog/virtual-development-of-interactive-sound-design-with-real-vehicle-data</guid>
+        <description><![CDATA[<p><em>Cet article a été coécrit par RemotiveLabs et Audiokinetic, à partir d'un entretien avec François Thibault, Responsable de l'Ingénierie Automobile chez Audiokinetic.</em></p>]]></description>
+        <pubDate>Wed, 08 Jul 2026 14:56:06 -0400</pubDate>
+    </item>
+        <item>
+        <title>Transmission Loss – Application pratique dans Unreal</title>
+        <link>https://www.audiokinetic.com/fr/community/blog/transmission-loss-practical-application-in-unreal</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/fr/community/blog/transmission-loss-practical-application-in-unreal</guid>
+        <description><![CDATA[<h2 style="margin-top: 16pt; margin-right: 0cm; margin-bottom: 6pt; padding-left: 0cm;"><strong>Table des matières</strong></h2>
+<ul>
+<li style="font-weight: normal; line-height: 1;"><a href="#TransmissionLoss" rel="noopener">Présentation de la perte de transmission</a></li>
+<li style="font-weight: normal; line-height: 1;"><a href="#GeometricTransmissionLoss" rel="noopener">Perte de transmission géométrique (GTL)</a></li>
+<li style="font-weight: normal; line-height: 1;"><a href="#RoomTransmissionLoss" rel="noopener">Perte de transmission de Room (RTL)</a></li>
+<li style="font-weight: normal; line-height: 1;"><a href="#RTL-GTL" rel="noopener">Scénarios d'utilisation de RTL et de GTL</a>
+<ul>
+<li style="font-weight: normal; line-height: 1;"><a href="#GTL-peizhi" rel="noopener">Configuration flexible de GTL</a></li>
+<li style="font-weight: normal; line-height: 1;"><a href="#Emitter-room" rel="noopener">Exemple d'Emitter dans des Rooms imbriquées</a></li>
+<li style="font-weight: normal; line-height: 1;"><a href="#RTLroom" rel="noopener">Comportement de RTL pour un Emitter à l'intérieur d'une Room imbriquée</a></li>
+<li style="font-weight: normal; line-height: 1;"><a href="#GTL-RTL-road" rel="noopener">GTL vs RTL dans la propagation du son direct</a></li>
+<li style="font-weight: normal; line-height: 1;"><a href="#RoomToneTransmissionLoss" rel="noopener">Perte de transmission appliquée au Room Tone</a></li>
+</ul>
+</li>
+<li style="font-weight: normal; line-height: 1;"><a href="#conclusion" rel="noopener">En résumé</a></li>
+</ul>
+<a id="TransmissionLoss" data-hs-anchor="true"></a>
+<h2 style="line-height: 1;">Présentation de la perte de transmission</h2>
+<p>La perte de transmission, ou <span style="font-weight: bold;">Transmission Loss</span>, désigne la proportion d'énergie sonore perdue lorsque le son traverse un obstacle. Elle décrit la partie du son qui est absorbée ou atténuée pendant sa propagation lorsqu'il rencontre une barrière. Les différents matériaux et compositions structurelles qui la composent influencent la manière dont le son est transmis. Contrairement à la diffraction ou à la réflexion, la perte de transmission fait spécifiquement référence à l'atténuation de l'énergie à travers un objet.<br><br>Dans les jeux vidéo, la perte de transmission est souvent utilisée pour simuler l'atténuation subie par un son lorsqu'il traverse des murs ou des cloisons, permettant ainsi aux joueurs de percevoir plus réalistement la séparation spatiale et la distance.<br><br>Dans Spatial Audio de Wwise, la perte de transmission est utilisée pour simuler la perte d'énergie subie par le son lorsqu'il se propage à travers la géométrie ou entre les Rooms. En ajustant la valeur de perte de transmission, vous pouvez contrôler le degré d'atténuation du volume et le filtrage appliqués lorsque le son se propage entre différents objets. La valeur de perte de transmission varie de 0 (aucune perte) à 1 (blocage complet).<br>La valeur de perte de transmission est convertie en effet audio à l'aide des courbes de transmission définies dans le ShareSet d'atténuation. Ces courbes peuvent être personnalisées ou faire référence aux courbes globales du projet définies dans les paramètres du projet (Project Settings).<br><br>Dans Unreal, la perte de transmission peut être configurée via les <span style="font-weight: bold;">AkRoom</span>, <span style="font-weight: bold;">AkSurfaceReflectorSet</span> et <span style="font-weight: bold;">AkGeometry</span>. Cependant, en pratique, leur implémentation et leur effet diffèrent légèrement. La perte de transmission peut généralement être classée en deux types : la <span style="font-weight: bold;">Perte de transmission de Room</span> et <span style="font-weight: bold;">Perte de transmission géométrique</span>.</p>
+]]></description>
+        <pubDate>Wed, 24 Jun 2026 16:00:02 -0400</pubDate>
+    </item>
+        <item>
+        <title>ReaWwise 1.07 : prise en charge de Wwise 2025.1 et transfert réseau</title>
+        <link>https://www.audiokinetic.com/fr/community/blog/reawwise-1.07-update</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/fr/community/blog/reawwise-1.07-update</guid>
+        <description><![CDATA[<h2>Présentation de ReaWwise</h2>
+<p><a href="https://www.audiokinetic.com/fr/library/reawwise_1.0.7/?source=ReaWwise&id=reawwise_overview" rel="noopener" target="_blank">ReaWwise</a> est une extension REAPER conçue pour accélérer et simplifier considérablement les flux de travail. Avec ReaWwise 1.07, vous pouvez en quelques clics effectuer des rendus de fichiers, les nommer automatiquement avec des noms au format UCS ou selon la nomenclature de votre projet, puis les transférer sur votre réseau vers n'importe quelle instance de Wwise. Cela vous permet de gagner du temps en réduisant les tâches redondantes, la saisie manuelle et les fautes de frappe, tout en créant des hiérarchies d'objets Wwise sophistiquées.<br><br>Avec ReaWwise, vous pouvez créer et enregistrer des préréglages de paramètres de hiérarchie Wwise, gérer les mises à jour incrémentielles, et remplacer des assets. Vous pouvez également utiliser le système de caractères génériques ($wildcard) de REAPER pour nommer automatiquement n'importe quel objet de la hiérarchie. Les paramètres de transfert de ReaWwise peuvent être récupérés et utilisés dans d'autres projets REAPER, puis partagés avec d'autres membres de l'équipe. Plus vous l'utilisez, plus votre productivité augmente.  </p>
+]]></description>
+        <pubDate>Wed, 17 Jun 2026 15:43:44 -0400</pubDate>
+    </item>
+        <item>
+        <title>L&#039;Histoire d&#039;Audiokinetic et l&#039;Histoire de Wwise : sortie simultanée de deux documentaires</title>
+        <link>https://www.audiokinetic.com/fr/community/blog/the-story-of-audiokinetic-and-wwise-documentary</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/fr/community/blog/the-story-of-audiokinetic-and-wwise-documentary</guid>
+        <description><![CDATA[<p>Nous avons le plaisir de vous annoncer la sortie de deux documentaires retraçant en détail l'histoire et le parcours d'Audiokinetic, la création de Wwise, ainsi que l'incroyable communauté qui a rendu tout cela possible ! Découvrez l'histoire complète avec <em>The Story of Wwise</em> (L'Histoire de Wwise) et <em>The Story of Audiokinetic</em> (L'Histoire d'Audiokinetic), désormais disponibles sur notre chaîne YouTube !</p>
+]]></description>
+        <pubDate>Wed, 10 Jun 2026 14:21:43 -0400</pubDate>
+    </item>
+        <item>
+        <title>Du nouveau dans Motion : prise en charge du Meta Quest et Haptic Clip Player</title>
+        <link>https://www.audiokinetic.com/fr/community/blog/new-in-motion-meta-quest-support-and-the-haptic-clip-player</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/fr/community/blog/new-in-motion-meta-quest-support-and-the-haptic-clip-player</guid>
+        <description><![CDATA[<p><span>Le retour haptique est désormais un élément clé de l'immersion dans les jeux vidéo, au même titre que le son et les graphismes. En réalité virtuelle, où les manettes constituent le prolongement direct des mains du joueur, son rôle est encore plus important. Cependant, créer des retours haptiques de haute qualité sur toutes les plateformes et tous les matériels pris en charge par votre jeu n'est pas une tâche facile.</span></p>
+]]></description>
+        <pubDate>Wed, 03 Jun 2026 13:57:01 -0400</pubDate>
+    </item>
+        <item>
+        <title>Wwise 2026.1 : Nouveautés | Édition Bêta</title>
+        <link>https://www.audiokinetic.com/fr/community/blog/wwise-2026.1-whats-new</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/fr/community/blog/wwise-2026.1-whats-new</guid>
+        <description><![CDATA[<p style="color: #232323; background-color: #ffffff;">La version Bêta de Wwise 2026.1 est désormais disponible et peut être installée depuis l'Audiokinetic Launcher.<br><br>Vous pouvez accéder à cette version en vous connectant au Launcher et en accédant à l'onglet Wwise. De là, faites défiler vers le bas jusqu'à la section « Install New Version » et utilisez le menu déroulant pour sélectionner « Special ».</p>
+]]></description>
+        <pubDate>Tue, 26 May 2026 15:09:59 -0400</pubDate>
+    </item>
+        <item>
+        <title>Wiggle Room : son, jeu et audio interactif dans une installation publique</title>
+        <link>https://www.audiokinetic.com/fr/community/blog/wiggle-room</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/fr/community/blog/wiggle-room</guid>
+        <description><![CDATA[<h1>Introduction</h1>
+<p>Wiggle Room est une installation interactive qui invite les enfants à interagir avec un environnement dynamique qui répond avec des sons. Présentée au Metropolitan Arts Centre (MAC) de Belfast dans le cadre de Belfast 2024, cette installation combinait la détection des mouvements en temps réel, des effets visuels basés sur la physique et des sons interactifs pour créer une expérience de jeu libre.<br><br>Développée en collaboration avec Boom Clap Play, PlayBoard NI et Big Motive, Wiggle Room est le résultat de séances de recherche et de co-conception avec de jeunes participants. Le projet s'est concentré sur l'exploration du jeu libre, en permettant aux enfants d'interagir de manière intuitive sans règles ni objectifs définis.</p>
+]]></description>
+        <pubDate>Wed, 13 May 2026 15:22:46 -0400</pubDate>
+    </item>
+        <item>
+        <title>Six Days of Season: A Letter to the Future</title>
+        <link>https://www.audiokinetic.com/fr/community/blog/six-days-of-season-a-letter-to-the-future</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/fr/community/blog/six-days-of-season-a-letter-to-the-future</guid>
+        <description><![CDATA[<h1>La saison du son est arrivée!</h1>
+<p>C'est un plaisir de partager notre exploration détaillée de la narration sonore de Season: A Letter to the Future! Plongez dans une édition spéciale au format podcast du livestream Wwise Up On Air que nous avons organisé il y a quelque temps, et découvrez tous les courts extraits vidéo désormais disponibles dans le cadre de la série<span style="font-weight: bold;"> Six Days of Season</span>.<br><br>Nous avons publié un nouvel ensemble de vidéos chaque jour au cours du mois de décembre 2024, et vous pouvez désormais regarder l'intégralité de la série pour découvrir les paysages sonores mûrement réfléchis et la conception audio innovante de <em>Season: A Letter to the Future</em>!</p>
+<h1>Merci, Carrie!</h1>
+<p><span>Cette édition spéciale au format podcast et les vidéos de moments clés sont le fruit du travail méticuleux de <span style="font-weight: bold;">Carrie Joy Anderson</span> (monteuse vidéo et podcast; <a href="https://www.linkedin.com/in/carrie-a-b072a3133" rel="noopener" target="_blank">LinkedIn</a>). Nous sommes extrêmement reconnaissants pour son travail fantastique, qui nous permet de faire réapparaître ce livestream sous forme de podcast ainsi que de courts extraits vidéo, pour votre plus grand plaisir! Merci, Carrie!</span></p>
+]]></description>
+        <pubDate>Wed, 06 May 2026 14:16:16 -0400</pubDate>
+    </item>
+        <item>
+        <title>Wild Bastards | La musique et les Switch Containers imbriqués</title>
+        <link>https://www.audiokinetic.com/fr/community/blog/wild-bastards</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/fr/community/blog/wild-bastards</guid>
+        <description><![CDATA[<p>Bonjour! Je m'appelle Ryan Roth, je suis directeur audio chez Blue Manchu et j'ai travaillé sur quelques jeux sympas auxquels vous avez peut-être joué (Guacamelee 2, The Beginner’s Guide). J'ai fait Void Bastards avec l'équipe de Blue Manchu à Canberra, en Australie; et nous avons tout juste terminé notre nouveau jeu : Wild Bastards.<br><br>Wild Bastards est un jeu de tir à la première personne, avec trois phases stratégiques. Lorsque l'on conçoit l'audio pour trois phases de jeu distinctes, il est important de savoir combien de temps le joueur va passer sur chaque écran et comment rendre ce moment intéressant. Le moteur audio de Wwise vous permet de vous assurer que chaque fois que le joueur interagit avec une de ces phases, il entend quelque chose de différent. Il y a également beaucoup de dialogues et de changements de personnages en temps réel dans Wild Bastards, donc je vais parler de la façon dont les Switch Containers imbriqués peuvent aider à faire fonctionner tout cela!</p>
+]]></description>
+        <pubDate>Wed, 29 Apr 2026 16:19:05 -0400</pubDate>
+    </item>
+        <item>
+        <title>Les sons de Neva</title>
+        <link>https://www.audiokinetic.com/blog/fr/the-sounds-of-neva</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/blog/fr/the-sounds-of-neva</guid>
+        <description><![CDATA[<p>Cet article a été initialement publié par Rubén sur <a href="https://medium.com/@rubenrincon/the-sounds-of-neva-f1e5cb32d218" rel="noopener" target="_blank">Medium</a>, et vous pouvez trouver d'autres textes qu'il a écrits <a href="https://medium.com/@rubenrincon" rel="noopener" target="_blank">ici.</a></p>
+]]></description>
+        <pubDate>Wed, 22 Apr 2026 14:42:46 -0400</pubDate>
+    </item>
+        <item>
+        <title>PyWwise : du Python avec WAAPI</title>
+        <link>https://www.audiokinetic.com/fr/community/blog/pywwise-waapi-made-pythonic</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/fr/community/blog/pywwise-waapi-made-pythonic</guid>
+        <description><![CDATA[<h2>Prologue</h2>
+<p style="text-align: justify;">Bonjour, cher lecteur/chère lectrice! Je m'appelle Matheus Vilano. Je suis un éducateur audio et développeur de jeu spécialisé dans les pipelines d'assets, les outils de développement et les systèmes de gameplay, en général dans le domaine de l'audio. Vous reconnaissez peut-être mon nom, et je parie que c'est grâce à une<a href="https://www.youtube.com/live/LlaRuoT15kc" rel="noopener" target="_blank"> vidéo Wwise Up On Air</a>.<br><br>J'ai écrit cet article pour aider les professionnels et les amateurs de l'audio de jeu à en apprendre davantage sur <a href="https://www.audiokinetic.com/fr/public-library/edge/?source=SDK&id=waapi.html" rel="noopener" target="_blank"> Wwise Authoring API</a> (WAAPI) et le package Python<a href="https://github.com/matheusvilano/PyWwise" rel="noopener" target="_blank">PyWwise</a>. Nous commencerons par illustrer les cas d'utilisation courants de WAAPI, puis nous nous plongerons dans PyWwise. Mon objectif est qu'après avoir lu cet article, vous vous sentiez capable de construire des outils WAAPI en Python.<br><br>Avant de commencer, j'aimerais remercier Audiokinetic pour m'avoir donné cette chance! C'est toujours un plaisir de collaborer avec eux, et j'espère continuer à apporter du nouveau contenu à la communauté de l'audio de jeu. Vous êtes tous incroyables!</p>
+]]></description>
+        <pubDate>Wed, 15 Apr 2026 14:35:05 -0400</pubDate>
+    </item>
+        <item>
+        <title>L&#039;audio sur mobile : enjeux et solutions</title>
+        <link>https://www.audiokinetic.com/fr/community/blog/mobile-audio-challenges-and-solutions</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/fr/community/blog/mobile-audio-challenges-and-solutions</guid>
+        <description><![CDATA[<p>Cet article a été publié à l'origine sur <a href="https://company.plarium.com/en/articles/mobile-audio-challenges-and-solutions/" rel="noopener" target="_blank">Plarium</a>.<br><br>Les exigences techniques et esthétiques des jeux mobiles ne cessent d'augmenter pour les rapprocher du niveau de leurs homologues sur console et PC. Les exigences en matière de conception sonore ne font pas exception, mais les téléphones ont de nombreuses limitations techniques, telles que la taille de la version par défaut, le volume, la lecture simultanée de sons et la charge sur le processeur. Un système sonore mal conçu peut avoir une incidence négative sur la note attribuée à un jeu mobile, car les plantages sont pris en compte par l'algorithme et déterminent donc l'avenir du projet. Diagnostiquer ces problèmes et retravailler un projet déjà réalisé coûte beaucoup plus cher à une entreprise que d'adopter une approche systématique de la création sonore dès le début du développement.<br><br>Je m'appelle Illia Gogoliev et je suis producteur audio chez Plarium. Je travaille depuis plus de 10 ans sur la conception sonore pour les jeux mobiles, les cinématiques, la télévision et la publicité en ligne. Parmi les projets de Plarium les plus connus que nous développons et maintenons avec l'équipe audio, il y a RAID: Shadow Legends et Mech Arena. Dans cet article, j'aimerais expliquer comment optimiser le contenu audio d'un jeu mobile sans nuire au projet ni aux joueurs. Cet article sera utile autant pour les concepteurs sonores qui travaillent en équipe, que ceux qui sont des sous-traitants, et aux développeurs indépendants qui travaillent sur le son de leur côté. </p>
+]]></description>
+        <pubDate>Wed, 08 Apr 2026 13:53:27 -0400</pubDate>
+    </item>
+        <item>
+        <title>Mise en œuvre pratique : tirer profit de Wwise pour reproduire une vraie radio dans Saints Row (2022)</title>
+        <link>https://www.audiokinetic.com/fr/community/blog/practical-implementation-leveraging-wwise-to-replicate-a-real-radio-in-saints-row</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/fr/community/blog/practical-implementation-leveraging-wwise-to-replicate-a-real-radio-in-saints-row</guid>
+        <description><![CDATA[<p>Lors de la conception initiale des systèmes en préproduction pour Saints Row (2022), l'équipe audio a décidé de laisser le monde réel dicter le fonctionnement d'un certain nombre de nos systèmes. Cette décision a été prise simplement en raison de la structure de l'équipe dans son ensemble. Nous avions des développeurs qui appliquaient des compétences pratiques dans notre moteur interne. Notre programmeur pour la physique avait l'habitude de faire des simulateurs de vol, notre concepteur de véhicules était un ingénieur, etc… Ils élaboraient donc leurs systèmes en fonction de ce qu'ils connaissaient. Nous avons décidé de tirer parti de cette situation; tous ces systèmes fonctionnaient déjà de manière à simuler le monde réel, continuons ainsi.<br><br>Par exemple, notre moteur pour les véhicules est configuré de la même manière qu'un vrai; nous avons une valeur de TPM, des rapports de vitesse, de l'accélération, une suspension et même du patinage à prendre en compte, pas simplement un allumage/démarrage avec un RTPC pour la vélocité (même si nous en avons à disposition aussi). Nous disposons même d'un RTPC pour savoir si la turbine d'un bateau est immergée ou non.<br><br>En outre, les collisions de véhicules sont enregistrées sur chaque véhicule en fonction du type de collision. Si je conduis à toute vitesse et que je percute le véhicule d'un PNJ à la perpendiculaire du mien, ma voiture émet un son de collision frontale, et le PNJ un son de collision latérale. Avec le nombre limité d'assets que nous avons utilisés, nous avons pu obtenir des dizaines de millions de permutations sur les sons généraux de collision de véhicules, sans même compter les pièces de véhicules qui pouvaient tomber au hasard ou pulvériser du liquide comme couche supplémentaire.<br><br>Nous avons appliqué la même théorie aux impacts des objets; si un grand baril vide en bois percute un poteau en métal, le son reproduit tout à fait la situation. En outre, l'une de mes caractéristiques préférées (que personne n'a remarquée consciemment, j'en suis sûr) est que les impacts de balles et les explosions se déplacent à la vitesse du son grâce à la fonctionnalité Initial Delay.</p>
+]]></description>
+        <pubDate>Tue, 31 Mar 2026 16:10:46 -0400</pubDate>
+    </item>
+        <item>
+        <title>Mixage chirurgical des dialogues : se faire entendre au travers du bruit, sans sacrifier le paysage sonore</title>
+        <link>https://www.audiokinetic.com/fr/community/blog/surgical-dialogue-mix</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/fr/community/blog/surgical-dialogue-mix</guid>
+        <description><![CDATA[<p>Les dialogues sont au cœur de nombreux jeux vidéo, car c'est par eux que l'histoire se dévoile tout en créant des liens entre joueurs et personnages. Mais combien de fois avez-vous remarqué que des dialogues essentiels étaient noyés dans le vacarme de l'environnement sonore du jeu ? Aujourd'hui, nous allons nous plonger dans le « mixage chirurgical des dialogues » - une méthode qui permet à vos dialogues de ressortir clairement du mixage des éléments de gameplay, sans pour autant sacrifier les parties de l'environnement sonore qui ne sont pas réellement en conflit avec la voix.<br><br>En d'autres termes, ce système ne supprimera que certaines fréquences, et uniquement lorsque celles-ci seront fortement présentes dans l'ambiance sonore.</p>
+]]></description>
+        <pubDate>Wed, 25 Mar 2026 16:17:28 -0400</pubDate>
+    </item>
+        <item>
+        <title>Gestion de la complexité : comment les External Sources peuvent vous aider pour vos VO et votre mixage</title>
+        <link>https://www.audiokinetic.com/fr/community/blog/managing-complexity-external-sources-benefit-vo-mix</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/fr/community/blog/managing-complexity-external-sources-benefit-vo-mix</guid>
+        <description><![CDATA[<p>Mixer les voix d'un jeu vidéo peut représenter un défi logistique majeur en raison des milliers, voire centaines de milliers de lignes de dialogue à gérer, souvent multipliées par le nombre de langues entièrement supportées par la localisation. <br></p>]]></description>
+        <pubDate>Wed, 18 Mar 2026 15:19:29 -0400</pubDate>
+    </item>
+        <item>
+        <title>ReaperToWwise: Quand le linéaire rencontre l&#039;interactif</title>
+        <link>https://www.audiokinetic.com/fr/community/blog/reapertowwise-when-the-linear-meets-the-interactive</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/fr/community/blog/reapertowwise-when-the-linear-meets-the-interactive</guid>
+        <description><![CDATA[<p><a href="https://www.romainraynal.fr/blog/blog-4/reapertowwise-12" rel="noopener" target="_blank">Ce blogue a initialement été publié sur le site web de Romain.</a></p>
+]]></description>
+        <pubDate>Tue, 17 Mar 2026 14:06:44 -0400</pubDate>
+    </item>
+        <item>
+        <title>Sea of Stars : des outils modernes pour une esthétique rétro</title>
+        <link>https://www.audiokinetic.com/blog/fr/sea-of-stars-modern-tools-for-retro-aesthetics</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/blog/fr/sea-of-stars-modern-tools-for-retro-aesthetics</guid>
+        <description><![CDATA[<p>La philosophie de Sabotage Studio en matière de création de jeux vidéo est « une esthétique rétro avec un design moderne », et nous appliquons le même principe à l'audio. Au studio, la plupart d'entre nous avons grandi à l'époque de la NES, de la SNES, de la Mega Drive (Genesis) et de la N64, et nous n'avons jamais vraiment quitté cet univers. Lorsque Sabotage a été fondé, l'objectif principal n'était pas de créer des jeux identiques à ceux que nous aimions quand nous étions enfants, mais plutôt de recréer cette sensation que l'on ressentait en jouant à un jeu que l'on avait le droit de louer chez Blockbuster pour le week-end avec ses frères et sœurs, assis en tailleur sur le sol, avec un t-shirt trop grand recouvrant nos jambes. Il ne s'agit pas de faire du pixel art pour la beauté du pixel art, mais de mettre en place des limites spécifiques afin de distiller l'expérience jusqu'à l'essence même de ce qui compte vraiment. Il s'agit de rendre hommage aux classiques tout en tenant compte des attentes des joueurs modernes et de plusieurs décennies d'évolution en conception de jeux vidéo.</p>
+]]></description>
+        <pubDate>Wed, 04 Mar 2026 15:59:24 -0500</pubDate>
+    </item>
+        <item>
+        <title>Présentation de l’AK Custom Panner</title>
+        <link>https://www.audiokinetic.com/fr/community/blog/introducing-the-ak-custom-panner</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/fr/community/blog/introducing-the-ak-custom-panner</guid>
+        <description><![CDATA[<p><span>Les configurations de haut-parleurs conventionnelles comme le 5.1, le 7.1 ou le 7.1.4 sont omniprésentes dans l’audio grand public. Pourtant, l’audio interactif va souvent bien au-delà du salon. En divertissement basé sur la localisation (LBE), par exemple dans des installations artistiques ou des expériences de parcs d’attractions, les configurations de haut-parleurs sont rarement conventionnelles. Elles sont dictées par l’architecture physique du lieu, ce qui entraîne souvent des dispositions irrégulières que les configurations de panoramique courantes ne peuvent pas traiter efficacement.<br><br></span>Pour y remédier, nous présentons <span style="line-height: 115%;"><a href="https://www.audiokinetic.com/fr/wwise/plugins/custom-panner/" rel="noopener">l’AK Custom Panner</a></span>. Ce nouveau plugiciel permet de créer des configurations de haut-parleurs entièrement personnalisées sur un bus audio en utilisant un algorithme “Vector Base Amplitude Panning (VBAP)”. Il permet aux concepteurs sonores de se libérer des configurations de canaux fixes et de positionner l’audio avec précision sur la réalité physique de leur installation.</p>
+]]></description>
+        <pubDate>Wed, 25 Feb 2026 15:03:05 -0500</pubDate>
+    </item>
+        <item>
+        <title>Wwise 2025.1 | Démystifier le filtre DSF</title>
+        <link>https://www.audiokinetic.com/blog/fr/wwise-2025.1-demystifying-the-dual-shelf-filter</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/blog/fr/wwise-2025.1-demystifying-the-dual-shelf-filter</guid>
+        <description><![CDATA[<p>Pour la version 25.1 de Wwise, nous avons décidé d'aborder la question d'un filtre capable d'atténuer les hautes fréquences, mais pas de manière aussi agressive qu'un filtre passe-bas standard (LPF).  Ce besoin se fait particulièrement sentir lors des simulations d'acoustique environnementale.  Les versions précédentes de Wwise ne proposaient qu'un LPF (et un HPF, ou filtre passe-haut), ce qui pouvait facilement conduire à une acoustique peu naturelle.  Bien qu'il soit possible d'utiliser le High Shelf du Parametric EQ à la place, son utilisation peut s'avérer fastidieuse, en particulier lorsqu'il s'agit de coordonner les paramètres d'atténuation d'un son et les réglages du Parametric EQ.  Le nouveau filtre Dual-Shelf (DSF) présente des caractéristiques qui le rendent particulièrement bien adapté aux simulations d'acoustique environnementale, et il est « intégré » aux paramètres d'atténuation de Wwise (entre autres), ce qui en simplifie l'utilisation.</p>
+]]></description>
+        <pubDate>Wed, 18 Feb 2026 15:38:53 -0500</pubDate>
+    </item>
+        <item>
+        <title>Modélisation de sons de moteurs : de l&#039;échantillonnage à la synthèse granulaire dans Wwise</title>
+        <link>https://www.audiokinetic.com/blog/fr/engine-sound-modeling-from-sampling-to-granular-synthesis-in-wwise</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/blog/fr/engine-sound-modeling-from-sampling-to-granular-synthesis-in-wwise</guid>
+        <description><![CDATA[<h2>Introduction</h2>
+<p>Avec l'essor de l'industrie du jeu vidéo et l'émergence de grands projets de jeux de course et de simulateurs, la demande en sons de moteurs de haute qualité a également augmenté. Les jeux de course modernes offrent des graphismes photoréalistes et accordent une attention particulière aux moindres détails des véhicules, ce qui signifie que le même niveau de précision est requis pour la conception sonore.<br><br>Le paysage sonore doit changer en temps réel en fonction des événements et de la physique du jeu, bien au-delà de la simple lecture d'échantillons préenregistrés.<br><br>L'enregistrement de sons de moteurs réels implique des coûts importants : il nécessite l'accès à une grande flotte de voitures exclusives, dont la location est assez coûteuse. De plus, le processus d'enregistrement lui-même nécessite un équipement spécialisé, des conditions spécifiques et une expertise qui ne sont pas toujours accessibles pour les petits projets développés par des studios ou équipes restreints.<br><br>Heureusement, la technologie continue de se développer, et il existe aujourd'hui plusieurs approches pour implémenter des modèles de moteurs adaptés à différentes configurations et à différents budgets.</p>
+]]></description>
+        <pubDate>Wed, 11 Feb 2026 16:48:39 -0500</pubDate>
+    </item>
+        <item>
+        <title>Utilisation de Wwhisper pour connecter REAPER et Wwise</title>
+        <link>https://www.audiokinetic.com/fr/community/blog/wwhisper-reascript</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/fr/community/blog/wwhisper-reascript</guid>
+        <description><![CDATA[<p>Bonjour à tous ! Je m'appelle Thomas, je suis Concepteur Sonore Technique en France, et je suis ravi de partager avec vous, ici, sur le blog d'Audiokinetic, quelques détails concernant l'un de mes scripts : Wwhisper.</p>
+]]></description>
+        <pubDate>Wed, 04 Feb 2026 15:37:07 -0500</pubDate>
+    </item>
+        <item>
+        <title>The Armory Pistols arrive dans le format multipiste de Strata</title>
+        <link>https://www.audiokinetic.com/blog/fr/the-armory-pistols-strata</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/blog/fr/the-armory-pistols-strata</guid>
+        <description><![CDATA[<h2>Présentation de The Armory Pistols : une collection en deux volumes</h2>
+<p>Nous sommes très enthousiastes d'annoncer le lancement de <a href="https://www.audiokinetic.com/strata-library/sound-effects-collections/collection/the-armory-pistols-1" rel="noopener" target="_blank"><span>The Armory Pistols 1</span></a>, notre première collection publiée en partenariat avec Strata. Cette collection marque le début d'une série en deux parties : alors que The Armory Pistols 2 devrait sortir plus tard cette année, <a href="https://www.audiokinetic.com/strata-library/sound-effects-collections/collection/the-armory-pistols-1" rel="noopener" target="_blank">la première partie est déjà disponible</a> !</p>
+]]></description>
+        <pubDate>Thu, 15 Jan 2026 15:30:54 -0500</pubDate>
+    </item>
+        <item>
+        <title>Son et musique dans Warhammer 40,000 : Rogue Trader | Point de vue d&#039;un Directeur Audio</title>
+        <link>https://www.audiokinetic.com/blog/fr/wh40k-rogue-trader</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/blog/fr/wh40k-rogue-trader</guid>
+        <description><![CDATA[<h2>Introduction</h2>
+<p><a href="https://owlcat.games/" rel="noopener" target="_blank"><span>Owlcat Games</span></a> est un studio de développement de jeux vidéo indépendant largement connu pour ses RPG, notamment <a href="https://kingmaker.owlcat.games/" rel="noopener" target="_blank"><em><span>Pathfinder : Kingmaker</span></em></a> et <a href="https://wrath.owlcat.games/" rel="noopener" target="_blank"><em><span>Pathfinder : Wrath of the Righteous</span></em></a>. Depuis sa création en 2016, le studio a développé ses propres règles esthétiques et mécaniques audio, toujours utilisées aujourd'hui et constamment améliorées à chaque nouveau projet.<br><br><span style="background-color: transparent;">Dans cet article, je vais vous présenter l'approche que nous avons adoptée en matière de conception sonore et de musique dans notre dernier jeu : </span><a href="https://roguetrader.owlcat.games/" style="background-color: transparent;" rel="noopener" target="_blank"><em>Warhammer 40,000 : Rogue Trader</em></a><span style="background-color: transparent;"> (et que j'appellerai simplement </span><em style="background-color: transparent;">Rogue Trader</em><span style="background-color: transparent;"> à partir de maintenant) — non pas l'intégralité de nos techniques, mais certainement les plus intéressantes.<br><br></span>Qu'est-ce que <em>Rogue Trader</em> ? En bref, il s'agit du premier RPG complet se situant dans l'univers de <a href="https://warhammer40000.com/" rel="noopener" target="_blank"><em><span>Warhammer 40,000</span></em></a>. Dans ce jeu, vous incarnez un personnage très influent, un Rogue Trader, épaulé d'un groupe de compagnons, traversant la dangereuse étendue de Koronus à bord d'un immense vaisseau spatial à la recherche de richesses. Le jeu présente les caractéristiques principales suivantes : 1) une perspective pseudo-isométrique, 2) des combats au tour par tour, 3) un groupe de héros contrôlés par le joueur, et 4) plusieurs branches narratives et épilogues. Si vous aimez jouer aux classiques <em>Fallout</em>, <em>Dragon Age</em> ou <em>Baldur's Gate</em> (n'importe quel épisode), vous aimerez probablement aussi <em>Rogue Trader</em>.</p>
+]]></description>
+        <pubDate>Wed, 14 Jan 2026 15:00:02 -0500</pubDate>
+    </item>
+        <item>
+        <title>Introduction à l&#039;utilisation de WAAPI avec UE5 et C++</title>
+        <link>https://www.audiokinetic.com/blog/fr/using-waapi-with-ue5-and-cpp/</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/blog/fr/using-waapi-with-ue5-and-cpp/</guid>
+        <description><![CDATA[<p>Voici tout ce que vous devez savoir pour commencer à utiliser WAAPI avec Unreal. Dans l'ensemble, cet article ne contient aucune information qui ne figure pas déjà dans la documentation Audiokinetic, les vidéos Wwise Up On Air ou dans le Blog AK. Cela dit, j'ai pensé qu'il serait tout de même utile de rassembler toutes ces connaissances en un seul endroit et de donner quelques exemples concrets spécifiques à Unreal.<br><br>Lorsque j'ai commencé cette aventure, j'ai eu du mal à comprendre comment faire la plupart des choses que je vais vous montrer. J'avais l'impression que certaines informations n'étaient pas claires, voire parfois cryptiques. Plus j'essayais d'avancer et de créer des choses, plus je me rendais compte que tous les éléments étaient là, devant moi, mais que je ne parvenais pas à les relier entre eux.<br><br>Bien sûr, si j'avais été expert en C++ et JSON, tout cela aurait été beaucoup plus facile ; mais comme il y a de fortes chances que vous ne le soyez pas non plus, cet article pourra peut-être vous être utile. Idéalement, vous devriez avoir une connaissance approfondie de Wwise et une bonne maîtrise de C++ pour suivre cet article.</p>
+]]></description>
+        <pubDate>Wed, 07 Jan 2026 15:24:07 -0500</pubDate>
+    </item>
+        <item>
+        <title>Routing, hiérarchisation, adaptation - Tactiques Wwise pour le mixage audio de combats</title>
+        <link>https://www.audiokinetic.com/fr/community/blog/enotria-the-last-song</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/fr/community/blog/enotria-the-last-song</guid>
+        <description><![CDATA[<p><em>Enotria : The Last Song</em>, développé par Jyamma Games, est un action-RPG de type Soulslike qui se déroule dans un monde inspiré du folklore et du théâtre traditionnel italiens. Le cœur du jeu repose essentiellement sur la combinaison de combats au corps à corps et d'attaques magiques avec de la musique, de sorte que chaque effet sonore a été créé à partir d'instruments de musique. Cette approche particulière a représenté un défi intéressant à aborder lors de la phase de mixage.<br><br>Dans cet article, Aram Shahbazians, Directeur Audio, et Camilla Coccia, Conceptrice Sonore en Chef, expliquent comment une structure claire du système de bus et une utilisation intelligente des RTPC dans Wwise ont permis de contrôler les feedbacks audio des combats dans Enotria, en rendant chaque attaque, sort et parade plus lisible.</p>
+]]></description>
+        <pubDate>Wed, 17 Dec 2025 15:56:12 -0500</pubDate>
+    </item>
+        <item>
+        <title>The Witcher 3 REDkit &amp; Wwise : guide de configuration</title>
+        <link>https://www.audiokinetic.com/blog/fr/the-witcher-3-redkit-tutorial</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/blog/fr/the-witcher-3-redkit-tutorial</guid>
+        <description><![CDATA[<p>Salut à tous les Sorciers et Sorcières ! <br><br>Ce tutoriel a pour but de fournir un guide complet, étape par étape, pour configurer l'outil de modding REDkit de The Witcher 3 avec son projet Wwise. Il regroupe les informations issues de la documentation REDkit de The Witcher 3, tout en couvrant certaines étapes non documentées, essentielles pour une configuration fluide.</p>]]></description>
+        <pubDate>Wed, 10 Dec 2025 16:14:28 -0500</pubDate>
+    </item>
+        <item>
+        <title>Meilleures pratiques en matière de nomenclatures</title>
+        <link>https://www.audiokinetic.com/fr/community/blog/naming-convention-best-practices</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/fr/community/blog/naming-convention-best-practices</guid>
+        <description><![CDATA[<header>
+<p>Cet article a été initialement publié par Can Uzer sur son <a href="https://canuzer.com/naming-convention-best-practices/" rel="noopener" target="_blank">site web</a>.<br><br>Qu'est-ce qui fait une bonne nomenclature dans le développement de jeux vidéo, et pourquoi devriez-vous y penser ? En termes simples, une nomenclature est un ensemble de règles qui définissent comment certains types d'assets, tels que les clips audio, les animations et les sprites, doivent être nommés. En tant que concepteur sonore de jeux vidéo gérant de grandes quantités d'assets audio, j'ai appris qu'une nomenclature claire et cohérente est essentielle pour rester organisé et efficace. Bien appliquée, elle peut considérablement améliorer le flux de travail, réduire les erreurs et faciliter la communication entre les équipes. Dans cet article, je vais vous donner des conseils pratiques pour vous aider à nommer vos assets plus efficacement.<br><br>Commençons par les avantages évidents qu'apporte une bonne nomenclature :</p>
+</header>
+<ul>
+<li aria-level="1"><strong>Faciliter la navigation et la recherche :</strong>trouvez rapidement les fichiers dont vous avez besoin sans frustration.</li>
+<li aria-level="1"><strong>Organisation logique :</strong>les fichiers sont triés dans un ordre pratique et facile à comprendre.</li>
+<li aria-level="1"><strong>Simplifier le travail par groupes d'assets :</strong>le renommage et autres opérations effectuées de manière groupée sur de nombreux fichiers deviennent une opération simple.</li>
+<li aria-level="1"><strong>Potentiel d'automatisation :</strong>permet la création de scripts puissants et l'automatisation des tâches impliquant le traitement de chaînes de caractères.</li>
+<li aria-level="1"><strong>Amélioration de la lisibilité du code :</strong>le code est plus clair et plus intuitif lorsque les noms des assets sont cohérents.</li>
+<li aria-level="1"><strong>Cohésion entre les assets :</strong>une nomenclature cohérente entre les différents départements comme l'audio, l'art et l'animation permet aux équipes de rester alignées.</li>
+<li aria-level="1"><strong>Archives lisibles :</strong>les structures de fichiers restent claires et bien organisées au fil du temps.</li>
+<li aria-level="1"><strong>Satisfaction pour les perfectionnismes :</strong>un de mes préférés—il y a quelque chose de satisfaisant à voir que tout est propre et ordonné !</li>
+</ul>
+<p>Alors, comment définir une nomenclature fiable et efficace ? Vous trouverez ci-dessous quelques principes et idées clés à intégrer à votre système de nommage de fichiers, accompagnés de quelques exemples pratiques.</p>
+<h1>Qualités essentielles d'une nomenclature fiable</h1>
+<ol>
+<li aria-level="1"><strong>Informative mais concise</strong> : incluez suffisamment de détails sans en faire trop (par exemple,<i>ui_button_select</i>).</li>
+<li aria-level="1"><strong>Structure hiérarchique</strong> : organisez les sections en allant du plus général au plus spécifique (par exemple,<i>environment_forest_bird</i>).</li>
+<li aria-level="1"><strong>Tri logique</strong> : assurez-vous que les noms conservent leur sens lorsqu'ils sont classés par ordre alphabétique.</li>
+<li aria-level="1"><strong>Majuscules et minuscules cohérentes</strong> : respectez un style cohérent, comme le<strong>camelCase</strong>, le<strong>PascalCase</strong> ou le<strong>snake_case</strong>.</li>
+<li aria-level="1"><strong>Numérotation uniforme</strong> : utilisez une numérotation cohérente selon le nombre de fichiers prévus (par exemple,<i>01, 02</i>ou<i>001, 002</i>). Évitez les chiffres uniques pour garantir un tri correct (par exemple, évitez des cas comme<i>pig_minion_1</i>alphabétiquement suivi de<i>pig_minion_10</i>).</li>
+<li aria-level="1"><strong>Cohérence grammaticale</strong> : utilisez des formes verbales, des noms ou des suffixes cohérents (par exemple,<i>cha_sonic_spin</i>vs.<i>cha_sonic_spinning</i> ;<i>bomb_activation</i>vs.<i>bomb_activate</i>).</li>
+<li aria-level="1"><strong>Formes lexicales cohérentes</strong> : adoptez une orthographe standard pour les termes ambigus (par exemple,<i>ambiance/ambience</i>ou<i>flyer/flier</i>).</li>
+<li aria-level="1"><strong>Cohérence des temps et des nombres</strong> : assurez-vous que les temps verbaux et les pluriels restent uniformes (par exemple,<i>chest_destroyed</i>vs.<i>chest_destroy</i> ;<i>coins_collect</i>vs.<i>coin_collect</i>).</li>
+</ol>
+<h1>Exemples de nomenclatures</h1>
+<p>Il peut être utile de documenter votre nomenclature à l'aide d'une formule pour garantir la cohérence entre les différents éléments. Voici un exemple de format logique et cohérent :<br><br><span style="color: #e69138;">type</span>_<span style="color: #37761d;">category</span>_<span style="color: #674ea7;">?subcategory</span>_<span style="color: #6fa8dc;">?action</span>_<span style="color: #674ea7;">?subcategory</span>_?01<br>(Remarque : le signe « ? » indique les catégories facultatives.)<br><br>Quelques exemples utilisant ce format :</p>
+<ul>
+<li><span style="color: #e69138;">ui</span>_<span style="color: #37761d;">button</span>_<span style="color: #6fa8dc;">select</span></li>
+<li><span style="color: #e69138;">ui</span>_<span style="color: #37761d;">button</span>_<span style="color: #674ea7;">shop</span>_<span style="color: #6fa8dc;">purchase</span></li>
+<li><span style="color: #e69138;">gp</span>_<span style="color: #37761d;">proj</span>_<span style="color: #674ea7;">fire</span>_<span style="color: #6fa8dc;">hit</span>_<span style="color: #674ea7;">small</span>_01</li>
+<li><span style="color: #e69138;">gp</span>_<span style="color: #37761d;">proj</span>_<span style="color: #674ea7;">fire</span>_<span style="color: #6fa8dc;">hit</span>_<span style="color: #674ea7;">small</span>_02</li>
+<li><span style="color: #e69138;">gp</span>_<span style="color: #37761d;">booster</span>_<span style="color: #674ea7;">bomb</span>_<span style="color: #6fa8dc;">activate</span></li>
+<li><span style="color: #e69138;">mus</span>_<span style="color: #37761d;">core</span>_<span style="color: #674ea7;">jungle</span>_01</li>
+</ul>
+<p>Ces exemples illustrent plusieurs bonnes pratiques :</p>
+<ul>
+<li aria-level="1">Les catégories vont du général au spécifique.</li>
+<li aria-level="1">Les abréviations sont utilisées avec parcimonie afin de préserver la clarté.</li>
+<li aria-level="1">La catégorie « action » est toujours un verbe, sans suffixes inutiles.</li>
+<li aria-level="1">La numérotation est cohérente et facilite le tri.</li>
+</ul>
+<p>Je vais vous donner deux exemples de nomenclatures appliqués dans la fenêtre Project de Unity. Vous pouvez décider laquelle vous semble la plus logique ou la mieux organisée (ou devrais-je dire, la plus sensée ?) </p>]]></description>
+        <pubDate>Wed, 03 Dec 2025 15:07:44 -0500</pubDate>
+    </item>
+        <item>
+        <title>Wwise 2025.1 : Le retour du fader</title>
+        <link>https://www.audiokinetic.com/fr/community/blog/wwise-2025.1-return-of-the-fader</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/fr/community/blog/wwise-2025.1-return-of-the-fader</guid>
+        <description><![CDATA[<p>Les dernières versions de Wwise se sont accompagnées de quelques changements importants concernant l'interface utilisateur. Ces changements visent à améliorer : la navigation contextuelle via les <span data-ref="aab03ad5-4229-41c3-92d9-beb429356ed7">Object Tabs</span>, l'accès aux propriétés dans le <span data-ref="fab7d557-9c7d-4a67-88da-fd6557dc6c73">Property Editor</span>, <span>et le déplacement des principales fenêtre d'édition vers le centre de l'interface</span>. Tout cela s'inscrit dans notre engagement permanent visant à favoriser un flux de travail spécifique à l'audio interactif ciblé sur l'itération en temps réel.<br><br><span data-ref="a3255576-4d50-4f46-9d64-060e7192810e">Cependant, alors que nous étions occupés à améliorer l'ergonomie, un élément très apprécié a été laissé de côté.<br><br>Le </span><strong>fader de volume</strong> !</p>
+]]></description>
+        <pubDate>Wed, 26 Nov 2025 16:04:19 -0500</pubDate>
+    </item>
+        <item>
+        <title>Wwise 2025.1: Nouveautés</title>
+        <link>https://www.audiokinetic.com/fr/community/blog/wwise-2025.1-whats-new</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/fr/community/blog/wwise-2025.1-whats-new</guid>
+        <description><![CDATA[<p>Wwise 2025.1 est en ligne et peut être installé à partir de l'Audiokinetic Launcher. Voici un résumé des nouvelles fonctionnalités :<br></p>]]></description>
+        <pubDate>Thu, 20 Nov 2025 15:00:00 -0500</pubDate>
+    </item>
+        <item>
+        <title>Marchez le long de la Ligne continentale en multipiste : nouvelle collection d&#039;effets sonores Strata</title>
+        <link>https://www.audiokinetic.com/fr/community/blog/walk-the-divide-in-multitrack-strata</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/fr/community/blog/walk-the-divide-in-multitrack-strata</guid>
+        <description><![CDATA[<p><strong><a href="https://www.audiokinetic.com/fr/strata-library/sound-effects-collections/collection/ambience-nature-continental-divide-southwest" rel="noopener" target="_blank">Ambience Nature Continental Divide Southwest</a> </strong>(Ambiences de nature, Ligne continentale de partage des eaux sud-ouest) est une nouvelle collection de sons de nature au format multipiste qui capture l'essence sonore d'une randonnée de 1 000 km le long de la Ligne continentale de partage des eaux, explorant les divers écosystèmes du Nouveau-Mexique, du Texas, de l'Arizona et du Utah.<br><br>Cette bibliothèque vous transportera dans l'univers sonore des montagnes désertiques, allant de la brise du petit matin aux jappements lointains des coyotes, en passant par le ruissellement de l'eau dans les canyons, les chants d'oiseaux provenant des hauteurs, et les rafales de vent balayant les crêtes des mesas.</p>
+]]></description>
+        <pubDate>Wed, 19 Nov 2025 15:39:40 -0500</pubDate>
+    </item>
+    </channel>
+</rss>

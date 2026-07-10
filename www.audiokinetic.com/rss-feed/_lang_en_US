@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+    <title>Audiokinetic Blog</title>
+    <link>https://www.audiokinetic.com</link>
+    <description>Where 40,000+ audio professionals share interactive audio ideas, news and beyond.</description>
+    <language>en-us</language>
+
+        <item>
+        <title>Embracing the Chaos: 6 Technical Audio Lessons from SWAPMEAT</title>
+        <link>https://www.audiokinetic.com/community/blog/embracing-the-chaos-6-technical-audio-lessons-from-swapmeat</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/community/blog/embracing-the-chaos-6-technical-audio-lessons-from-swapmeat</guid>
+        <description><![CDATA[<h2>Introduction</h2>
+<p><span>Ideally a game has a clear direction and pathway to get there. Sometimes though, the end goal is known but the pathway there - we can tell from the start - is going to be chaos. This is </span><em><span>SWAPMEAT</span></em><span>.</span></p>
+]]></description>
+        <pubDate>Thu, 09 Jul 2026 18:52:12 -0400</pubDate>
+    </item>
+        <item>
+        <title>Audiokinetic&#039;s June 2026 Highlights</title>
+        <link>https://www.audiokinetic.com/community/blog/audiokinetic-june-2026-highlights</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/community/blog/audiokinetic-june-2026-highlights</guid>
+        <description><![CDATA[<p>This weekend, we celebrated Audiokinetic's 26th anniversary! We're so grateful every single day to have such a wonderful team and to be surrounded by this amazing community. Thank you from the bottom of our hearts!</p>
+]]></description>
+        <pubDate>Wed, 08 Jul 2026 13:00:00 -0400</pubDate>
+    </item>
+        <item>
+        <title>Everything All At Once | Mixing METAL EDEN</title>
+        <link>https://www.audiokinetic.com/community/blog/everything-all-at-once-mixing-metal-eden</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/community/blog/everything-all-at-once-mixing-metal-eden</guid>
+        <description><![CDATA[<h2 style="line-height: 32px; color: #212d39; background-color: #ffffff;">Inside the Sound of METAL EDEN: A 5-Part Audio Deep Dive</h2>
+<p style="color: #2b2d2e; text-align: justify; background-color: #ffffff;">Welcome to this five-part blog series exploring the audio architecture of Reikon Games' fast-paced sci-fi FPS, <a href="https://store.steampowered.com/app/990380/METAL_EDEN/" rel="noopener" target="_blank"><strong>METAL EDEN</strong></a>. Throughout this series, the audio team breaks down how they built the game's sonic identity from the ground up.</p>
+]]></description>
+        <pubDate>Thu, 02 Jul 2026 14:13:31 -0400</pubDate>
+    </item>
+        <item>
+        <title>Building a Wwise Plug-In for Real-Time Pitch Detection</title>
+        <link>https://www.audiokinetic.com/community/blog/building-a-wwise-plug-in-for-real-time-pitch-detection</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/community/blog/building-a-wwise-plug-in-for-real-time-pitch-detection</guid>
+        <description><![CDATA[<h2>Intro</h2>
+<p><span>Hi! In this blog post, we're going to create a plug-in for Wwise that takes in input audio and estimates its pitch in real-time. Pitch detection can be used in a variety of game audio settings, most notably in games that feature live audio input in the vein of karaoke (e.g. SingStar, Karaoke Revolution, Rock Band).</span></p>
+]]></description>
+        <pubDate>Thu, 18 Jun 2026 19:06:59 -0400</pubDate>
+    </item>
+        <item>
+        <title>Rethinking the Wwise Audio Input Source Plug-in</title>
+        <link>https://www.audiokinetic.com/community/blog/rethinking-the-wwise-audio-input-source-plug-in</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/community/blog/rethinking-the-wwise-audio-input-source-plug-in</guid>
+        <description><![CDATA[<h2>1. Intro</h2>
+<p>The <a href="https://www.audiokinetic.com/en/public-library/2025.1.5_9095/?source=SDK&id=referencematerial_audioinput.html" rel="noopener" target="_blank">Audio Input Source Plug-in</a> ships with Wwise and provides a relatively easy way to get audio streams from the game into Wwise, which is used for voice chat, Unreal Audio Link, or, possibly, DSP prototyping. In order to stream audio, it relies on a game-provided global function<sup><a href="#footnotes" rel="noopener">1</a></sup><span> </span>– it’s called from Wwise’s thread every time a relevant voice needs more data, then the game must resolve audio data by the voice’s PlayingID. This global callback, however, while being relatively easy to implement, forces the game to synchronise access to a data structure (or a few) in one place. Not a big deal per se, and things can be made quick and optimised, but the bookkeeping this approach requires sometimes feels like too much.</p>
+]]></description>
+        <pubDate>Wed, 10 Jun 2026 14:47:00 -0400</pubDate>
+    </item>
+        <item>
+        <title>METAL EDEN’s Voices: Designing the Uncanny</title>
+        <link>https://www.audiokinetic.com/community/blog/metal-eden-voices</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/community/blog/metal-eden-voices</guid>
+        <description><![CDATA[<h2 style="line-height: 32px; color: #212d39; background-color: #ffffff;">Inside the Sound of METAL EDEN: A 4-Part Audio Deep Dive</h2>
+<p style="color: #2b2d2e; text-align: justify; background-color: #ffffff;">Welcome to this four-part blog series exploring the audio architecture of Reikon Games' fast-paced sci-fi FPS,<span> </span><a href="https://store.steampowered.com/app/990380/METAL_EDEN/" rel="noopener" target="_blank"><strong>METAL EDEN</strong></a>. Throughout this series, the audio team breaks down how they built the game's sonic identity from the ground up.</p>
+]]></description>
+        <pubDate>Thu, 04 Jun 2026 16:01:20 -0400</pubDate>
+    </item>
+        <item>
+        <title>Audiokinetic&#039;s May 2026 Highlights</title>
+        <link>https://www.audiokinetic.com/community/blog/audiokinetic-may-2026-highlights</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/community/blog/audiokinetic-may-2026-highlights</guid>
+        <description><![CDATA[<p>May was eventful! Thanks to everyone who's been joining us at various conferences and community meetups across Europe - it's been so wonderful to see your faces!<br><br>We also launched the Wwise 2026.1 Beta last month (have you given it a try? )<br><br>Lots of updates, all packed tightly into the space of a blog - let's dive right in!</p>
+]]></description>
+        <pubDate>Wed, 03 Jun 2026 19:31:54 -0400</pubDate>
+    </item>
+        <item>
+        <title>METAL EDEN&#039;s Ambience and Reverb Design | Grounding the Player in the Game Environment</title>
+        <link>https://www.audiokinetic.com/community/blog/metal-eden-ambience-and-reverb-design</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/community/blog/metal-eden-ambience-and-reverb-design</guid>
+        <description><![CDATA[<h2>Inside the Sound of METAL EDEN: A 4-Part Audio Deep Dive</h2>
+<p>Welcome to this four-part blog series exploring the audio architecture of Reikon Games' fast-paced sci-fi FPS, <a href="https://store.steampowered.com/app/990380/METAL_EDEN/" rel="noopener" target="_blank"><strong>METAL EDEN</strong></a>. Throughout this series, the audio team breaks down how they built the game's sonic identity from the ground up.</p>
+<p></p>]]></description>
+        <pubDate>Thu, 28 May 2026 17:13:02 -0400</pubDate>
+    </item>
+        <item>
+        <title>Wwise 2026.1: What&#039;s New | Beta Edition</title>
+        <link>https://www.audiokinetic.com/community/blog/wwise-2026.1-whats-new</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/community/blog/wwise-2026.1-whats-new</guid>
+        <description><![CDATA[<p style="color: #232323; background-color: #ffffff;">The Wwise 2026.1 Beta is live and now available to install from the Audiokinetic Launcher.<br><br>The build can be accessed after logging into the Launcher and navigating to the Wwise Tab. From there, scroll down to "Install New Version" and use the drop-down menu to select "Special".</p>
+]]></description>
+        <pubDate>Tue, 26 May 2026 10:51:32 -0400</pubDate>
+    </item>
+        <item>
+        <title>METAL EDEN&#039;s Weapons Sound Design</title>
+        <link>https://www.audiokinetic.com/community/blog/metal-eden-weapons-sound-design</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/community/blog/metal-eden-weapons-sound-design</guid>
+        <description><![CDATA[<h2>Inside the Sound of METAL EDEN: A 4-Part Audio Deep Dive</h2>
+<p>Welcome to this four-part blog series exploring the audio architecture of Reikon Games' fast-paced sci-fi FPS, <a href="https://store.steampowered.com/app/990380/METAL_EDEN/" rel="noopener" target="_blank"><strong>METAL EDEN</strong></a>. Throughout this series, the audio team breaks down how they built the game's sonic identity from the ground up.</p>
+]]></description>
+        <pubDate>Thu, 21 May 2026 18:22:38 -0400</pubDate>
+    </item>
+        <item>
+        <title>AirCon26 Is Here - And We&#039;re Bringing the Game Audio World Together</title>
+        <link>https://www.audiokinetic.com/community/blog/aircon26</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/community/blog/aircon26</guid>
+        <description><![CDATA[<p><span>The Airwiggles Audio Conference is back for its fourth year. AirCon26 runs from </span><strong><span>May 21 to 24</span></strong><span> across more than 30 free livestreams o</span>n<a href="https://www.airwiggles.com/" rel="noopener" target="_blank"> Airwiggles.com</a>, and w<span>e're super excited to have Audiokinetic as our headline sponsor.</span></p>
+]]></description>
+        <pubDate>Tue, 19 May 2026 17:26:28 -0400</pubDate>
+    </item>
+        <item>
+        <title>New in Motion: Meta Quest Support and the Haptic Clip Player</title>
+        <link>https://www.audiokinetic.com/community/blog/new-in-motion-meta-quest-support-and-the-haptic-clip-player</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/community/blog/new-in-motion-meta-quest-support-and-the-haptic-clip-player</guid>
+        <description><![CDATA[<p><span>Haptics has become an integral part of game immersion alongside audio and visuals. In VR, where controllers are a direct extension of the player's hands, it plays an even more central role. But crafting high-quality haptic responses across all the platforms and hardware your game supports is no small effort.</span></p>
+]]></description>
+        <pubDate>Fri, 15 May 2026 14:53:20 -0400</pubDate>
+    </item>
+        <item>
+        <title>METAL EDEN’s Relentless Pulse: Music and Audio Direction Through Wwise</title>
+        <link>https://www.audiokinetic.com/community/blog/metal-eden-relentless-pulse-music-and-audio-direction-through-wwise</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/community/blog/metal-eden-relentless-pulse-music-and-audio-direction-through-wwise</guid>
+        <description><![CDATA[<h2>Inside the Sound of METAL EDEN: A 4-Part Audio Deep Dive</h2>
+<p>Welcome to this four-part blog series exploring the audio architecture of Reikon Games' fast-paced sci-fi FPS, <a href="https://store.steampowered.com/app/990380/METAL_EDEN/" rel="noopener" target="_blank"><strong>METAL EDEN</strong></a>. Throughout this series, the audio team breaks down how they built the game's sonic identity from the ground up.</p>
+]]></description>
+        <pubDate>Thu, 14 May 2026 16:10:04 -0400</pubDate>
+    </item>
+        <item>
+        <title>Wwise-MCP: An Agentic Interface for Game Audio</title>
+        <link>https://www.audiokinetic.com/community/blog/wwise-mcp-an-agentic-interface-for-game-audio</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/community/blog/wwise-mcp-an-agentic-interface-for-game-audio</guid>
+        <description><![CDATA[<div class="hs-embed-wrapper" data-service="youtube" data-responsive="true" style="position: relative; overflow: hidden; width: 100%; height: auto; padding: 0px; max-width: 800px; min-width: 256px; display: block; margin: auto;"><div class="hs-embed-content-wrapper"><div style="position: relative; overflow: hidden; max-width: 100%; padding-bottom: 56.25%; margin: 0px;"><iframe width="256" height="144.64" src="https://www.youtube.com/embed/kJujFfmPFF8?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen title="Video 01" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; border: none;"></iframe></div></div></div>
+]]></description>
+        <pubDate>Wed, 06 May 2026 19:10:05 -0400</pubDate>
+    </item>
+        <item>
+        <title>Optimization in Game Audio: Managing AKComponents in Unreal</title>
+        <link>https://www.audiokinetic.com/community/blog/optimization-in-game-audio-managing-akcomponents-in-unreal</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/community/blog/optimization-in-game-audio-managing-akcomponents-in-unreal</guid>
+        <description><![CDATA[<h2>Introduction</h2>
+<p style="line-height: 1.32186;"><span>Today I’m going to talk a little about one of everyone’s favorite dinner-table conversations with friends, family, and well-wishers alike… </span><strong><span>optimization in game audio</span></strong><span>. Specifically, we’ll be going beyond basic voice limiting in Wwise and looking at our approach to managing </span><strong><span>AkComponents in Unreal</span></strong><span>. </span></p>
+]]></description>
+        <pubDate>Tue, 05 May 2026 18:07:04 -0400</pubDate>
+    </item>
+        <item>
+        <title>Audiokinetic&#039;s April 2026 Highlights</title>
+        <link>https://www.audiokinetic.com/community/blog/audiokinetic-april-2026-highlights</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/community/blog/audiokinetic-april-2026-highlights</guid>
+        <description><![CDATA[<p>We’re looking back at a packed April - from indie and AAA game deep-dives, to a technical tutorial on using Wwise External Sources in Unity.<br><br>Plus, don't miss the details on our upcoming free Spotlight Session on seamless audio blending at the bottom of this newsletter. Let’s dive in!</p>
+]]></description>
+        <pubDate>Fri, 01 May 2026 14:00:00 -0400</pubDate>
+    </item>
+        <item>
+        <title>Audio-led Gameplay: Telepathy Mechanic in Goodnight Universe</title>
+        <link>https://www.audiokinetic.com/community/blog/audio-led-gameplay-using-wwise-goodnight-universes-telepathy-mechanic</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/community/blog/audio-led-gameplay-using-wwise-goodnight-universes-telepathy-mechanic</guid>
+        <description><![CDATA[<h2><em>Hello Wwise World!</em></h2>
+]]></description>
+        <pubDate>Tue, 28 Apr 2026 19:13:36 -0400</pubDate>
+    </item>
+        <item>
+        <title>Bringing Halloween Displays to Life with Wwise, Unity and Arduino</title>
+        <link>https://www.audiokinetic.com/blog/bringing-halloween-displays-to-life-with-wwise-unity-and-arduino</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/blog/bringing-halloween-displays-to-life-with-wwise-unity-and-arduino</guid>
+        <description><![CDATA[<h2>Introduction</h2>
+<p><span>For the past couple years my family has been creating increasingly complicated Halloween displays. What started as a COVID lockdown era project to keep busy has become a yearly opportunity for the family to get together, flex creative muscles, and create something unique for the neighborhood. </span><span style="white-space-collapse: preserve;"><br></span><span style="white-space-collapse: preserve;"><br></span><span style="white-space-collapse: preserve;"><span style="width: 418px; height: 313px;"><img src="https://1940263.fs1.hubspotusercontent-na1.net/hubfs/1940263/undefined-Apr-17-2026-02-50-15-3345-PM.jpeg" width="800" height="600" style="width: 800px; height: auto; max-width: 100%; margin-left: auto; margin-right: auto; display: block;"></span></span><span style="white-space-collapse: preserve;"><br></span><span style="white-space-collapse: preserve;"><br></span><span>Most years, the focus has been on lights and puppetry with no audio or, at most, some subtle music playing quietly in the background. This felt like such a shame considering I spend every day holed up in front of a DAW creating sound effects. So this past year, I took it upon myself to start incorporating some more intentional audio to the display. While it would’ve been easy to create a light ambience and pipe it around the yard, I thought that this would be a great chance to also add some interactive elements to the display and hopefully take viewers from being observers of the decorations to being a part of the action. </span><span style="white-space-collapse: preserve;"><br><br></span></p>
+]]></description>
+        <pubDate>Thu, 23 Apr 2026 14:54:51 -0400</pubDate>
+    </item>
+        <item>
+        <title>Behind the Sound of Absolum</title>
+        <link>https://www.audiokinetic.com/community/blog/behind-the-sound-of-absolum</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/community/blog/behind-the-sound-of-absolum</guid>
+        <description><![CDATA[<h2>A Bit of Context<span style="white-space-collapse: preserve;"><br></span><span></span></h2>
+<p>After the success of Streets of Rage 4, the development team had the luxury of having the choice for what their next game would be. They could go the easy way, follow up and make a new instalment of the revered franchise (or revive any other one) or be more ambitious and start their own IP, leaving them with a blank canvas.<br><br>Absolutely blank? Not exactly…<br><br>They knew it would be a side scrolling beat ‘em up type of game, and they wanted to expand on some of the great game mechanics featured in SoR4. They also knew they would use Mr. X Nightmare (SoR4 DLC) SURVIVAL mode, its procedural level content generation and Roguelite mechanics, as a basis to create a new and exciting fast-paced thrilling brawler.<br><br>While I had not been part of the development of SoR4 per se, I had been in charge of Mr. X Nightmare’s sound and music implementation (with Tee Lopes in charge of the music composition).<br><br><span>So when starting working on the new project, I was already familiar with the team, the game engine and a good part of the game mechanics, which definitely is a plus when you are the sole person in charge of the audio of a game.</span><span style="white-space-collapse: preserve;"><br></span><span></span></p>
+]]></description>
+        <pubDate>Thu, 16 Apr 2026 16:39:52 -0400</pubDate>
+    </item>
+        <item>
+        <title>Creating a Scalable VO System in Unity Using Wwise External Sources</title>
+        <link>https://www.audiokinetic.com/blog/creating-a-scalable-vo-system-in-unity-using-wwise-external-sources</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/blog/creating-a-scalable-vo-system-in-unity-using-wwise-external-sources</guid>
+        <description><![CDATA[<h2>Introduction</h2>
+<p>As a Game Audio Technical Sound Designer at <a href="https://www.wbppcs.com/burbank-game-audio/" rel="noopener" target="_blank">Warner Brothers Post-Production Creative Services (WBPPCS)</a>, we frequently work across a wide range of projects using different game engines and middleware software. While our experience with various tools is extensive, it quickly becomes clear that certain workflows are more streamlined and better documented in some tool combinations than in others.</p>
+]]></description>
+        <pubDate>Thu, 09 Apr 2026 14:17:44 -0400</pubDate>
+    </item>
+        <item>
+        <title>From Design to Automation: The Audio Integration Workflow for Whisper of the House</title>
+        <link>https://www.audiokinetic.com/community/blog/whisper-of-the-house</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/community/blog/whisper-of-the-house</guid>
+        <description><![CDATA[<h2 style="font-weight: bold;">I. Introduction</h2>
+<p>In the indie game production pipeline, audio is often the last to be integrated and has the most limited resources. In <a href="https://store.steampowered.com/app/2589500/Whisper_of_the_House/" rel="noopener" target="_blank">Whisper of the House</a>, our team officially joined the project for audio development in mid-October 2024.  By then, most core functional modules were already implemented, and the team was in the phase of bulk content creation. Our initial assessment revealed that the final version would include approximately 40 minutes of music (later increased to 50 minutes) and over 1,000 sound effects (ultimately increased to over 2,000). </p>
+]]></description>
+        <pubDate>Fri, 03 Apr 2026 17:37:54 -0400</pubDate>
+    </item>
+        <item>
+        <title>Audiokinetic&#039;s March 2026 Highlights</title>
+        <link>https://www.audiokinetic.com/community/blog/audiokinetic-march-2026-highlights</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/community/blog/audiokinetic-march-2026-highlights</guid>
+        <description><![CDATA[<p>Thank you to everyone who joined us at the Audiokinetic Community Theatre during GDC in March. It was a joy to see so many of you in person.<br><br>As we look back at what we published in March, we noticed a recurring theme: it’s been an incredible month for indie and student innovation! From award winners to Godot-specific systems, there’s so much to dive into!<br><br>Also, we've got a free Spotlight Session planned for those wanting to deepen their knowledge on structuring Wwise for teams. Scroll down to the end for those details!</p>
+]]></description>
+        <pubDate>Wed, 01 Apr 2026 16:00:00 -0400</pubDate>
+    </item>
+        <item>
+        <title>Spatialized Interactive Music in the Overturned Box Theater of Infinity Nikki</title>
+        <link>https://www.audiokinetic.com/blog/infinity-nikki</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/blog/infinity-nikki</guid>
+        <description><![CDATA[<div data-page-id="UE1zdip8PoVmA7xSBzScVLKjndc" data-lark-html-role="root" data-docx-has-block-data="true">
+<h2>Introduction</h2>
+In Infinity Nikki Version 1.9, we presented players with a fantastical stage called the "Overturned Box Theater."</div>
+]]></description>
+        <pubDate>Thu, 26 Mar 2026 15:37:58 -0400</pubDate>
+    </item>
+        <item>
+        <title>The Music System of Runa &amp; the Chaikurú Legacy</title>
+        <link>https://www.audiokinetic.com/community/blog/the-music-system-of-runa</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/community/blog/the-music-system-of-runa</guid>
+        <description><![CDATA[<p><span>Hello, my name is Christian Silvosa, aka Taomi. I’m a composer and audio implementer for video games, and in this blog post I’ll walk you through how I designed and implemented the music for </span><a href="https://store.steampowered.com/app/2283470/Runa__the_Chaikur_Legacy/" rel="noopener" target="_blank"><em><span>Runa & the Chaikurú Legacy</span></em></a><span>, a 3D platformer developed in Godot by Fanny Pack Studios. This article provides a high-level overview of the core concepts behind the music system, which are explored in greater depth throughout a series of seven accompanying videos linked within the text for those interested in a more detailed breakdown.</span></p>
+]]></description>
+        <pubDate>Thu, 19 Mar 2026 18:28:57 -0400</pubDate>
+    </item>
+        <item>
+        <title>Scoring the Seasons: A Technical Deep Dive into Super Farming Boy</title>
+        <link>https://www.audiokinetic.com/community/blog/super-farming-boy</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/community/blog/super-farming-boy</guid>
+        <description><![CDATA[<p>Hi! I’m Toni, game composer and tech sound designer, and I worked with the team at LemonChili Games on the super colorful and energetic combo-farming game called Super Farming Boy.</p>]]></description>
+        <pubDate>Thu, 05 Mar 2026 20:14:20 -0500</pubDate>
+    </item>
+        <item>
+        <title>Candellum: Audio Direction of a Student Top-down Hack &#039;n&#039; Slash Game</title>
+        <link>https://www.audiokinetic.com/community/blog/candellum</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/community/blog/candellum</guid>
+        <description><![CDATA[<h2>Introduction</h2>
+<p>Brought to life over nine months, Candellum is the final year project of 17 students from ISART Digital Paris, specializing in game development and 3D animation.<br><br>Within this team, we were two dedicated sound designers and composers responsible for defining and shaping the game’s overall sonic direction.<br><br>In this article, we will first walk you through the approach we adopted to sound design, and then dive into how we handled the game’s musical direction.<br><br>Powered by Unreal Engine 5 and Wwise 2023.1.7, Candellum is a narrative-driven hack ’n’ slash where fire is the only thing standing between life and death. As a lone candle warrior, you must harvest wax from fallen foes to keep your flame flickering. Wield your light as both a weapon and a lifeline as you brave the treacherous depths of a dormant wax factory to uncover its dark secrets.</p>
+]]></description>
+        <pubDate>Wed, 04 Mar 2026 18:49:31 -0500</pubDate>
+    </item>
+        <item>
+        <title>Audiokinetic&#039;s February 2026 Highlights</title>
+        <link>https://www.audiokinetic.com/community/blog/audiokinetic-february-2026-highlights</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/community/blog/audiokinetic-february-2026-highlights</guid>
+        <description><![CDATA[<p>This month, we're exploring the new AK Custom Panner, game audio deep-diving, continuing our Mentors' Advice series, and more. Let's get started!</p>
+]]></description>
+        <pubDate>Mon, 02 Mar 2026 17:15:00 -0500</pubDate>
+    </item>
+        <item>
+        <title>Join Audiokinetic During GDC 2026</title>
+        <link>https://www.audiokinetic.com/community/blog/join-audiokinetic-during-gdc-2026</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/community/blog/join-audiokinetic-during-gdc-2026</guid>
+        <description><![CDATA[<p><span style="color: #000000;">This GDC, we're once again rolling out the red carpet for the game audio community at the <a href="https://maps.app.goo.gl/kS8F93fgRMHdnMmL8" rel="noopener" target="_blank">AMC Metreon</a>. <br></span></p>]]></description>
+        <pubDate>Thu, 26 Feb 2026 21:38:32 -0500</pubDate>
+    </item>
+        <item>
+        <title>Dynamic Audio in 2D Run-and-Gun “Neon Inferno”</title>
+        <link>https://www.audiokinetic.com/community/blog/dynamic-audio-in-2d-run-and-gun-neon-inferno</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/community/blog/dynamic-audio-in-2d-run-and-gun-neon-inferno</guid>
+        <description><![CDATA[<h2>Introduction</h2>
+<p><span>When we think about dynamic and adaptive audio systems, our minds often jump to sprawling 3D open-world games with massive budgets and teams. It’s easy to understand why, as these productions typically feature large, dynamic environments and complex gameplay systems that generate countless variables for audio to react to. However, this association can create a blind spot: many developers, composers, and sound designers working on indie or 2D projects don’t fully consider the advantages that dynamic audio tools can bring to their games, often limiting themselves to simple audio playback and loops.<br></span></p>]]></description>
+        <pubDate>Thu, 26 Feb 2026 16:35:33 -0500</pubDate>
+    </item>
+        <item>
+        <title>From Constraint to Creativity: The Music Design of Hell Is Us</title>
+        <link>https://www.audiokinetic.com/community/blog/from-constraint-to-creativity-the-music-design-of-hell-is-us</link>
+        <guid isPermaLink="true">https://www.audiokinetic.com/community/blog/from-constraint-to-creativity-the-music-design-of-hell-is-us</guid>
+        <description><![CDATA[<p>When taking over the audio development for Hell Is Us, one thing was at the top of our mind: music design. Our philosophy is that music design is just as important as music composition. Track choices, transitions, silence, and music evolution need not only fit the artistic direction, but also work hand in hand with the game design. A great song that fits the mood but serves no design purpose – or even worse, clashes with the game design – won’t have as much of an emotional impact on the player, and risks creating certain distortions in the final experience. A good game is more than the sum of its parts, a good game comes into being when all departments work in synergy, and music design is key to this.<br><br>For Hell Is Us, we had a singular, unique constraint: non-diegetic elements were not permitted to give clear hints as to whether the player was on the right path or doing the right thing. This is part of the core design philosophy of Hell Is Us — the answers need to come from the player himself. Only the world of Hadea — its citizens, its ruins, the soldiers roaming its war-torn lands — will guide the player where he needs to go.<br><br>This made some situations particularly tricky, as we wanted to create a musical journey that constantly shifts and morphs to accompany the player through each moment. Tricky, but not impossible of course. We are far from being the first team to implement creative multi-layered solutions to elevate music and game design hand-in-hand, but each game is different and requires specific, curated solutions. In the end, when we looked at this challenge, we were delighted to realize that those design constraints ended up turning into creative opportunities. If the music couldn’t give away key hints before the player himself had time to understand and assimilate new elements, then any meaningful melodic and rhythmical changes we wanted to implement had to happen in very subtle ways, and only after the player had absorbed key information. In other words, we had to avoid as much as possible some of the classic music design tricks commonly heard in games: stingers based on locations, pavlovian jingles to reward a behavior, key changes linked to puzzle resolution, etc. That’s not to say we never use any of those throughout the game’s ~30 hour playtime; but Hell Is Us’ unique game design philosophy pushed us into trying new solutions for key moments.<br><br>In this article, I’d like to dive into one of those key moments. As the player inches towards the end of Act 1 of Hell Is Us, he reaches Lake Cynon and dives deep into its mysterious underground ruins, The Lymbic Forge. To score this sequence, we used a multitude of horizontal and vertical transitions, segments and some neat tricks to achieve what we wanted.<br><br>First, let’s look at a simple flowchart explaining the music design for this section of the game:</p>
+]]></description>
+        <pubDate>Thu, 19 Feb 2026 21:47:53 -0500</pubDate>
+    </item>
+    </channel>
+</rss>
