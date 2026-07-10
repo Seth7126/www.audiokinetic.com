@@ -1,0 +1,699 @@
+<!DOCTYPE HTML>
+<!-- Contents of this file are Copyright 2026, Audiokinetic Inc. -->
+<html>
+<head><!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TMMTDBG');</script>
+<!-- End Google Tag Manager -->
+
+<title>Welcome to Wwise 2025.1.9</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="author" content="Audiokinetic Inc." />
+<meta name="language" content="en" />
+<meta name="title" content="Welcome to Wwise 2025.1.9" />
+<meta name="keywords" content="" />
+<meta name="description" content="Audiokinetic Wwise Help - Welcome to Wwise 2025.1.9" />
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@audiokinetic" />
+<meta property="og:title" content="Documentation | Audiokinetic" />
+<meta property="og:description" content="Audiokinetic - The global leader in interactive audio technology." />
+            <meta property="og:image" content="https://www.audiokinetic.com/images/og-image-logobw.png" />
+    <meta property="og:type" content="website" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" sizes="192x192" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="192x192" href="/favicon.png" id="faviconTag">
+<link rel="alternate" hreflang="en-us" href="https://www.audiokinetic.com/en/library/2025.1.9_9197?source=Help&id=welcome_to_wwise/">
+<link rel="alternate" hreflang="fr-ca" href="https://www.audiokinetic.com/fr/library/2025.1.9_9197?source=Help&id=welcome_to_wwise/">
+<link rel="alternate" hreflang="ja-jp" href="https://www.audiokinetic.com/ja/library/2025.1.9_9197?source=Help&id=welcome_to_wwise/">
+<link rel="alternate" hreflang="zh-cn" href="https://www.audiokinetic.com/zh/library/2025.1.9_9197?source=Help&id=welcome_to_wwise/">
+<link rel="alternate" hreflang="ko-kr" href="https://www.audiokinetic.com/ko/library/2025.1.9_9197?source=Help&id=welcome_to_wwise/">
+
+<link rel="alternate" type="application/rss+xml" title="Blog RSS (English)" href="https://www.audiokinetic.com/rss-feed/?lang=en_US" />
+<link rel="alternate" type="application/rss+xml" title="Blog RSS (Français)" href="https://www.audiokinetic.com/rss-feed/?lang=fr_CA" />
+<link rel="alternate" type="application/rss+xml" title="Blog RSS (日本語)" href="https://www.audiokinetic.com/rss-feed/?lang=ja_JP" />
+<link rel="alternate" type="application/rss+xml" title="Blog RSS (简体中文)" href="https://www.audiokinetic.com/rss-feed/?lang=zh_CN" />
+<link rel="alternate" type="application/rss+xml" title="Blog RSS (한국어)" href="https://www.audiokinetic.com/rss-feed/?lang=ko_KR" />
+
+<script src="/libs/jquery/jquery-3.6.0.min.js?2026.05.29"></script><script type="text/javascript" src="/libs/bootstrap/alert.js?2026.05.29"></script><script type="text/javascript" src="/libs/bootstrap/carousel.js?2026.05.29"></script><script type="text/javascript" src="/libs/bootstrap/modal.js?2026.05.29"></script><script type="text/javascript" src="/libs/bootbox/bootbox.min.js?2026.05.29"></script><link rel="stylesheet" type="text/css" href="/libs/jquery/jquery-ui/jquery-ui.min.css?2026.05.29"><script type="text/javascript" src="/libs/jquery/jquery-ui/jquery-ui.min.js?2026.05.29"></script><script type="text/javascript" src="/libs/jquery/jquery-color/jquery.color-2.1.2.min.js?2026.05.29"></script><link rel="stylesheet" type="text/css" href="/libs/jquery/qtip/jquery.qtip.min.css?2026.05.29"><script type="text/javascript" src="/libs/jquery/qtip/jquery.qtip.min.js?2026.05.29"></script><script>var qtipDefaults = { content: { attr: "tip" }, position: { at: "right center", my: "left top" }, style: { classes: 'qtip-tipsy', tip: { width: 10, height: 6 } } }</script><script type="text/javascript" src="/libs/content/menu.min.js?2026.05.29"></script><script>
+        setStructuralElementHeights();
+        window.addEventListener('popstate', function(event) {
+            // The URL has changed, you can access the new URL using window.location.href
+            setStructuralElementHeights();
+        });
+    </script><script type="text/javascript" src="/libs/ak_newsletterSubscription.js?2026.05.29"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.scrollto/2.1.0/jquery.scrollTo.min.js"></script><script type="text/javascript" src="/libs/ak_toc.min.js?2026.05.29"></script><script src="/libs/content/awesomeSelect.js?2026.05.29"></script><link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+<style type="text/css">
+.bootstrap .btn-primary{color:#fff;background-color:#009FDA;border-color:#0094C9}
+</style>
+<link rel="stylesheet" type="text/css" href="/css/main.min.css?2026.05.29"><link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700|Prompt:400,500&subset=latin-ext" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="/css/mobile.min.css"><link rel="stylesheet" type="text/css" href="/css/social-icons-spritesheet.min.css?2026.05.29"><script>
+    $(document).ready(function() {
+        bootbox.setDefaults({
+            container : ".bootstrap",
+            animate : false
+        });
+        if(window.location.href.indexOf('#subscribe-to-our-blog') != -1) {
+            var blogNewsletterSubscription = new AK_NewsletterSubscription({
+                subscriptionEndpointURL: '/en/public-library/2025.1.9_9197/',
+                formToken: '5487ac3798c8be0e207aa5f6b72e46f5528321f229da06bd9be33391ab7e631a',
+                modalTitle: "Subscribe to our blog for the latest in interactive audio!",
+                modalContent: "<div><p><label>Email<\/label><\/p><input id=\"subscribe_email\" type=\"email\" class=\"form-control\" value=\"\"><p style=\"margin-top:1em;\"><label>What best describes you?<\/label><\/p><select id=\"subscribe_title\" class=\"form-control\"><option value=\"\">Select...<\/option><option value=\"Audio Director\"  >Audio Director<\/option>\n<option value=\"Sound Designer\"  >Sound Designer<\/option>\n<option value=\"Audio Programmer\"  >Audio Programmer<\/option>\n<option value=\"Audio Engineer\"  >Audio Engineer<\/option>\n<option value=\"Recording Engineer\"  >Recording Engineer<\/option>\n<option value=\"Audio Integration Specialist\"  >Audio Integration Specialist<\/option>\n<option value=\"Composer\"  >Composer<\/option>\n<option value=\"Producer \/ Director\"  >Producer \/ Director<\/option>\n<option value=\"CEO \/ Studio Director\"  >CEO \/ Studio Director<\/option>\n<option value=\"Lead Software Engineer\"  >Lead Software Engineer<\/option>\n<option value=\"Software Engineer\"  >Software Engineer<\/option>\n<option value=\"Game Designer\"  >Game Designer<\/option>\n<option value=\"Student \/ Intern\"  >Student \/ Intern<\/option>\n<option value=\"Teacher\"  >Teacher<\/option>\n<option value=\"IT\"  >IT<\/option>\n<option value=\"Other\"  >Other<\/option>\n<\/select><\/div>",
+                modalSubscribeButtonLabel: "Subscribe",
+                modalCancelButtonLabel: "Cancel",
+                emailInputFieldSelector: '#subscribe_email',
+                jobTitleInputFieldSelector: '#subscribe_title',
+                subscriptionThankYouMessage: "Thanks for subscribing!",
+                subscriptionErrorMessage: "An error occured. Please try again."            });
+            blogNewsletterSubscription.open();
+        }
+    });
+
+</script>
+
+<style>
+</style>
+    <meta name="robots" content="index, follow">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Noto+Sans+SC:wght@100;300;400;500;700;900&family=Noto+Sans:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<link rel="stylesheet" type="text/css" href="/libs/content/library_2021.css?2026.05.29">
+<style>
+.main-content h1 {text-transform:none;} .warning-redirect {background:rgba(0,174,238,0.25); border:1px solid #009FDA; border-radius:5px; padding:10px 1em; margin-bottom:1.5em; font-size: 150%;}
+</style>
+<script>
+    const BUFFER_PADDING = 20;
+
+
+    var toc,
+        tocTopOffset,
+        navRight,
+        footerContainer,
+        currentNavHelper;
+
+    var topMenuHeight = 0;
+    var additionalTopOffset = 0;
+    var initialToCTopOffset = 0;
+    var lastWindowScroll = 0;
+    var footerIntersectionObserver = new IntersectionObserver(unstickToC);
+    var isFooterVisible = false;
+
+    function mutationObserverCallback(mutations) {
+        setInitialTopOffset()
+        setAdditionalTopOffset();
+        var [newTop, newPosition] = placeToC();
+        resizeToC(newTop, newPosition);
+        toc.fixToCHeight()
+    }
+
+    function triggerSearch() {
+        term = encodeURIComponent($("#banner_search").val());
+        source = "Help";
+        version = "2025.1.9_9197";
+        
+        window.location.href = '/en/search/?term=' + term + '&source=' + source + '&version=' + version;
+    }
+
+    function unstickToC(entries, observer) {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                isFooterVisible = true;
+            } else {
+                isFooterVisible = false;
+            }
+        })
+    }
+
+    function setInitialTopOffset() {
+        initialToCTopOffset = (toc.element.offset().top) + parseInt(toc.element.css('padding-top'));
+        topMenuHeight = $(reactMenuRoot).height()
+    }
+
+    function setAdditionalTopOffset() {
+        var verticalScroll = window.scrollY;
+        var elevatorHeight = toc.elevator.height();
+        var whereToCFinishes = verticalScroll + initialToCTopOffset + BUFFER_PADDING + elevatorHeight;
+        var whereFooterStarts = $(footerContainer).offset().top;
+        additionalTopOffset = whereToCFinishes - whereFooterStarts;
+    }
+
+    function getOffset() {
+        return initialToCTopOffset - additionalTopOffset;
+    }
+
+    // The height of the footer that is visible.
+    // Starts at 0, and when we're scrolling past it, it becomes greater than 0.
+    function getVisibleFooterHeight() {
+        var pixels = (window.scrollY + window.innerHeight) - $(footerContainer).offset().top;
+        return pixels >= 0 ? pixels : 0;
+    }
+
+    function resizeToC(tocTop, tocPosition) {
+        if (tocTop > 0 && tocPosition == 'fixed') {
+            $(toc.elevator).add(navRight).css({
+                height: window.innerHeight - tocTop - getVisibleFooterHeight(),
+                overflowY: 'auto'
+            })
+        } else {
+            $(toc.elevator).add(navRight).css({
+                height: window.innerHeight - $(toc.element).offset().top,
+                overflowY: 'auto'
+            })
+        }
+    }
+
+    function placeToC() {
+        var top = 0;
+        var position = 'fixed';
+
+        if (window.scrollY + topMenuHeight >= initialToCTopOffset) {
+            top = topMenuHeight + BUFFER_PADDING
+            position = 'fixed';
+        } else {
+            position = 'relative';
+        }
+
+        // Set the value to the element:
+        $(toc.elevator).add(navRight).css({
+            position: position,
+            top: top
+        });
+
+        return [top, position];
+    }
+
+    function initializeHtmlNodeHeight() {
+        var bufferToAvoidSeeingPastTheFooter = 300;
+        $('html').css('height', $(document).height() - bufferToAvoidSeeingPastTheFooter);
+    }
+
+    function scrollToElement(selector, animate) {
+        const elementToScrollTo = document.querySelector(selector)
+        const negativeOffset = isMobile() ? 200 : 100 // otherwise it scolls too far down
+        const offsetToScrollTo = elementToScrollTo.offsetTop + negativeOffset
+        setTimeout(()=>{
+            window.scrollTo({
+                top: offsetToScrollTo,
+                behavior: animate ? 'smooth' : 'instant'
+            })
+        })
+    }
+
+    function debounce(func, delay) {
+        let timeoutId;
+
+        return function () {
+            clearTimeout(timeoutId);
+
+            timeoutId = setTimeout(() => {
+                func.apply(this, arguments);
+            }, delay);
+        };
+    }
+
+    function updatenavRightScroll() {
+        const currentScroll = window.scrollY;
+        const currentTitleElement = $(currentNavHelper.find('a').attr('href'));
+        let isScrollDown;
+        let nextTitleElement;
+
+        // We scrolled down
+        if (currentScroll >= lastWindowScroll) {
+            nextTitleElement = $(currentNavHelper.next().find('a').attr('href'));
+            isScrollDown = true;
+        } else {
+            nextTitleElement = $(currentNavHelper.prev().find('a').attr('href'));
+            isScrollDown = false;
+        }
+
+        if (nextTitleElement.length > 0) {
+            // Determine the currently visible titles
+            const viewportTop = $(window).scrollTop();
+            const viewportBottom = viewportTop + $(window).height();
+            
+            const nextTitleElementTop = nextTitleElement.offset().top;
+            const nextTitleElementBottom = nextTitleElementTop + nextTitleElement.outerHeight();
+            const nextTitleVisible = nextTitleElementTop > viewportTop && nextTitleElementBottom < viewportBottom;
+
+            const currentTitleElementTop = currentTitleElement.offset().top;
+            const currentTitleElementBottom = currentTitleElementTop + currentTitleElement.outerHeight();
+            const currentTitleElementVisible = currentTitleElementTop > viewportTop && currentTitleElementBottom < viewportBottom;
+            const currentTitleElementBelowViewport = currentTitleElementTop > viewportBottom;
+            if (nextTitleVisible || (isScrollDown == false && currentTitleElementBelowViewport)) {
+                $("#nav-right-sections li.active").removeClass('active');
+                currentNavHelper = isScrollDown ? currentNavHelper.next() : currentNavHelper.prev();
+                currentNavHelper.addClass('active');
+            }
+        }
+
+        lastWindowScroll = currentScroll;
+    }
+
+
+    var topMenuRootMutationObserver;
+
+    $(document).ready(function(){
+        // Create an observer instance
+        if (isDesktop()) {
+            topMenuRootMutationObserver = new MutationObserver(mutationObserverCallback);
+        }
+
+        $.ajaxSetup ({cache: false});
+
+        if (isDesktop()) {
+            $(window).on('scroll', debounce(function() {
+                setAdditionalTopOffset();
+                var [newTop, newPosition] = placeToC();
+                resizeToC(newTop, newPosition);
+            }, 20));
+        }
+
+
+        // Copy to clipboard
+        $("#share_doc_button").click(function(){
+            navigator.clipboard.writeText($(this).data('copy'));
+            icon = $(this).find('.material-icons');
+            icon.html("check");
+            setTimeout(function(){
+                icon.html("link");
+            }, 2500);
+        });
+
+        // activate tooltip
+        $(".aktip").qtip($.extend({}, qtipDefaults, {}));
+
+        $('#ddVersions').AwesomeSelect({
+            dropdownClass : 'search-filter-input search-filter-dropdown', 
+            choiceClass : 'search-filter-dropdown-choice', 
+            selectClass : 'search-filter-select select-down',
+            includeFirstOption : true
+        });
+        $('#ddVersions').change(function(){
+            if ( $(this).val() ) window.location = $(this).val();
+        });
+        $('#banner_submit').click(function() {
+            triggerSearch();
+        });
+        $('#banner_search').keyup(function(e) {
+            if (e.keyCode == 13) {
+                triggerSearch();
+            }
+        });
+
+        // Do this immediately:
+        initializeHtmlNodeHeight();
+        // And after some time, to make sure everything that needed to take up some space had the time to initialize:
+        setTimeout(() => {
+            initializeHtmlNodeHeight();
+        }, 1500)
+
+        toc = new AK_ToC({
+            nodes_url:"/en/public-library/2025.1.9_9197/",
+            toc_id:"#div-toc",
+            toc_child_id:"#tocchild",
+            content_id:"#div-content",
+            item_button_class:".toclink"
+        });
+
+        navRight = $("#nav-right-elevator");
+
+        if (isDesktop()) {
+            mutationObserverCallback(); // initialize things
+        }
+
+        //Put the default english title in th H1 when empty
+        var sourceTitle = $('.toc-header').html();
+        if(sourceTitle == '&nbsp;'){
+            $('.toc-header').text($('.toccurrentlink').text());
+        }
+
+                window.setTimeout(function() {
+            var container = $('#div-toc'),
+            scrollTo = $('#div-toc a[href$="welcome_to_wwise"]');
+
+            container.scrollTop(
+              scrollTo.offset().top - container.offset().top + container.scrollTop() - 90
+            );
+        }, 0);
+        
+
+
+        // ddSelect generates it's own html
+        // style the last 4 digits of dropdown menu
+        $('.search-filter-dropdown-choice').html(function(_,txt) {
+            return txt.replace(/(\.[0-9]{1,4}$)/, "<span class='minor'>$&</span>");
+        });
+
+        // style select options in the dropdown
+        $('.awesome-popup p').each(function( i ) {
+            var n = $(this).text().length;
+            if ( n > 14 ) {
+                  $(this).addClass('long-name');
+            }
+            $(this).html(function(_,txt) {
+                return txt.replace(/(\.[0-9]{1,4}$)/, "<span class='minor'>$&</span>");
+            });
+        });
+        
+        // I dunno why this fixes the re-sizing issue with text that has class="minor", but it does...I know it's lazy coding and I'm sorry! - Claudia
+        $('.awesome-popup p').on('click', function() {
+            $('.search-filter-dropdown-choice').html(function(_,txt) {
+                return txt.replace(/(\.[0-9]{1,4}$)/, "<span class='minor'>$&</span>");
+            });
+        });
+
+        // Collapse toc sidebar menu
+        $('#toc-btn').click(function() {
+            $('#div-toc').toggleClass('collapse-toc');
+            $('#div-toc').toggleClass('m-collapse-toc');
+            $('#toc-btn').toggleClass('collapsed');
+            $('#results-and-nav-wrap').toggleClass('collapse-result');
+        });
+
+        $('#nav-btn').click(function() {
+            $('#nav-right').toggleClass('collapse-nav-right');
+            $('#nav-btn').toggleClass('collapsed');
+        });
+    
+        // remove inline table width attribute
+        $("table").removeAttr( "width" );
+        $("col").removeAttr( "width" );
+
+        // replace down arrow icon on dropdown menu
+        $('#ddVersions_AwesomeSelect').find('.material-icons').html('arrow_drop_down');
+
+        // Redesign HTML replacement for older versions of documentation
+        // Should do nothing on new versions, only meant to affect older versions
+        // iconNote = $('img[src*="Note.gif"], img[src*="note.png"]').replaceWith('<i class="material-icons i-msg i-note">info_outline</i>');
+        // iconTip = $('img[src*="/Tip.gif"], img[src*="=Tip.gif"], img[src*="=tip.png"]').replaceWith('<i class="material-icons i-msg i-tip">info_outline</i>');
+        // iconCaution = $('img[src*="Caution.gif"], img[src*="caution.png"]').replaceWith('<i class="material-icons i-msg i-caution">info_outline</i>');
+        // iconWarning = $('img[src*="Warning.gif"], img[src*="warning.png"]').replaceWith('<i class="material-icons i-msg i-warning">info_outline</i>');
+        iconNote = $('img[src*="Note.gif"], img[src*="note.png"]').replaceWith('<i class="material-symbols-outlined i-msg i-note">info</i>');
+        iconTip = $('img[src*="/Tip.gif"], img[src*="=Tip.gif"], img[src*="=tip.png"]').replaceWith('<i class="material-symbols-outlined i-msg i-tip">check_circle</i>');
+        iconCaution = $('img[src*="Caution.gif"], img[src*="caution.png"]').replaceWith('<i class="material-symbols-outlined i-msg i-caution">warning</i>');
+        iconWarning = $('img[src*="Warning.gif"], img[src*="warning.png"]').replaceWith('<i class="material-symbols-outlined i-msg i-warning">dangerous</i>');
+        iconTd = $(".i-msg").closest("td").addClass("icon-td");
+        iconTd.removeAttr("width");
+        messageTable = $(".icon-td").closest("table").addClass("message-table");
+        messageTable.find("td").not("td:first-child, td:last-child").addClass("msg-td");
+        messageTable.find("th").addClass("msg-th");
+        messageTable.find("td:last-child").addClass("text-td");
+        $(".msg-th").closest(".message-table").addClass("has-th");
+        $(".i-note").closest("td").addClass("td-note");
+        $(".i-tip").closest("td").addClass("td-tip");
+        $(".i-caution").closest("td").addClass("td-caution");
+        $(".i-warning").closest("td").addClass("td-warning");
+
+        $('.mempage').prev('td').css('display','none');
+        $('.memname').next('td').addClass('round-bracket-open');
+        $('.paramname').next('td').addClass('round-bracket-close');
+
+        $("#nav-right-sections a").click(function(){
+            scrollToElement($(this).attr('href'), true);
+            history.pushState(null,null, $(this).attr('href'));
+            return false;
+        });
+
+        // Find the active element
+        $("#nav-right-sections li").each(function(index) {
+            if ($("#nav-right-sections li.active").length == 0) {
+                const viewportTop = $(window).scrollTop();
+                const viewportBottom = viewportTop + $(window).height();
+
+                const titleElement = $($(this).find('a').attr('href'));
+                
+                const titleTop = titleElement.offset().top;
+                const titleBottom = titleTop + titleElement.outerHeight();
+                const isVisible = titleTop > viewportTop && titleBottom < viewportBottom;
+
+                if (isVisible) {
+                    currentNavHelper = $(this);
+                    $(this).addClass('active');
+                }
+            }
+        });
+
+        $(window).on("scroll", updatenavRightScroll);
+        updatenavRightScroll();
+    });
+
+    window.addEventListener('load', function () {
+        // Is there a hash in the URL?
+        if (window.location.hash) {
+            scrollToElement(window.location.hash, false)
+        }
+    })
+
+    $(window).resize(function () {
+        // TODO: bonus point: handle cases where use changes aspect ratio, from desktop to mobile, or vice versa.
+    })
+
+
+</script>
+</head>
+<body>
+    <div id="root">
+    </div><!-- For the top menu -->
+
+<div class="main-content-wrap  top-offset-jakhub-menu">
+    &nbsp;     <div class="bootstrap">
+    <div class="container-fluid doc-container"> 
+            <div class="row top-banner top-banner-green  with-form ">
+        <div class="banner-title-wrap">
+            <div class="banner-title">
+                <h1 style="text-transform:capitalize;">Wwise Help</h1>
+<h2>Welcome to Wwise 2025.1.9</h2>                                <div class="banner-form">
+                    <input id="banner_search" name="term" type="text" class="banner-form-input" placeholder="Search" value="">
+                    <button id="banner_submit" type="submit" class="banner-form-submit banner-form-input">Search</button>
+                </div>
+                            </div>
+        </div>
+            </div>
+            <div class="row main-content content-library">
+            <div class="library-flex-container documentation-header">
+                <!-- <div id="div-filters-expand">
+                    <div class="expand-trigger flex-container" style="background-color: rgb(255, 255, 255);"><i class="material-icons" style="color: rgb(0, 159, 218);">&#xE315;</i></div>
+                    <p></p>
+                </div> -->
+                <div id="div-filters">
+                    <div class="filter-label">Version</div>
+                    <div class="search-filters"><select id="ddVersions" class="search-filter-input search-filter-dropdown"><option value="../2025.1.9_9197/?source=Help&id=welcome_to_wwise" selected>2025.1.9.9197</option>
+<option value="../2024.1.15_9110/?source=Help&id=welcome_to_wwise" >2024.1.15.9110</option>
+<option value="../2026.1.1_9196/?source=Help&id=welcome_to_wwise" >2026.1.1.9196</option>
+<option value="../2023.1.19_8928/?source=Help&id=welcome_to_wwise" >2023.1.19.8928</option>
+<option value="../2022.1.19_8584/?source=Help&id=welcome_to_wwise" >2022.1.19.8584</option>
+<option value="../2021.1.14_8108/?source=Help&id=welcome_to_wwise" >2021.1.14.8108</option>
+</select></div>
+                </div>
+            </div>
+        </div>
+        <div class="row main-content content-library">
+            <div class="library-flex-container documentation-body">
+                <div id="toc-btn">
+                    <i class="material-icons-outlined toc-collapse-btn">menu</i>
+                </div>
+                <div id="div-toc" class="m-collapse-toc">
+                    <div id="toc__elevator" style="overflow-y: auto; align-self: self-start;">
+                        <ul><li data-ref="1860345"><div class="toclinkname"><i class="material-icons toclink" data-ref="1860345" data-open="" data-queried="">&#58133;</i><a href="../2025.1.9_9197/?source=SDK&amp;id=index.html" style="font-weight:bold;">Wwise SDK</a></div><ul class="tocchild" id="tocchild1860345"></ul><li data-ref="1858934"><div class="toclinkname"><body><body><i class="material-icons toclink" data-ref="1858934" data-open="1" data-queried="1">&#58131;</i></body></body><a href="../2025.1.9_9197/?source=Help&amp;id=wwise_help" style="font-weight:bold;">Wwise Help</a></div><ul class="tocchild" id="tocchild1858934" style="display:block;"><li data-ref="1858935"><div class="toclinkname"><i class="material-icons toclink" style="opacity:0;visibility:hidden;">&#59507;</i><a href="../2025.1.9_9197/?source=Help&amp;id=welcome_to_wwise" class="toccurrentlink">Welcome to Wwise 2025.1.9</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1858935"></i></div><ul class="tocchild" id="tocchild1858935"></ul></li><li data-ref="1858936"><div class="toclinkname"><i class="material-icons toclink" data-ref="1858936" data-open="" data-queried="1">&#58133;</i><a href="../2025.1.9_9197/?source=Help&amp;id=getting_started">Getting started</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1858936"></i></div><ul class="tocchild" id="tocchild1858936"><li data-ref="1858937"><div class="toclinkname"><i class="material-icons toclink" style="opacity:0;visibility:hidden;">&#59507;</i><a href="../2025.1.9_9197/?source=Help&amp;id=wwise_system_requirements">Wwise system requirements</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1858937"></i></div><ul class="tocchild" id="tocchild1858937"></ul></li><li data-ref="1858938"><div class="toclinkname"><i class="material-icons toclink" style="opacity:0;visibility:hidden;">&#59507;</i><a href="../2025.1.9_9197/?source=Help&amp;id=starting_and_exiting_wwise">Starting and exiting Wwise</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1858938"></i></div><ul class="tocchild" id="tocchild1858938"></ul></li><li data-ref="1858939"><div class="toclinkname"><i class="material-icons toclink" style="opacity:0;visibility:hidden;">&#59507;</i><a href="../2025.1.9_9197/?source=Help&amp;id=license_manager">License Manager</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1858939"></i></div><ul class="tocchild" id="tocchild1858939"></ul></li><li data-ref="1858940"><div class="toclinkname"><i class="material-icons toclink" data-ref="1858940" data-open="" data-queried="">&#58133;</i><a href="../2025.1.9_9197/?source=Help&amp;id=interface_basics">Wwise interface basics</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1858940"></i></div><ul class="tocchild" id="tocchild1858940"></ul></li><li data-ref="1858943"><div class="toclinkname"><i class="material-icons toclink" data-ref="1858943" data-open="" data-queried="">&#58133;</i><a href="../2025.1.9_9197/?source=Help&amp;id=personalizing_workspace">Personalizing your workspace</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1858943"></i></div><ul class="tocchild" id="tocchild1858943"></ul></li><li data-ref="1858951"><div class="toclinkname"><i class="material-icons toclink" data-ref="1858951" data-open="" data-queried="">&#58133;</i><a href="../2025.1.9_9197/?source=Help&amp;id=speeding_up_way_you_work">Speeding up the way you work</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1858951"></i></div><ul class="tocchild" id="tocchild1858951"></ul></li></ul></li><li data-ref="1858961"><div class="toclinkname"><i class="material-icons toclink" data-ref="1858961" data-open="" data-queried="1">&#58133;</i><a href="../2025.1.9_9197/?source=Help&amp;id=setting_up_projects">Setting up your projects</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1858961"></i></div><ul class="tocchild" id="tocchild1858961"><li data-ref="1858962"><div class="toclinkname"><i class="material-icons toclink" data-ref="1858962" data-open="" data-queried="">&#58133;</i><a href="../2025.1.9_9197/?source=Help&amp;id=working_with_projects">Working with projects</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1858962"></i></div><ul class="tocchild" id="tocchild1858962"></ul></li><li data-ref="1858977"><div class="toclinkname"><i class="material-icons toclink" style="opacity:0;visibility:hidden;">&#59507;</i><a href="../2025.1.9_9197/?source=Help&amp;id=managing_platforms">Managing platforms</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1858977"></i></div><ul class="tocchild" id="tocchild1858977"></ul></li><li data-ref="1858978"><div class="toclinkname"><i class="material-icons toclink" style="opacity:0;visibility:hidden;">&#59507;</i><a href="../2025.1.9_9197/?source=Help&amp;id=managing_languages_for_project">Managing languages</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1858978"></i></div><ul class="tocchild" id="tocchild1858978"></ul></li><li data-ref="1858979"><div class="toclinkname"><i class="material-icons toclink" data-ref="1858979" data-open="" data-queried="">&#58133;</i><a href="../2025.1.9_9197/?source=Help&amp;id=managing_workgroups">Working with a team</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1858979"></i></div><ul class="tocchild" id="tocchild1858979"></ul></li><li data-ref="1858986"><div class="toclinkname"><i class="material-icons toclink" data-ref="1858986" data-open="" data-queried="">&#58133;</i><a href="../2025.1.9_9197/?source=Help&amp;id=managing_media_files_in_project">Managing media files in your project</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1858986"></i></div><ul class="tocchild" id="tocchild1858986"></ul></li><li data-ref="1859016"><div class="toclinkname"><i class="material-icons toclink" data-ref="1859016" data-open="" data-queried="">&#58133;</i><a href="../2025.1.9_9197/?source=Help&amp;id=building_actor_mixer_hierarchy">Building your sound and motion hierarchies</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859016"></i></div><ul class="tocchild" id="tocchild1859016"></ul></li><li data-ref="1859030"><div class="toclinkname"><i class="material-icons toclink" data-ref="1859030" data-open="" data-queried="">&#58133;</i><a href="../2025.1.9_9197/?source=Help&amp;id=building_structure_of_output_busses">Building the structure of output busses</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859030"></i></div><ul class="tocchild" id="tocchild1859030"></ul></li><li data-ref="1859037"><div class="toclinkname"><i class="material-icons toclink" style="opacity:0;visibility:hidden;">&#59507;</i><a href="../2025.1.9_9197/?source=Help&amp;id=planning_dlc">Setting up projects for DLC</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859037"></i></div><ul class="tocchild" id="tocchild1859037"></ul></li></ul></li><li data-ref="1859038"><div class="toclinkname"><i class="material-icons toclink" data-ref="1859038" data-open="" data-queried="1">&#58133;</i><a href="../2025.1.9_9197/?source=Help&amp;id=interacting_with_game">Interacting with the game</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859038"></i></div><ul class="tocchild" id="tocchild1859038"><li data-ref="1859039"><div class="toclinkname"><i class="material-icons toclink" data-ref="1859039" data-open="" data-queried="">&#58133;</i><a href="../2025.1.9_9197/?source=Help&amp;id=managing_events">Managing Events</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859039"></i></div><ul class="tocchild" id="tocchild1859039"></ul></li><li data-ref="1859045"><div class="toclinkname"><i class="material-icons toclink" data-ref="1859045" data-open="" data-queried="">&#58133;</i><a href="../2025.1.9_9197/?source=Help&amp;id=managing_dynamic_dialogue">Managing dynamic dialogue</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859045"></i></div><ul class="tocchild" id="tocchild1859045"></ul></li><li data-ref="1859055"><div class="toclinkname"><i class="material-icons toclink" data-ref="1859055" data-open="" data-queried="">&#58133;</i><a href="../2025.1.9_9197/?source=Help&amp;id=working_with_states">Working with States</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859055"></i></div><ul class="tocchild" id="tocchild1859055"></ul></li><li data-ref="1859065"><div class="toclinkname"><i class="material-icons toclink" data-ref="1859065" data-open="" data-queried="">&#58133;</i><a href="../2025.1.9_9197/?source=Help&amp;id=working_with_switches">Working with Switches</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859065"></i></div><ul class="tocchild" id="tocchild1859065"></ul></li><li data-ref="1859069"><div class="toclinkname"><i class="material-icons toclink" data-ref="1859069" data-open="" data-queried="">&#58133;</i><a href="../2025.1.9_9197/?source=Help&amp;id=working_with_rtpcs">Working with RTPCs</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859069"></i></div><ul class="tocchild" id="tocchild1859069"></ul></li><li data-ref="1859083"><div class="toclinkname"><i class="material-icons toclink" style="opacity:0;visibility:hidden;">&#59507;</i><a href="../2025.1.9_9197/?source=Help&amp;id=working_with_triggers">Working with Triggers</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859083"></i></div><ul class="tocchild" id="tocchild1859083"></ul></li><li data-ref="1859084"><div class="toclinkname"><i class="material-icons toclink" style="opacity:0;visibility:hidden;">&#59507;</i><a href="../2025.1.9_9197/?source=Help&amp;id=working_with_states_and_state_groups_for_dynamic_dialogue">Working with States and State Groups for dynamic dialogue</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859084"></i></div><ul class="tocchild" id="tocchild1859084"></ul></li></ul></li><li data-ref="1859085"><div class="toclinkname"><i class="material-icons toclink" data-ref="1859085" data-open="" data-queried="1">&#58133;</i><a href="../2025.1.9_9197/?source=Help&amp;id=using_sounds_and_motion_to_enhance_gameplay">Using sounds and motion to enhance gameplay</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859085"></i></div><ul class="tocchild" id="tocchild1859085"><li data-ref="1859086"><div class="toclinkname"><i class="material-icons toclink" data-ref="1859086" data-open="" data-queried="">&#58133;</i><a href="../2025.1.9_9197/?source=Help&amp;id=defining_object_playback_behaviors">Defining object playback behaviors</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859086"></i></div><ul class="tocchild" id="tocchild1859086"></ul></li><li data-ref="1859102"><div class="toclinkname"><i class="material-icons toclink" data-ref="1859102" data-open="" data-queried="">&#58133;</i><a href="../2025.1.9_9197/?source=Help&amp;id=defining_positioning">Defining positioning</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859102"></i></div><ul class="tocchild" id="tocchild1859102"></ul></li><li data-ref="1859143"><div class="toclinkname"><i class="material-icons toclink" data-ref="1859143" data-open="" data-queried="">&#58133;</i><a href="../2025.1.9_9197/?source=Help&amp;id=managing_priority">Managing priority</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859143"></i></div><ul class="tocchild" id="tocchild1859143"></ul></li><li data-ref="1859149"><div class="toclinkname"><i class="material-icons toclink" data-ref="1859149" data-open="" data-queried="">&#58133;</i><a href="../2025.1.9_9197/?source=Help&amp;id=managing_effects">Managing Effects</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859149"></i></div><ul class="tocchild" id="tocchild1859149"></ul></li><li data-ref="1859155"><div class="toclinkname"><i class="material-icons toclink" data-ref="1859155" data-open="" data-queried="">&#58133;</i><a href="../2025.1.9_9197/?source=Help&amp;id=managing_motion">Managing motion</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859155"></i></div><ul class="tocchild" id="tocchild1859155"></ul></li></ul></li><li data-ref="1859164"><div class="toclinkname"><i class="material-icons toclink" data-ref="1859164" data-open="" data-queried="1">&#58133;</i><a href="../2025.1.9_9197/?source=Help&amp;id=creating_interactive_music">Creating interactive music</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859164"></i></div><ul class="tocchild" id="tocchild1859164"><li data-ref="1859165"><div class="toclinkname"><i class="material-icons toclink" data-ref="1859165" data-open="" data-queried="">&#58133;</i><a href="../2025.1.9_9197/?source=Help&amp;id=understanding_interactive_music">Understanding interactive music</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859165"></i></div><ul class="tocchild" id="tocchild1859165"></ul></li><li data-ref="1859167"><div class="toclinkname"><i class="material-icons toclink" data-ref="1859167" data-open="" data-queried="">&#58133;</i><a href="../2025.1.9_9197/?source=Help&amp;id=building_interactive_music_hierarchy">Building your interactive music hierarchies</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859167"></i></div><ul class="tocchild" id="tocchild1859167"></ul></li><li data-ref="1859173"><div class="toclinkname"><i class="material-icons toclink" data-ref="1859173" data-open="" data-queried="">&#58133;</i><a href="../2025.1.9_9197/?source=Help&amp;id=defining_music_object_playback_behaviors">Defining music object playback behaviors</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859173"></i></div><ul class="tocchild" id="tocchild1859173"></ul></li><li data-ref="1859178"><div class="toclinkname"><i class="material-icons toclink" data-ref="1859178" data-open="" data-queried="">&#58133;</i><a href="../2025.1.9_9197/?source=Help&amp;id=working_with_music_tracks_and_segments">Working with Music Tracks and Music Segments</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859178"></i></div><ul class="tocchild" id="tocchild1859178"></ul></li><li data-ref="1859188"><div class="toclinkname"><i class="material-icons toclink" style="opacity:0;visibility:hidden;">&#59507;</i><a href="../2025.1.9_9197/?source=Help&amp;id=working_with_midi">Working with MIDI</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859188"></i></div><ul class="tocchild" id="tocchild1859188"></ul></li><li data-ref="1859189"><div class="toclinkname"><i class="material-icons toclink" style="opacity:0;visibility:hidden;">&#59507;</i><a href="../2025.1.9_9197/?source=Help&amp;id=creating_midi_instruments">Creating MIDI instruments</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859189"></i></div><ul class="tocchild" id="tocchild1859189"></ul></li><li data-ref="1859190"><div class="toclinkname"><i class="material-icons toclink" data-ref="1859190" data-open="" data-queried="">&#58133;</i><a href="../2025.1.9_9197/?source=Help&amp;id=working_with_transitions">Working with transitions</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859190"></i></div><ul class="tocchild" id="tocchild1859190"></ul></li><li data-ref="1859194"><div class="toclinkname"><i class="material-icons toclink" style="opacity:0;visibility:hidden;">&#59507;</i><a href="../2025.1.9_9197/?source=Help&amp;id=using_stingers">Using Stingers</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859194"></i></div><ul class="tocchild" id="tocchild1859194"></ul></li></ul></li><li data-ref="1859195"><div class="toclinkname"><i class="material-icons toclink" data-ref="1859195" data-open="" data-queried="1">&#58133;</i><a href="../2025.1.9_9197/?source=Help&amp;id=finishing_project">Finishing your projects</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859195"></i></div><ul class="tocchild" id="tocchild1859195"><li data-ref="1859196"><div class="toclinkname"><i class="material-icons toclink" data-ref="1859196" data-open="" data-queried="">&#58133;</i><a href="../2025.1.9_9197/?source=Help&amp;id=managing_output">Managing output</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859196"></i></div><ul class="tocchild" id="tocchild1859196"></ul></li><li data-ref="1859234"><div class="toclinkname"><i class="material-icons toclink" data-ref="1859234" data-open="" data-queried="">&#58133;</i><a href="../2025.1.9_9197/?source=Help&amp;id=managing_platform_and_language_versions">Managing platform and language versions</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859234"></i></div><ul class="tocchild" id="tocchild1859234"></ul></li><li data-ref="1859237"><div class="toclinkname"><i class="material-icons toclink" data-ref="1859237" data-open="" data-queried="">&#58133;</i><a href="../2025.1.9_9197/?source=Help&amp;id=creating_simulations">Creating simulations</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859237"></i></div><ul class="tocchild" id="tocchild1859237"></ul></li><li data-ref="1859244"><div class="toclinkname"><i class="material-icons toclink" style="opacity:0;visibility:hidden;">&#59507;</i><a href="../2025.1.9_9197/?source=Help&amp;id=optimizing_cpu">Optimizing CPU usage</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859244"></i></div><ul class="tocchild" id="tocchild1859244"></ul></li><li data-ref="1859245"><div class="toclinkname"><i class="material-icons toclink" style="opacity:0;visibility:hidden;">&#59507;</i><a href="../2025.1.9_9197/?source=Help&amp;id=managing_memory_in_wwise">Managing memory in Wwise</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859245"></i></div><ul class="tocchild" id="tocchild1859245"></ul></li><li data-ref="1859246"><div class="toclinkname"><i class="material-icons toclink" data-ref="1859246" data-open="" data-queried="">&#58133;</i><a href="../2025.1.9_9197/?source=Help&amp;id=profiling">Profiling</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859246"></i></div><ul class="tocchild" id="tocchild1859246"></ul></li><li data-ref="1859275"><div class="toclinkname"><i class="material-icons toclink" data-ref="1859275" data-open="" data-queried="">&#58133;</i><a href="../2025.1.9_9197/?source=Help&amp;id=managing_soundbanks">Managing SoundBanks</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859275"></i></div><ul class="tocchild" id="tocchild1859275"></ul></li><li data-ref="1859306"><div class="toclinkname"><i class="material-icons toclink" data-ref="1859306" data-open="" data-queried="">&#58133;</i><a href="../2025.1.9_9197/?source=Help&amp;id=managing_file_packages">Managing file packages</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859306"></i></div><ul class="tocchild" id="tocchild1859306"></ul></li><li data-ref="1859315"><div class="toclinkname"><i class="material-icons toclink" style="opacity:0;visibility:hidden;">&#59507;</i><a href="../2025.1.9_9197/?source=Help&amp;id=upgrading_your_projects">Migrating your projects</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859315"></i></div><ul class="tocchild" id="tocchild1859315"></ul></li></ul></li><li data-ref="1859316"><div class="toclinkname"><i class="material-icons toclink" data-ref="1859316" data-open="" data-queried="1">&#58133;</i><a href="../2025.1.9_9197/?source=Help&amp;id=working_with_wwise">Working with Wwise</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859316"></i></div><ul class="tocchild" id="tocchild1859316"><li data-ref="1859317"><div class="toclinkname"><i class="material-icons toclink" data-ref="1859317" data-open="" data-queried="">&#58133;</i><a href="../2025.1.9_9197/?source=Help&amp;id=getting_to_know_project_explorer">Getting to know the Project Explorer</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859317"></i></div><ul class="tocchild" id="tocchild1859317"></ul></li><li data-ref="1859322"><div class="toclinkname"><i class="material-icons toclink" style="opacity:0;visibility:hidden;">&#59507;</i><a href="../2025.1.9_9197/?source=Help&amp;id=getting_to_know_event_viewer">Getting to know the Event Viewer</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859322"></i></div><ul class="tocchild" id="tocchild1859322"></ul></li><li data-ref="1859323"><div class="toclinkname"><i class="material-icons toclink" data-ref="1859323" data-open="" data-queried="">&#58133;</i><a href="../2025.1.9_9197/?source=Help&amp;id=getting_to_know_property_editor">Getting to know the Property Editor</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859323"></i></div><ul class="tocchild" id="tocchild1859323"></ul></li><li data-ref="1859335"><div class="toclinkname"><i class="material-icons toclink" data-ref="1859335" data-open="" data-queried="">&#58133;</i><a href="../2025.1.9_9197/?source=Help&amp;id=getting_to_know_contents_editor">Getting to know the Contents Editor</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859335"></i></div><ul class="tocchild" id="tocchild1859335"></ul></li><li data-ref="1859360"><div class="toclinkname"><i class="material-icons toclink" data-ref="1859360" data-open="" data-queried="">&#58133;</i><a href="../2025.1.9_9197/?source=Help&amp;id=getting_to_know_transport_control">Getting to know the Transport Control</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859360"></i></div><ul class="tocchild" id="tocchild1859360"></ul></li><li data-ref="1859366"><div class="toclinkname"><i class="material-icons toclink" data-ref="1859366" data-open="" data-queried="">&#58133;</i><a href="../2025.1.9_9197/?source=Help&amp;id=getting_to_know_schematic_view">Getting to know the Schematic View</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859366"></i></div><ul class="tocchild" id="tocchild1859366"></ul></li><li data-ref="1859368"><div class="toclinkname"><i class="material-icons toclink" data-ref="1859368" data-open="" data-queried="">&#58133;</i><a href="../2025.1.9_9197/?source=Help&amp;id=getting_to_know_graph_view">Getting to know the graph view</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859368"></i></div><ul class="tocchild" id="tocchild1859368"></ul></li><li data-ref="1859373"><div class="toclinkname"><i class="material-icons toclink" data-ref="1859373" data-open="" data-queried="">&#58133;</i><a href="../2025.1.9_9197/?source=Help&amp;id=getting_to_know_timeline">Getting to know the timeline</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859373"></i></div><ul class="tocchild" id="tocchild1859373"></ul></li><li data-ref="1859377"><div class="toclinkname"><i class="material-icons toclink" data-ref="1859377" data-open="" data-queried="">&#58133;</i><a href="../2025.1.9_9197/?source=Help&amp;id=working_with_object_tabs">Working with Object Tabs and Object Tab Groups</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859377"></i></div><ul class="tocchild" id="tocchild1859377"></ul></li><li data-ref="1859388"><div class="toclinkname"><i class="material-icons toclink" data-ref="1859388" data-open="" data-queried="">&#58133;</i><a href="../2025.1.9_9197/?source=Help&amp;id=getting_to_know_media_pool">Working with the Media Pool</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859388"></i></div><ul class="tocchild" id="tocchild1859388"></ul></li><li data-ref="1859396"><div class="toclinkname"><i class="material-icons toclink" data-ref="1859396" data-open="" data-queried="">&#58133;</i><a href="../2025.1.9_9197/?source=Help&amp;id=working_with_searches_queries_and_references">Working with searches, queries, and references</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859396"></i></div><ul class="tocchild" id="tocchild1859396"></ul></li><li data-ref="1859401"><div class="toclinkname"><i class="material-icons toclink" style="opacity:0;visibility:hidden;">&#59507;</i><a href="../2025.1.9_9197/?source=Help&amp;id=using_presets">Using Presets</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859401"></i></div><ul class="tocchild" id="tocchild1859401"></ul></li><li data-ref="1859402"><div class="toclinkname"><i class="material-icons toclink" style="opacity:0;visibility:hidden;">&#59507;</i><a href="../2025.1.9_9197/?source=Help&amp;id=paste_properties">Copying and pasting object properties</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859402"></i></div><ul class="tocchild" id="tocchild1859402"></ul></li><li data-ref="1859403"><div class="toclinkname"><i class="material-icons toclink" data-ref="1859403" data-open="" data-queried="">&#58133;</i><a href="../2025.1.9_9197/?source=Help&amp;id=using_control_surface">Using control surfaces</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859403"></i></div><ul class="tocchild" id="tocchild1859403"></ul></li></ul></li><li data-ref="1859412"><div class="toclinkname"><i class="material-icons toclink" data-ref="1859412" data-open="" data-queried="1">&#58133;</i><a href="../2025.1.9_9197/?source=Help&amp;id=wwise_reference">Reference topics</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859412"></i></div><ul class="tocchild" id="tocchild1859412"><li data-ref="1859413"><div class="toclinkname"><i class="material-icons toclink" data-ref="1859413" data-open="" data-queried="">&#58133;</i><a href="../2025.1.9_9197/?source=Help&amp;id=projects">Project</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859413"></i></div><ul class="tocchild" id="tocchild1859413"></ul></li><li data-ref="1859415"><div class="toclinkname"><i class="material-icons toclink" data-ref="1859415" data-open="" data-queried="">&#58133;</i><a href="../2025.1.9_9197/?source=Help&amp;id=views">Views</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859415"></i></div><ul class="tocchild" id="tocchild1859415"></ul></li><li data-ref="1859437"><div class="toclinkname"><i class="material-icons toclink" data-ref="1859437" data-open="" data-queried="">&#58133;</i><a href="../2025.1.9_9197/?source=Help&amp;id=edit_audio_windows_help">Edit, Windows, and Help</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859437"></i></div><ul class="tocchild" id="tocchild1859437"></ul></li><li data-ref="1859441"><div class="toclinkname"><i class="material-icons toclink" data-ref="1859441" data-open="" data-queried="">&#58133;</i><a href="../2025.1.9_9197/?source=Help&amp;id=project_explorer">Project Explorer</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859441"></i></div><ul class="tocchild" id="tocchild1859441"></ul></li><li data-ref="1859585"><div class="toclinkname"><i class="material-icons toclink" data-ref="1859585" data-open="" data-queried="">&#58133;</i><a href="../2025.1.9_9197/?source=Help&amp;id=event_viewer">Event Viewer</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859585"></i></div><ul class="tocchild" id="tocchild1859585"></ul></li><li data-ref="1859589"><div class="toclinkname"><i class="material-icons toclink" data-ref="1859589" data-open="" data-queried="">&#58133;</i><a href="../2025.1.9_9197/?source=Help&amp;id=game_profiler">Profiler Views</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859589"></i></div><ul class="tocchild" id="tocchild1859589"></ul></li></ul></li><li data-ref="1859871"><div class="toclinkname"><i class="material-icons toclink" data-ref="1859871" data-open="" data-queried="1">&#58133;</i><a href="../2025.1.9_9197/?source=Help&amp;id=wwise_source_effect_plug_ins">Audiokinetic plug-ins</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859871"></i></div><ul class="tocchild" id="tocchild1859871"><li data-ref="1859872"><div class="toclinkname"><i class="material-icons toclink" data-ref="1859872" data-open="" data-queried="">&#58133;</i><a href="../2025.1.9_9197/?source=Help&amp;id=audio_device_plugins">Audio Device plug-ins</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859872"></i></div><ul class="tocchild" id="tocchild1859872"></ul></li><li data-ref="1859875"><div class="toclinkname"><i class="material-icons toclink" data-ref="1859875" data-open="" data-queried="">&#58133;</i><a href="../2025.1.9_9197/?source=Help&amp;id=audio_device_effect_plugins">Audio Device Effect plug-ins</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859875"></i></div><ul class="tocchild" id="tocchild1859875"></ul></li><li data-ref="1859883"><div class="toclinkname"><i class="material-icons toclink" data-ref="1859883" data-open="" data-queried="">&#58133;</i><a href="../2025.1.9_9197/?source=Help&amp;id=source_plug_ins">Source plug-ins</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859883"></i></div><ul class="tocchild" id="tocchild1859883"></ul></li><li data-ref="1859921"><div class="toclinkname"><i class="material-icons toclink" data-ref="1859921" data-open="" data-queried="">&#58133;</i><a href="../2025.1.9_9197/?source=Help&amp;id=effects">Effect plug-ins</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859921"></i></div><ul class="tocchild" id="tocchild1859921"></ul></li><li data-ref="1859948"><div class="toclinkname"><i class="material-icons toclink" style="opacity:0;visibility:hidden;">&#59507;</i><a href="../2025.1.9_9197/?source=Help&amp;id=vst_plugins">VST3 plug-ins</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859948"></i></div><ul class="tocchild" id="tocchild1859948"></ul></li><li data-ref="1859949"><div class="toclinkname"><i class="material-icons toclink" style="opacity:0;visibility:hidden;">&#59507;</i><a href="../2025.1.9_9197/?source=Help&amp;id=ak_plugin_foss">Open source components in Audiokinetic plug-ins</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859949"></i></div><ul class="tocchild" id="tocchild1859949"></ul></li></ul></li><li data-ref="1859950"><div class="toclinkname"><i class="material-icons toclink" data-ref="1859950" data-open="" data-queried="1">&#58133;</i><a href="../2025.1.9_9197/?source=Help&amp;id=partner_plug_ins">Certified Partner plug-ins</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859950"></i></div><ul class="tocchild" id="tocchild1859950"><li data-ref="1859951"><div class="toclinkname"><i class="material-icons toclink" data-ref="1859951" data-open="" data-queried="">&#58133;</i><a href="../2025.1.9_9197/?source=Help&amp;id=wwise_mcdsp_futzbox_lo_fi_distortion_plug_in_effect">McDSP FutzBox Lo-Fi Distortion</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859951"></i></div><ul class="tocchild" id="tocchild1859951"></ul></li><li data-ref="1859957"><div class="toclinkname"><i class="material-icons toclink" data-ref="1859957" data-open="" data-queried="">&#58133;</i><a href="../2025.1.9_9197/?source=Help&amp;id=wwise_mcdsp_ml1_mastering_limiter_plug_in_effect">McDSP ML1 Mastering Limiter</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859957"></i></div><ul class="tocchild" id="tocchild1859957"></ul></li><li data-ref="1859961"><div class="toclinkname"><i class="material-icons toclink" data-ref="1859961" data-open="" data-queried="">&#58133;</i><a href="../2025.1.9_9197/?source=Help&amp;id=readspeaker_tts_speech_engine_plugin">ReadSpeaker speechEngine</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859961"></i></div><ul class="tocchild" id="tocchild1859961"></ul></li></ul></li><li data-ref="1859976"><div class="toclinkname"><i class="material-icons toclink" data-ref="1859976" data-open="" data-queried="1">&#58133;</i><a href="../2025.1.9_9197/?source=Help&amp;id=wwise_tools">Wwise tools</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859976"></i></div><ul class="tocchild" id="tocchild1859976"><li data-ref="1859977"><div class="toclinkname"><i class="material-icons toclink" data-ref="1859977" data-open="" data-queried="">&#58133;</i><a href="../2025.1.9_9197/?source=Help&amp;id=file_packager">File Packager</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859977"></i></div><ul class="tocchild" id="tocchild1859977"></ul></li><li data-ref="1859980"><div class="toclinkname"><i class="material-icons toclink" data-ref="1859980" data-open="" data-queried="">&#58133;</i><a href="../2025.1.9_9197/?source=Help&amp;id=using_multi_channel_creator">Using the Multi-Channel Creator</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859980"></i></div><ul class="tocchild" id="tocchild1859980"></ul></li><li data-ref="1859985"><div class="toclinkname"><i class="material-icons toclink" style="opacity:0;visibility:hidden;">&#59507;</i><a href="../2025.1.9_9197/?source=Help&amp;id=wwise_wave_viewer">Wwise Wave Viewer</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859985"></i></div><ul class="tocchild" id="tocchild1859985"></ul></li></ul></li><li data-ref="1859986"><div class="toclinkname"><i class="material-icons toclink" style="opacity:0;visibility:hidden;">&#59507;</i><a href="../2025.1.9_9197/?source=Help&amp;id=additional_resources">Additional resources</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859986"></i></div><ul class="tocchild" id="tocchild1859986"></ul></li><li data-ref="1859987"><div class="toclinkname"><i class="material-icons toclink" style="opacity:0;visibility:hidden;">&#59507;</i><a href="../2025.1.9_9197/?source=Help&amp;id=glossary">Glossary</a><i style="display:none;" class="material-icons tocbookmark" data-ref="1859987"></i></div><ul class="tocchild" id="tocchild1859987"></ul></li></ul></li><li data-ref="1871762"><div class="toclinkname"><i class="material-icons toclink" data-ref="1871762" data-open="" data-queried="">&#58133;</i><a href="../2025.1.9_9197/?source=WwiseFundamentalApproach&amp;id=wwise_fundamentals" style="font-weight:bold;">Introduction to Wwise</a></div><ul class="tocchild" id="tocchild1871762"></ul></li><li data-ref="1871746"><div class="toclinkname"><i class="material-icons toclink" data-ref="1871746" data-open="" data-queried="">&#58133;</i><a href="../2025.1.9_9197/?source=SampleProject&amp;id=idm1594270960" style="font-weight:bold;">Sample Project</a></div><ul class="tocchild" id="tocchild1871746"></ul></li><li data-ref="1858191"><div class="toclinkname"><i class="material-icons toclink" data-ref="1858191" data-open="" data-queried="">&#58133;</i><a href="../2025.1.9_9197/?source=Unity&amp;id=index.html" style="font-weight:bold;">Wwise Unity Integration</a></div><ul class="tocchild" id="tocchild1858191"></ul></li><li data-ref="1860004"><div class="toclinkname"><i class="material-icons toclink" data-ref="1860004" data-open="" data-queried="">&#58133;</i><a href="../2025.1.9_9197/?source=UE4&amp;id=index.html" style="font-weight:bold;">Wwise Unreal Integration</a></div><ul class="tocchild" id="tocchild1860004"></ul></li></li>
+</ul>
+                                                    <hr>
+                            <ul>    <li><a href="/en/public-library/strata/" style="font-weight:bold;">Strata</a></li>
+        <li><a href="/en/public-library/reawwise/" style="font-weight:bold;">ReaWwise</a></li>
+        <li><a href="/en/public-library/wwise_launcher/" style="font-weight:bold;">Audiokinetic Launcher</a></li>
+        <li><a href="/en/public-library/wal/" style="font-weight:bold;">Wwise Audio Lab​</a></li>
+        <li><a href="/en/public-library/wag/" style="font-weight:bold;">Wwise Adventure Game</a></li>
+        <li><a href="/en/public-library/gme/" style="font-weight:bold;">GME In-Game Voice Chat</a></li>
+        <li><a href="/en/public-library/metaxraudio/" style="font-weight:bold;">Meta XR Audio</a></li>
+    </ul>
+                                            </div>
+                </div>
+                <div id="results-and-nav-wrap" class="collapse-result">
+                    <div id="div-results">
+                                                
+                                                <section>
+                            <div id="div-breadcrumb">
+                                <nav class="breadcrumb-nav"><div class="breadcrumb-wrap"><span class="sep"><i class="fa"></i></span> <span class="ak-breadcrumb"><a href="https://www.audiokinetic.com/library/2025.1.9_9197/?source=Help&id=wwise_help">Wwise Help</a></span></div><div class="breadcrumb-wrap"><span class="sep"><i class="fa"></i></span> <span class="ak-breadcrumb"><a href="https://www.audiokinetic.com/library/2025.1.9_9197/?source=Help&id=welcome_to_wwise">Welcome to Wwise 2025.1.9</a></span></div></nav>                                <span id="share_doc_button" data-copy="https://www.audiokinetic.com/library/2025.1.9_9197/?source=Help&id=welcome_to_wwise"><i class="material-icons aktip" tip="Copy link to clipboard">link</i></span>
+                            </div>
+                        </section>
+                        
+                        
+                        <div id="div-content"><div class="preface"><div class="titlepage"><div><div><h1 class="title"><a name="welcome_to_wwise"></a>Welcome to Wwise 2025.1.9</h1></div></div></div><p>Built to address the specific needs of the game development pipeline, Wwise is a unique
+    solution for designers, composers, and programmers. By allowing you to develop game
+      audio, music, and motion concurrently with game visuals, Wwise facilitates the design and
+      authoring of sophisticated audio and motion during every phase of game development.
+    </p><p>For a list of changes in this version of Wwise, refer to the <a class="link" href="https://www.audiokinetic.com/library/edge/?source=SDK&amp;id=releasenotes.html" target="_blank">Release Notes</a> found in the SDK
+    documentation.</p><div class="simplesect"><div class="titlepage" id="about_wwise_help"><div><div><h2 class="title" style="clear: both"><a name="how_to_use_wwise_help"></a>About Wwise Help</h2></div></div></div><p>Wwise Help is a context-sensitive help system that contains both reference topics describing each view, field, and option in Wwise, and task-based information. The documentation is divided into the following main sections to provide you with comprehensive and easy-to-find information about Wwise.</p><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem"><p><span class="bold"><strong><a class="xref" href="../2025.1.9_9197/?source=Help&amp;id=getting_started" title="Getting started">Getting started</a></strong></span> - Includes an
+          introduction to many of the concepts in Wwise, information to get you up and running with
+          Wwise quickly, and some helpful information on organizing your workspace and working
+          efficiently with Wwise.</p></li><li class="listitem"><p><span class="bold"><strong><a class="xref" href="../2025.1.9_9197/?source=Help&amp;id=setting_up_projects" title="Setting up your projects">Setting up your projects</a></strong></span> - Includes
+          conceptual and procedural information on how to set up a project, either alone or in a
+          team environment, how to define or adjust platforms for your
+          project, how to deal with the assets in your project, and how to build and get
+          the most out of the Wwise hierarchy of assets.</p></li><li class="listitem"><p><span class="bold"><strong><a class="xref" href="../2025.1.9_9197/?source=Help&amp;id=interacting_with_game" title="Interacting with the game">Interacting with the game</a></strong></span> - Includes
+          conceptual and procedural information on how to use events, dynamic sequences, and Wwise
+          game syncs to drive the sounds in your game.</p></li><li class="listitem"><p><span class="bold"><strong><a class="xref" href="../2025.1.9_9197/?source=Help&amp;id=using_sounds_and_motion_to_enhance_gameplay" title="Using sounds and motion to enhance gameplay">Using sounds and motion to enhance gameplay</a></strong></span> - Includes conceptual and procedural information on how to enhance the
+          rich and immersive game environments using a variety of properties and behaviors, effects,
+          motion, positioning settings, and playback priority.</p></li><li class="listitem"><p><span class="bold"><strong><a class="xref" href="../2025.1.9_9197/?source=Help&amp;id=creating_interactive_music" title="Creating interactive music">Creating interactive music</a></strong></span> -
+          Includes an overview and introduction to the Interactive Music concepts in Wwise, along
+          with extensive procedural information on how to create interactive music for your
+          game.</p></li><li class="listitem"><p><span class="bold"><strong><a class="xref" href="../2025.1.9_9197/?source=Help&amp;id=finishing_project" title="Finishing your projects">Finishing your projects</a></strong></span> - Includes information on how to create the final mix, troubleshoot and simulate different aspects of your project, generate the SoundBanks and file packages for your game, and Wwise downmix behavior.</p></li><li class="listitem"><p><span class="bold"><strong><a class="xref" href="../2025.1.9_9197/?source=Help&amp;id=working_with_wwise" title="Working with Wwise">Working with Wwise</a></strong></span> - Describes the
+          functionality of specific Wwise views to help you get up and running quickly with the
+          software.</p></li><li class="listitem"><p><span class="bold"><strong><a class="xref" href="../2025.1.9_9197/?source=Help&amp;id=wwise_reference" title="Reference topics">Reference topics</a></strong></span> - Provides complete
+          information about all the options and views in Wwise, and is accessible from within Wwise
+          in the form of context-sensitive reference pages.</p></li><li class="listitem"><p><span class="bold"><strong><a class="xref" href="../2025.1.9_9197/?source=Help&amp;id=wwise_source_effect_plug_ins" title="Audiokinetic plug-ins">Audiokinetic plug-ins</a></strong></span> -
+          Provides detailed descriptions of the various plug-ins for Wwise developed by
+          Audiokinetic.</p></li><li class="listitem"><p><span class="bold"><strong><a class="xref" href="../2025.1.9_9197/?source=Help&amp;id=partner_plug_ins" title="Certified Partner plug-ins">Certified Partner plug-ins</a></strong></span> - Provides
+          detailed descriptions of plug-ins for Wwise developed by partners of Audiokinetic.</p></li><li class="listitem"><p><span class="bold"><strong><a class="xref" href="../2025.1.9_9197/?source=Help&amp;id=wwise_tools" title="Wwise tools">Wwise tools</a></strong></span> - Provides information about the  various tools that ship with Wwise, including the Multi-Channel Creator.</p></li><li class="listitem"><p><span class="bold"><strong><a class="xref" href="../2025.1.9_9197/?source=Help&amp;id=additional_resources" title="Additional resources">Additional resources</a></strong></span> - Provides an overview of the Wwise documentation set and various learning materials.</p></li><li class="listitem"><p><span class="bold"><strong><a class="xref" href="../2025.1.9_9197/?source=Help&amp;id=glossary" title="Glossary">Glossary</a></strong></span> - Provides an alphabetical
+          list of Wwise and audio-related terms with corresponding definitions.</p></li></ul></div></div><div class="simplesect"><div class="titlepage" id="accessing_wwise_context-sensitive_reference_topics"><div><div><h2 class="title" style="clear: both"><a name="idm1560472288"></a>Accessing Wwise context-sensitive reference topics</h2></div></div></div><p>When you are looking for information about a specific option or view in Wwise, open the corresponding reference topic from that view by doing either of the following:</p><div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; "><li class="listitem"><p>Click the Help button in the upper-right corner of any view or dialog.</p></li><li class="listitem"><p>Press <span class="bold"><strong>F1</strong></span>.</p></li></ul></div><p>A reference topic opens, displaying information about the view or dialog you are currently in. </p></div><div class="simplesect"><div class="titlepage" id="accessing_the_contextual_help_view"><div><div><h2 class="title" style="clear: both"><a name="idm1560471136"></a>Accessing the Contextual Help view</h2></div></div></div><p>In addition to the context-senstitive reference topics mentioned previously, the Contextual Help view provides information within Wwise itself about selected properties as well as error messages from the Capture Log. Refer to <a class="xref" href="../2025.1.9_9197/?source=Help&amp;id=property_help" title="Contextual Help">Contextual Help</a> for more information.</p></div><div class="simplesect"><div class="titlepage" id="setting_wwise_documentation_preferences"><div><div><h2 class="title" style="clear: both"><a name="idm1560469728"></a>Setting Wwise documentation preferences</h2></div></div></div><p>For details on setting the source of the context-sensitive reference topics (online or
+      offline) and the language of the documentation (reference topics, Contextual Help view, and
+      the Wwise SDK documentation), see <a class="xref" href="../2025.1.9_9197/?source=Help&amp;id=user_preferences#setting_documentation_preferences" title="Setting the Wwise documentation preferences">Setting the Wwise documentation preferences</a>.</p></div><div class="simplesect"><div class="titlepage" id="keyboard_and_mouse_conventions"><div><div><h2 class="title" style="clear: both"><a name="keyboard_and_mouse_conventions"></a>Keyboard and mouse conventions</h2></div></div></div><p>The following table shows the terms used throughout this document relating to the mouse
+      and keyboard. Wwise takes advantage of the left, center, and right mouse buttons. Unless
+      otherwise stated, use the left mouse button.</p><div class="informaltable"><table class="informaltable" border="1" width="850px"><colgroup><col width="130px" class="col1"><col class="col2"></colgroup><thead><tr><th>
+              <p>This term</p>
+            </th><th>
+              <p>Means this with a mouse</p>
+            </th></tr></thead><tbody><tr><td>
+              <p>Click</p>
+            </td><td>
+              <p>Quickly press and release the left mouse button. Always use the left mouse
+                button unless otherwise stated.</p>
+            </td></tr><tr><td>
+              <p>Right-click</p>
+            </td><td>
+              <p>Quickly press and release the right mouse button.</p>
+            </td></tr><tr><td>
+              <p>Double-click</p>
+            </td><td>
+              <p>Click the left mouse button twice rapidly.</p>
+            </td></tr><tr><td>
+              <p>Shift+click, Ctrl+click, Alt+click</p>
+            </td><td>
+              <p>Hold down the Shift, Ctrl, or Alt key as you click a mouse button.</p>
+            </td></tr><tr><td>
+              <p>Drag</p>
+            </td><td>
+              <p>Hold down the left mouse button while you move the mouse. This is equivalent to
+                drag and drop.</p>
+            </td></tr><tr><td>
+              <p>Alt+key, Ctrl+key, Shift+key</p>
+            </td><td>
+              <p>Hold down the first key while you press the second key. For example, “Press
+                Ctrl+Z” means to hold down the Ctrl key while you press the Z key.</p>
+            </td></tr></tbody></table></div></div><div class="simplesect"><div class="titlepage" id="before_you_begin"><div><div><h2 class="title" style="clear: both"><a name="welcome_to_wwise_version_before_you_begin"></a>Before you begin</h2></div></div></div><p>Before working with Wwise, you might want to read <a class="link" href="https://www.audiokinetic.com/library/edge/?source=WwiseFundamentalApproach&amp;id=wwise_fundamentals" target="_blank">Introduction to Wwise</a> to gain a better understanding of the key concepts and workflow
+      of Wwise. Then you can start reading the individual sections in Wwise Help. These sections
+      provide conceptual and procedural information, examples, and tips and best practices for using
+      Wwise.</p></div></div>        <hr>
+        <div id="user-feedback">
+            <div class="top-row">
+                <h4>Was this page helpful?</h4>
+                
+                <input type="radio" name="user_feedback_rating" id="user-feedback-yes" value="1"/>
+                <label class="yes prompt-user-login" for="user-feedback-yes">
+                    <i class="material-icons">thumb_up</i>
+                    Yes                </label>
+                
+                <input type="radio" name="user_feedback_rating"  id="user-feedback-no" value="0"/>
+                <label class="no prompt-user-login" for="user-feedback-no">
+                    <i class="material-icons">thumb_down</i>
+                    No                </label>
+                <div class="feedback_field">
+                    <textarea class="form-control" placeholder="Any additional feedback?" name="user_feedback_comment"></textarea><br>
+                    <button type="submit" class="btn-action btn-action-blue" id="submit-feedback">Submit</button>
+                    <p id="feedback-response"></p>
+                </div>
+            </div>
+                        <div class="bottom-row flex-container">
+                <div>
+                    <h4>Need Support?</h4>
+                    <p>Questions? Problems? Need more info? Contact us, and we can help!</p>
+                    <a href="/help/support/">Visit our Support page</a>
+                </div>
+                <div>
+                    <h4>Tell us about your project. We're here to help.</h4>
+                    <p>Register your project and we'll help you get started with no strings attached!</p>
+                    <a href="/register-project/">Get started with Wwise</a>
+                </div>
+            </div>
+                    </div>
+        </div>
+                    </div>
+                </div>
+                 
+                <div id="nav-right">
+                    <div id="nav-right-elevator">
+                        
+                         
+                        <div id="nav-right-sections">
+                            <div class="header">On this page</div>
+                            <ul>
+                                                                <li><a href="#about_wwise_help">About Wwise Help</a></li>
+                                                                <li><a href="#accessing_wwise_context-sensitive_reference_topics">Accessing Wwise context-sensitive reference topics</a></li>
+                                                                <li><a href="#accessing_the_contextual_help_view">Accessing the Contextual Help view</a></li>
+                                                                <li><a href="#setting_wwise_documentation_preferences">Setting Wwise documentation preferences</a></li>
+                                                                <li><a href="#keyboard_and_mouse_conventions">Keyboard and mouse conventions</a></li>
+                                                                <li><a href="#before_you_begin">Before you begin</a></li>
+                                                            </ul>
+                        </div>
+                                            </div>
+                </div>
+                <div id="nav-btn">
+                    <i class="material-icons-outlined toc-collapse-btn">menu</i>
+                </div>
+                            </div>
+        </div>
+    </div>
+
+
+    </div><!-- END bootstrap -->
+    <div id="footer-root"></div>
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" id="faviconTag" />
+<link rel="manifest" href="./manifest.json" />
+<script type="module" crossorigin src="/jakhub_menus/assets/index-H9s0TudL.js"></script>
+<link rel="stylesheet" crossorigin href="/jakhub_menus/assets/index-D496ZydL.css">
+<div id="root"></div>
+<div id="footer-root"></div>
+
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-PJ5R14M6Z8"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+        
+          gtag('config', 'G-PJ5R14M6Z8');
+        </script>
+        <!-- Start of HubSpot Embed Code -->
+        <script>
+        function initializeHubSpotTracking() {
+            window._hsq = window._hsq || [] // Silence js errors if we can't load _hsq
+                            _hsq.push(["setContentType", "standard-page"]);
+                        } // end initializeHubSpotTracking()
+
+        </script>
+        <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/1940263.js" onload="initializeHubSpotTracking()"></script>
+        <!-- End of HubSpot Embed Code -->
+        <script>setStructuralElementHeights();</script>
+    <script>
+        var reactFooterRoot = document.querySelector('#footer-root');
+        var reactMenuRoot = document.querySelector('#root');
+        // Start observing the target node for configured mutations
+        $(document).ready(function(){
+            // Create an observer instance
+            if (isDesktop()) {
+                topMenuRootMutationObserver.observe(reactMenuRoot, { childList: true, subtree: true });
+            }
+
+        })
+
+        footerContainer = reactFooterRoot
+        footerIntersectionObserver.observe(footerContainer);
+    </script>
+</body>
+</html>
